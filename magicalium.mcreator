@@ -808,6 +808,33 @@
         ]
       },
       "path": "~/magicalglass/tool"
+    },
+    {
+      "name": "Glassstick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassstick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/glassstick.json",
+          "src/main/java/net/mcreator/magicalium/item/GlassstickItem.java"
+        ]
+      },
+      "path": "~/magicalglass"
+    },
+    {
+      "name": "Stickglass",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stickglass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/stickglass.json"
+        ]
+      },
+      "path": "~/magicalglass/craft"
     }
   ],
   "variable_elements": [],
@@ -879,6 +906,7 @@
       "block.magicalium.astronium_wood_pressure_plate": "Astronium_wood Pressure Plate",
       "item.magicalium.merlin_sword": "Merlin Sword",
       "block.magicalium.astronium_wood_stairs": "Astronium_wood Stairs",
+      "item.magicalium.glassstick": "Glassstick",
       "item.magicalium.magical_glass_armor_armor_helmet": "Merlin_glass_armor Helmet",
       "item.magicalium.merlinshovel": "Merlinshovel",
       "block.magicalium.astronium_wood_fence": "Astronium_wood Fence",

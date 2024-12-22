@@ -18,6 +18,7 @@ import net.mcreator.magicalium.item.MerlinSwordItem;
 import net.mcreator.magicalium.item.MerlinHaxeItem;
 import net.mcreator.magicalium.item.MagicalglassItem;
 import net.mcreator.magicalium.item.Magical_glass_armorArmorItem;
+import net.mcreator.magicalium.item.GlassstickItem;
 import net.mcreator.magicalium.item.ASTRONIUMIngotItem;
 import net.mcreator.magicalium.item.ASTRONIUMArmorItem;
 import net.mcreator.magicalium.MagicaliumMod;
@@ -52,6 +53,7 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> MERLIN_HAXE = REGISTRY.register("merlin_haxe", () -> new MerlinHaxeItem());
 	public static final RegistryObject<Item> MERLIN_SWORD = REGISTRY.register("merlin_sword", () -> new MerlinSwordItem());
 	public static final RegistryObject<Item> MERLINSHOVEL = REGISTRY.register("merlinshovel", () -> new MerlinshovelItem());
+	public static final RegistryObject<Item> GLASSSTICK = REGISTRY.register("glassstick", () -> new GlassstickItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
