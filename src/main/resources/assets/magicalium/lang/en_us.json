@@ -1,8 +1,12 @@
 {
+  "item.magicalium.magical_glass_armor_armor_boots": "Magical_glass_armor Boots",
   "block.magicalium.astronium_ore": "ASTRONIUM Ore",
   "block.magicalium.magicalglass_ore": "Magicalglass Ore",
   "block.magicalium.magicalglass_block": "Block of Magicalglass",
+  "item.magicalium.magical_glass_armor_armor_helmet": "Magical_glass_armor Helmet",
   "item.magicalium.astronium_ingot": "ASTRONIUM",
   "block.magicalium.astronium_block": "Block of ASTRONIUM",
+  "item.magicalium.magical_glass_armor_armor_chestplate": "Magical_glass_armor Chestplate",
+  "item.magicalium.magical_glass_armor_armor_leggings": "Magical_glass_armor Leggings",
   "item.magicalium.magicalglass": "Magicalglass"
 }

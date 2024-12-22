@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "magicalium:magicalglass"
+    }
+  },
+  "result": {
+    "item": "magicalium:magical_glass_armor_armor_chestplate",
+    "count": 1
+  }
+}

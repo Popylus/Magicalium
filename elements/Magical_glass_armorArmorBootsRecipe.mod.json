@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Magicalglass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Magicalglass"
+      },
+      {
+        "value": "CUSTOM:Magicalglass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Magicalglass"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Magical_glass_armorArmor.boots"
+    },
+    "name": "magical_glass_armor_armor_boots_recipe",
+    "namespace": "mod"
+  }
+}

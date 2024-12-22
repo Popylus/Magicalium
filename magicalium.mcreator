@@ -166,6 +166,75 @@
         ]
       },
       "path": "~/magicalglass"
+    },
+    {
+      "name": "Magical_glass_armorArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_glass_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_chestplate.json",
+          "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_leggings.json",
+          "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_helmet.json",
+          "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_boots.json",
+          "src/main/java/net/mcreator/magicalium/item/Magical_glass_armorArmorItem.java"
+        ]
+      },
+      "path": "~/magicalglass/armor"
+    },
+    {
+      "name": "Magical_glass_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_glass_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magical_glass_armor_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/magicalglass/armor"
+    },
+    {
+      "name": "Magical_glass_armorArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_glass_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magical_glass_armor_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/magicalglass/armor"
+    },
+    {
+      "name": "Magical_glass_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_glass_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magical_glass_armor_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/magicalglass/armor"
+    },
+    {
+      "name": "Magical_glass_armorArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_glass_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magical_glass_armor_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/magicalglass/armor"
     }
   ],
   "variable_elements": [],
@@ -187,11 +256,15 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.magicalium.magical_glass_armor_armor_boots": "Magical_glass_armor Boots",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
+      "item.magicalium.magical_glass_armor_armor_helmet": "Magical_glass_armor Helmet",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "block.magicalium.astronium_block": "Block of ASTRONIUM",
+      "item.magicalium.magical_glass_armor_armor_chestplate": "Magical_glass_armor Chestplate",
+      "item.magicalium.magical_glass_armor_armor_leggings": "Magical_glass_armor Leggings",
       "item.magicalium.magicalglass": "Magicalglass"
     }
   },
@@ -203,6 +276,10 @@
         "children": [
           {
             "name": "craft",
+            "children": []
+          },
+          {
+            "name": "armor",
             "children": []
           }
         ]
