@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "magicalium:magicalglass"
+      "item": "magicalium:astronium_ingot"
     }
   },
   "result": {
-    "item": "magicalium:deleted_mod_element_chestplate",
+    "item": "magicalium:astronium_armor_chestplate",
     "count": 1
   }
 }

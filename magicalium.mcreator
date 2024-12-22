@@ -235,6 +235,151 @@
         ]
       },
       "path": "~/magicalglass/armor"
+    },
+    {
+      "name": "ASTRONIUMArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "ASTRONIUMArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "ASTRONIUMArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "ASTRONIUMArmorEvenementDeTickDesJambieres",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_armor_evenement_de_tick_des_jambieres",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/ASTRONIUMArmorEvenementDeTickDesJambieresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "ASTRONIUMArmorEvenementDeTickDuPlastron",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_armor_evenement_de_tick_du_plastron",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/ASTRONIUMArmorEvenementDeTickDuPlastronProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "ASTRONIUMArmorEvenementDeTickDuCasque",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_armor_evenement_de_tick_du_casque",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/ASTRONIUMArmorEvenementDeTickDuCasqueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "ASTRONIUMArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/astronium_armor_helmet.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_armor_leggings.json",
+          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMArmorItem.java",
+          "src/main/resources/assets/magicalium/models/item/astronium_armor_chestplate.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_armor_boots.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "ASTRONIUMArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "ASTRONIUMArmorEvenementDeTickDesBottes",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_armor_evenement_de_tick_des_bottes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/ASTRONIUMArmorEvenementDeTickDesBottesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/astronium"
     }
   ],
   "variable_elements": [],
@@ -272,21 +417,21 @@
     "name": "~",
     "children": [
       {
+        "name": "astronium",
+        "children": []
+      },
+      {
         "name": "magicalglass",
         "children": [
           {
-            "name": "craft",
+            "name": "armor",
             "children": []
           },
           {
-            "name": "armor",
+            "name": "craft",
             "children": []
           }
         ]
-      },
-      {
-        "name": "astronium",
-        "children": []
       }
     ]
   },

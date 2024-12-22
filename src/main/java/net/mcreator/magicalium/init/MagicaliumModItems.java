@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.magicalium.item.MagicalglassItem;
 import net.mcreator.magicalium.item.Magical_glass_armorArmorItem;
 import net.mcreator.magicalium.item.ASTRONIUMIngotItem;
+import net.mcreator.magicalium.item.ASTRONIUMArmorItem;
 import net.mcreator.magicalium.MagicaliumMod;
 
 public class MagicaliumModItems {
@@ -29,6 +30,10 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> MAGICAL_GLASS_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("magical_glass_armor_armor_chestplate", () -> new Magical_glass_armorArmorItem.Chestplate());
 	public static final RegistryObject<Item> MAGICAL_GLASS_ARMOR_ARMOR_LEGGINGS = REGISTRY.register("magical_glass_armor_armor_leggings", () -> new Magical_glass_armorArmorItem.Leggings());
 	public static final RegistryObject<Item> MAGICAL_GLASS_ARMOR_ARMOR_BOOTS = REGISTRY.register("magical_glass_armor_armor_boots", () -> new Magical_glass_armorArmorItem.Boots());
+	public static final RegistryObject<Item> ASTRONIUM_ARMOR_HELMET = REGISTRY.register("astronium_armor_helmet", () -> new ASTRONIUMArmorItem.Helmet());
+	public static final RegistryObject<Item> ASTRONIUM_ARMOR_CHESTPLATE = REGISTRY.register("astronium_armor_chestplate", () -> new ASTRONIUMArmorItem.Chestplate());
+	public static final RegistryObject<Item> ASTRONIUM_ARMOR_LEGGINGS = REGISTRY.register("astronium_armor_leggings", () -> new ASTRONIUMArmorItem.Leggings());
+	public static final RegistryObject<Item> ASTRONIUM_ARMOR_BOOTS = REGISTRY.register("astronium_armor_boots", () -> new ASTRONIUMArmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

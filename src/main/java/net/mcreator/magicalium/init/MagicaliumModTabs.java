@@ -34,6 +34,10 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModItems.MAGICAL_GLASS_ARMOR_ARMOR_CHESTPLATE.get());
 			tabData.accept(MagicaliumModItems.MAGICAL_GLASS_ARMOR_ARMOR_LEGGINGS.get());
 			tabData.accept(MagicaliumModItems.MAGICAL_GLASS_ARMOR_ARMOR_BOOTS.get());
+			tabData.accept(MagicaliumModItems.ASTRONIUM_ARMOR_HELMET.get());
+			tabData.accept(MagicaliumModItems.ASTRONIUM_ARMOR_CHESTPLATE.get());
+			tabData.accept(MagicaliumModItems.ASTRONIUM_ARMOR_LEGGINGS.get());
+			tabData.accept(MagicaliumModItems.ASTRONIUM_ARMOR_BOOTS.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 

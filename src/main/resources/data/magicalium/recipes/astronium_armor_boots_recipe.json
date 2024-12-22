@@ -3,16 +3,15 @@
   "category": "equipment",
   "pattern": [
     "a a",
-    "aaa",
-    "aaa"
+    "a a"
   ],
   "key": {
     "a": {
-      "item": "magicalium:magicalglass"
+      "item": "magicalium:astronium_ingot"
     }
   },
   "result": {
-    "item": "magicalium:deleted_mod_element_chestplate",
+    "item": "magicalium:deleted_mod_element_boots",
     "count": 1
   }
 }
