@@ -1,1 +1,5 @@
-{}
+{
+  "block.magicalium.magicalglass_ore": "Magicalglass Ore",
+  "block.magicalium.magicalglass_block": "Block of Magicalglass",
+  "item.magicalium.magicalglass": "Magicalglass"
+}

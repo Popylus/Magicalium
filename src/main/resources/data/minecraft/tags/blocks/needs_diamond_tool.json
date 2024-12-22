@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "magicalium:astronium_block",
-    "magicalium:astronium_ore"
+    "magicalium:magicalglass_block",
+    "magicalium:magicalglass_ore"
   ]
 }

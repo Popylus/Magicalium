@@ -23,14 +23,11 @@ public class MagicaliumModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
-			tabData.accept(MagicaliumModBlocks.ASTRONIUM_BLOCK.get().asItem());
-			tabData.accept(MagicaliumModBlocks.ASTRONIUM_ORE.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASS_ORE.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASS_BLOCK.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
-			tabData.accept(MagicaliumModItems.ASTRONIUM_INGOT.get());
 			tabData.accept(MagicaliumModItems.MAGICALGLASS.get());
 
 		}
