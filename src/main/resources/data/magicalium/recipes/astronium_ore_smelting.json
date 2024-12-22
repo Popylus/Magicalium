@@ -4,7 +4,7 @@
   "experience": 1.4,
   "cookingtime": 200,
   "ingredient": {
-    "item": "magicalium:deleted_mod_element"
+    "item": "magicalium:astronium_ore"
   },
-  "result": "magicalium:deleted_mod_element"
+  "result": "magicalium:astronium_ingot"
 }

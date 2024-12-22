@@ -10,7 +10,8 @@
         "files": [
           "src/main/resources/data/magicalium/recipes/astronium_ore_block_recipe.json"
         ]
-      }
+      },
+      "path": "~/astronium"
     },
     {
       "name": "ASTRONIUMOreSmelting",
@@ -22,7 +23,8 @@
         "files": [
           "src/main/resources/data/magicalium/recipes/astronium_ore_smelting.json"
         ]
-      }
+      },
+      "path": "~/astronium"
     },
     {
       "name": "ASTRONIUMBlockOreRecipe",
@@ -34,7 +36,8 @@
         "files": [
           "src/main/resources/data/magicalium/recipes/astronium_block_ore_recipe.json"
         ]
-      }
+      },
+      "path": "~/astronium"
     },
     {
       "name": "ASTRONIUMBlock",
@@ -50,7 +53,8 @@
           "src/main/resources/assets/magicalium/blockstates/astronium_block.json",
           "src/main/resources/assets/magicalium/models/item/astronium_block.json"
         ]
-      }
+      },
+      "path": "~/astronium"
     },
     {
       "name": "ASTRONIUMIngot",
@@ -63,7 +67,8 @@
           "src/main/java/net/mcreator/magicalium/item/ASTRONIUMIngotItem.java",
           "src/main/resources/assets/magicalium/models/item/astronium_ingot.json"
         ]
-      }
+      },
+      "path": "~/astronium"
     },
     {
       "name": "ASTRONIUMOre",
@@ -82,7 +87,8 @@
           "src/main/resources/data/magicalium/forge/biome_modifier/astronium_ore_biome_modifier.json",
           "src/main/resources/data/magicalium/worldgen/configured_feature/astronium_ore.json"
         ]
-      }
+      },
+      "path": "~/astronium"
     },
     {
       "name": "MagicalglassBlockOreRecipe",
@@ -94,7 +100,8 @@
         "files": [
           "src/main/resources/data/magicalium/recipes/magicalglass_block_ore_recipe.json"
         ]
-      }
+      },
+      "path": "~/magicalglass"
     },
     {
       "name": "MagicalglassOreBlockRecipe",
@@ -106,7 +113,8 @@
         "files": [
           "src/main/resources/data/magicalium/recipes/magicalglass_ore_block_recipe.json"
         ]
-      }
+      },
+      "path": "~/magicalglass"
     },
     {
       "name": "MagicalglassOreSmelting",
@@ -118,7 +126,8 @@
         "files": [
           "src/main/resources/data/magicalium/recipes/magicalglass_ore_smelting.json"
         ]
-      }
+      },
+      "path": "~/magicalglass"
     },
     {
       "name": "MagicalglassOre",
@@ -137,7 +146,8 @@
           "src/main/resources/data/magicalium/forge/biome_modifier/magicalglass_ore_biome_modifier.json",
           "src/main/resources/data/magicalium/loot_tables/blocks/magicalglass_ore.json"
         ]
-      }
+      },
+      "path": "~/magicalglass"
     },
     {
       "name": "MagicalglassBlock",
@@ -153,7 +163,8 @@
           "src/main/resources/data/magicalium/loot_tables/blocks/magicalglass_block.json",
           "src/main/resources/assets/magicalium/models/block/magicalglass_block.json"
         ]
-      }
+      },
+      "path": "~/magicalglass"
     },
     {
       "name": "Magicalglass",
@@ -166,7 +177,8 @@
           "src/main/resources/assets/magicalium/models/item/magicalglass.json",
           "src/main/java/net/mcreator/magicalium/item/MagicalglassItem.java"
         ]
-      }
+      },
+      "path": "~/magicalglass"
     }
   ],
   "variable_elements": [],
@@ -187,11 +199,27 @@
   },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.magicalium.astronium_ore": "ASTRONIUM Ore",
+      "block.magicalium.magicalglass_ore": "Magicalglass Ore",
+      "block.magicalium.magicalglass_block": "Block of Magicalglass",
+      "item.magicalium.astronium_ingot": "ASTRONIUM",
+      "block.magicalium.astronium_block": "Block of ASTRONIUM",
+      "item.magicalium.magicalglass": "Magicalglass"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "magicalglass",
+        "children": []
+      },
+      {
+        "name": "astronium",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "magicalium",

@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "magicalium:deleted_mod_element"
+      "item": "magicalium:magicalglass_block"
     }
   ],
   "result": {
-    "item": "magicalium:deleted_mod_element",
+    "item": "magicalium:magicalglass",
     "count": 9
   }
 }

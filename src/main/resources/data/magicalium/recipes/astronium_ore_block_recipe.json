@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "magicalium:deleted_mod_element"
+      "item": "magicalium:astronium_ingot"
     }
   },
   "result": {
-    "item": "magicalium:deleted_mod_element",
+    "item": "magicalium:astronium_block",
     "count": 1
   }
 }
