@@ -18,9 +18,9 @@
       }
     ],
     "efficiency": 9.0,
-    "attackSpeed": 6.0,
+    "attackSpeed": 2.0,
     "enchantability": 28,
-    "damageVsEntity": 8.0,
+    "damageVsEntity": 18.0,
     "usageCount": 660,
     "glowCondition": {
       "fixedValue": false
@@ -34,6 +34,9 @@
     "blockDropsTier": "DIAMOND",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "ASTRONIUMAxeLorsqueLoutilEstDansLaMain"
+    }
   }
 }

@@ -1,12 +1,15 @@
 
 package net.mcreator.magicalium.item;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.Entity;
 
+import net.mcreator.magicalium.procedures.ASTRONIUMShovelLorsqueLoutilEstDansLaMainProcedure;
 import net.mcreator.magicalium.init.MagicaliumModItems;
 
 public class ASTRONIUMShovelItem extends ShovelItem {
@@ -36,5 +39,12 @@ public class ASTRONIUMShovelItem extends ShovelItem {
 				return Ingredient.of(new ItemStack(MagicaliumModItems.ASTRONIUM_INGOT.get()));
 			}
 		}, 1, 2f, new Item.Properties());
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		if (selected)
+			ASTRONIUMShovelLorsqueLoutilEstDansLaMainProcedure.execute(entity);
 	}
 }

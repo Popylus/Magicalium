@@ -1043,6 +1043,44 @@
         ]
       },
       "path": "~/magicalglass/craft"
+    },
+    {
+      "name": "ASTRONIUMAxeLorsqueLoutilEstDansLaMain",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_axe_lorsque_loutil_est_dans_la_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/ASTRONIUMAxeLorsqueLoutilEstDansLaMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/astronium/outil"
+    },
+    {
+      "name": "ASTRONIUMShovelLorsqueLoutilEstDansLaMain",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_shovel_lorsque_loutil_est_dans_la_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/ASTRONIUMShovelLorsqueLoutilEstDansLaMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/astronium/outil"
     }
   ],
   "variable_elements": [],
