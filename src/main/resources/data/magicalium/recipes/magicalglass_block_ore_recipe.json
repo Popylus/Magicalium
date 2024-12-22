@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "magicalium:magicalglass_block"
+    }
+  ],
+  "result": {
+    "item": "magicalium:magicalglass",
+    "count": 9
+  }
+}

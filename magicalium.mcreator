@@ -1,11 +1,109 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Magicalglass",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/magicalglass.json",
+          "src/main/java/net/mcreator/magicalium/item/MagicalglassItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicalglassOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglass_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/worldgen/placed_feature/magicalglass_ore.json",
+          "src/main/resources/data/magicalium/worldgen/configured_feature/magicalglass_ore.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassOreBlock.java",
+          "src/main/resources/assets/magicalium/models/item/magicalglass_ore.json",
+          "src/main/resources/assets/magicalium/blockstates/magicalglass_ore.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglass_ore.json",
+          "src/main/resources/data/magicalium/forge/biome_modifier/magicalglass_ore_biome_modifier.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglass_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicalglassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglass_block.json",
+          "src/main/resources/assets/magicalium/models/item/magicalglass_block.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglass_block.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassBlockBlock.java",
+          "src/main/resources/assets/magicalium/blockstates/magicalglass_block.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicalglassOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglass_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglass_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicalglassBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglass_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglass_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicalglassOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglass_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglass_ore_smelting.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:MagicalglassBlock",
+      "~CUSTOM:MagicalglassOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MagicalglassBlock",
+      "~CUSTOM:MagicalglassOre"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.magicalium.magicalglass_ore": "Magicalglass Ore",
+      "block.magicalium.magicalglass_block": "Block of Magicalglass",
+      "item.magicalium.magicalglass": "Magicalglass"
+    }
   },
   "foldersRoot": {
     "name": "~",
