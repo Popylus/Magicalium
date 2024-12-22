@@ -380,6 +380,25 @@
         ]
       },
       "path": "~/astronium"
+    },
+    {
+      "name": "MagicalglassarmorArmorEvenementDeTickDuCasque",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassarmor_armor_evenement_de_tick_du_casque",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/MagicalglassarmorArmorEvenementDeTickDuCasqueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/magicalglass/armor"
     }
   ],
   "variable_elements": [],
