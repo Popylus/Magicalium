@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "magicalium:block/astronium_ore",
+    "particle": "magicalium:block/astronium_ore"
+  },
+  "render_type": "solid"
+}

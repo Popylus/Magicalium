@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "magicalium:astronium_block"
+    }
+  ],
+  "result": {
+    "item": "magicalium:astronium_ingot",
+    "count": 9
+  }
+}

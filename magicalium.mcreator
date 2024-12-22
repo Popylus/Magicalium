@@ -1,11 +1,109 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ASTRONIUMIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMIngotItem.java",
+          "src/main/resources/assets/magicalium/models/item/astronium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "ASTRONIUMOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/blockstates/astronium_ore.json",
+          "src/main/resources/data/magicalium/worldgen/placed_feature/astronium_ore.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_ore.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_ore.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_ore.json",
+          "src/main/java/net/mcreator/magicalium/block/ASTRONIUMOreBlock.java",
+          "src/main/resources/data/magicalium/forge/biome_modifier/astronium_ore_biome_modifier.json",
+          "src/main/resources/data/magicalium/worldgen/configured_feature/astronium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ASTRONIUMBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_block.json",
+          "src/main/java/net/mcreator/magicalium/block/ASTRONIUMBlockBlock.java",
+          "src/main/resources/assets/magicalium/models/block/astronium_block.json",
+          "src/main/resources/assets/magicalium/blockstates/astronium_block.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ASTRONIUMOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ASTRONIUMBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ASTRONIUMOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_ore_smelting.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:ASTRONIUMBlock",
+      "~CUSTOM:ASTRONIUMOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ASTRONIUMBlock",
+      "~CUSTOM:ASTRONIUMOre"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.magicalium.astronium_ore": "ASTRONIUM Ore",
+      "item.magicalium.astronium_ingot": "ASTRONIUM",
+      "block.magicalium.astronium_block": "Block of ASTRONIUM"
+    }
   },
   "foldersRoot": {
     "name": "~",

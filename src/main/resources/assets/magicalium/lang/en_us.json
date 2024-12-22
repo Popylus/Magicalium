@@ -1,1 +1,5 @@
-{}
+{
+  "block.magicalium.astronium_ore": "ASTRONIUM Ore",
+  "item.magicalium.astronium_ingot": "ASTRONIUM",
+  "block.magicalium.astronium_block": "Block of ASTRONIUM"
+}
