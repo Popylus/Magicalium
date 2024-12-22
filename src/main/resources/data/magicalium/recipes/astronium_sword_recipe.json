@@ -11,11 +11,11 @@
       "item": "magicalium:astronium_ingot"
     },
     "b": {
-      "item": "magicalium:batonastronium"
+      "item": "magicalium:deleted_mod_element"
     }
   },
   "result": {
-    "item": "magicalium:astronium_sword",
+    "item": "magicalium:deleted_mod_element",
     "count": 1
   }
 }

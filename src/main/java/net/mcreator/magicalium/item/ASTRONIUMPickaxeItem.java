@@ -1,17 +1,6 @@
 
 package net.mcreator.magicalium.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.Entity;
-
-import net.mcreator.magicalium.procedures.ASTRONIUMPickaxeLorsqueLoutilEstDansLaMainProcedure;
-import net.mcreator.magicalium.init.MagicaliumModItems;
-
 public class ASTRONIUMPickaxeItem extends PickaxeItem {
 	public ASTRONIUMPickaxeItem() {
 		super(new Tier() {
@@ -45,6 +34,6 @@ public class ASTRONIUMPickaxeItem extends PickaxeItem {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			ASTRONIUMPickaxeLorsqueLoutilEstDansLaMainProcedure.execute(entity);
+			ASTRONIUMPickaxeLorsqueLoutilEstDansLaMainProcedure.execute();
 	}
 }

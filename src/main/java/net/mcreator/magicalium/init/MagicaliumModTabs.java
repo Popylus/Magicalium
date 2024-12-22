@@ -64,10 +64,10 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModItems.MERLIN_HAXE.get());
 			tabData.accept(MagicaliumModItems.MERLIN_SWORD.get());
 			tabData.accept(MagicaliumModItems.MERLINSHOVEL.get());
+			tabData.accept(MagicaliumModItems.ASTRONIUM_HOE.get());
 			tabData.accept(MagicaliumModItems.ASTRONIUM_PICKAXE.get());
 			tabData.accept(MagicaliumModItems.ASTRONIUM_AXE.get());
 			tabData.accept(MagicaliumModItems.ASTRONIUM_SHOVEL.get());
-			tabData.accept(MagicaliumModItems.ASTRONIUM_HOE.get());
 
 		}
 	}

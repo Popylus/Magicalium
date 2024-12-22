@@ -1,14 +1,6 @@
 
 package net.mcreator.magicalium.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-
-import net.mcreator.magicalium.init.MagicaliumModItems;
-
 public class ASTRONIUMSwordItem extends SwordItem {
 	public ASTRONIUMSwordItem() {
 		super(new Tier() {

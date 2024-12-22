@@ -1,14 +1,6 @@
 
 package net.mcreator.magicalium.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.HoeItem;
-
-import net.mcreator.magicalium.init.MagicaliumModItems;
-
 public class ASTRONIUMHoeItem extends HoeItem {
 	public ASTRONIUMHoeItem() {
 		super(new Tier() {
