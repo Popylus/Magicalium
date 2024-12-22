@@ -11,5 +11,9 @@ public class MagicalglassarmorArmorEvenementDeTickDuCasqueProcedure {
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 60, 1));
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 60, 1));
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 60, 1));
 	}
 }
