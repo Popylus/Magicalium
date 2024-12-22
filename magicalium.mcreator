@@ -714,6 +714,25 @@
         ]
       },
       "path": "~/magicalglass/armor"
+    },
+    {
+      "name": "MagicalglassarmorArmorEvenementDeTickDuPlastron",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassarmor_armor_evenement_de_tick_du_plastron",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/MagicalglassarmorArmorEvenementDeTickDuPlastronProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/magicalglass/armor"
     }
   ],
   "variable_elements": [],
