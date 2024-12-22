@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.magicalium.item.MerlinpickaxeItem;
 import net.mcreator.magicalium.item.MagicalglassItem;
 import net.mcreator.magicalium.item.Magical_glass_armorArmorItem;
 import net.mcreator.magicalium.item.ASTRONIUMIngotItem;
@@ -44,6 +45,7 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> ASTRONIUM_WOOD_FENCE_GATE = block(MagicaliumModBlocks.ASTRONIUM_WOOD_FENCE_GATE);
 	public static final RegistryObject<Item> ASTRONIUM_WOOD_PRESSURE_PLATE = block(MagicaliumModBlocks.ASTRONIUM_WOOD_PRESSURE_PLATE);
 	public static final RegistryObject<Item> ASTRONIUM_WOOD_BUTTON = block(MagicaliumModBlocks.ASTRONIUM_WOOD_BUTTON);
+	public static final RegistryObject<Item> MERLINPICKAXE = REGISTRY.register("merlinpickaxe", () -> new MerlinpickaxeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,35 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "merlin_tool_pickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Merlinpickaxe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 15.0,
+    "attackSpeed": 1.1,
+    "enchantability": 3,
+    "damageVsEntity": 4.0,
+    "usageCount": 300,
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "GOLD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

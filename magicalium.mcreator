@@ -752,6 +752,20 @@
         ]
       },
       "path": "~/magicalglass/armor/boots"
+    },
+    {
+      "name": "Merlinpickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merlinpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/merlinpickaxe.json",
+          "src/main/java/net/mcreator/magicalium/item/MerlinpickaxeItem.java"
+        ]
+      },
+      "path": "~/magicalglass"
     }
   ],
   "variable_elements": [],
@@ -771,6 +785,9 @@
     ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:Astronium_woodSlab"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Merlinpickaxe"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MagicalglassBlock",
@@ -800,6 +817,7 @@
       "item.magicalium.magical_glass_armor_armor_chestplate": "Merlin_glass_armor Chestplate",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
+      "item.magicalium.merlinpickaxe": "Merlinpickaxe",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
@@ -862,10 +880,6 @@
           },
           {
             "name": "craft",
-            "children": []
-          },
-          {
-            "name": "tool",
             "children": []
           }
         ]
