@@ -101,7 +101,7 @@
           "src/main/resources/data/magicalium/recipes/magicalglass_block_ore_recipe.json"
         ]
       },
-      "path": "~/magicalglass"
+      "path": "~/magicalglass/craft"
     },
     {
       "name": "MagicalglassOreBlockRecipe",
@@ -114,20 +114,7 @@
           "src/main/resources/data/magicalium/recipes/magicalglass_ore_block_recipe.json"
         ]
       },
-      "path": "~/magicalglass"
-    },
-    {
-      "name": "MagicalglassOreSmelting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magicalglass_ore_smelting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/magicalium/recipes/magicalglass_ore_smelting.json"
-        ]
-      },
-      "path": "~/magicalglass"
+      "path": "~/magicalglass/craft"
     },
     {
       "name": "MagicalglassOre",
@@ -213,7 +200,12 @@
     "children": [
       {
         "name": "magicalglass",
-        "children": []
+        "children": [
+          {
+            "name": "craft",
+            "children": []
+          }
+        ]
       },
       {
         "name": "astronium",
