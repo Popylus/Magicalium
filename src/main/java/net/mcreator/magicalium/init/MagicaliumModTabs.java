@@ -28,6 +28,13 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASS_ORE.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASS_BLOCK.get().asItem());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+
+			tabData.accept(MagicaliumModItems.ASTRONIUM_ARMOR_HELMET.get());
+			tabData.accept(MagicaliumModItems.ASTRONIUM_ARMOR_CHESTPLATE.get());
+			tabData.accept(MagicaliumModItems.ASTRONIUM_ARMOR_LEGGINGS.get());
+			tabData.accept(MagicaliumModItems.ASTRONIUM_ARMOR_BOOTS.get());
+
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
 			tabData.accept(MagicaliumModItems.ASTRONIUM_INGOT.get());

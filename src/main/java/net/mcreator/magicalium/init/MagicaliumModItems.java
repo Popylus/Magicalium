@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.magicalium.item.MagicalglassItem;
 import net.mcreator.magicalium.item.ASTRONIUMIngotItem;
+import net.mcreator.magicalium.item.ASTRONIUMArmorItem;
 import net.mcreator.magicalium.MagicaliumMod;
 
 public class MagicaliumModItems {
@@ -24,6 +25,10 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> MAGICALGLASS_ORE = block(MagicaliumModBlocks.MAGICALGLASS_ORE);
 	public static final RegistryObject<Item> MAGICALGLASS_BLOCK = block(MagicaliumModBlocks.MAGICALGLASS_BLOCK);
 	public static final RegistryObject<Item> MAGICALGLASS = REGISTRY.register("magicalglass", () -> new MagicalglassItem());
+	public static final RegistryObject<Item> ASTRONIUM_ARMOR_HELMET = REGISTRY.register("astronium_armor_helmet", () -> new ASTRONIUMArmorItem.Helmet());
+	public static final RegistryObject<Item> ASTRONIUM_ARMOR_CHESTPLATE = REGISTRY.register("astronium_armor_chestplate", () -> new ASTRONIUMArmorItem.Chestplate());
+	public static final RegistryObject<Item> ASTRONIUM_ARMOR_LEGGINGS = REGISTRY.register("astronium_armor_leggings", () -> new ASTRONIUMArmorItem.Leggings());
+	public static final RegistryObject<Item> ASTRONIUM_ARMOR_BOOTS = REGISTRY.register("astronium_armor_boots", () -> new ASTRONIUMArmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items
