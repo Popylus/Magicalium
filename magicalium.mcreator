@@ -124,12 +124,12 @@
       "registry_name": "magicalglass_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/item/magicalglass_ore.json",
-          "src/main/java/net/mcreator/magicalium/block/MagicalglassOreBlock.java",
-          "src/main/resources/assets/magicalium/blockstates/magicalglass_ore.json",
-          "src/main/resources/data/magicalium/worldgen/configured_feature/magicalglass_ore.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglass_ore.json",
           "src/main/resources/data/magicalium/worldgen/placed_feature/magicalglass_ore.json",
+          "src/main/resources/data/magicalium/worldgen/configured_feature/magicalglass_ore.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassOreBlock.java",
+          "src/main/resources/assets/magicalium/models/item/magicalglass_ore.json",
+          "src/main/resources/assets/magicalium/blockstates/magicalglass_ore.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglass_ore.json",
           "src/main/resources/data/magicalium/forge/biome_modifier/magicalglass_ore_biome_modifier.json",
           "src/main/resources/data/magicalium/loot_tables/blocks/magicalglass_ore.json"
         ]
@@ -1105,8 +1105,8 @@
       "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
       "block.magicalium.astronium_wood_fence_gate": "Astronium_wood Fence Gate",
       "item.magicalium.batonastronium": "Batonastronium",
-      "item.magicalium.astronium_sword": "ASTRONIUM Sword",
       "item.magicalium.astronium_armor_boots": "ASTRONIUM Boots",
+      "item.magicalium.astronium_sword": "ASTRONIUM Sword",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
       "item.magicalium.magical_glass_armor_armor_chestplate": "Merlin_glass_armor Chestplate",
