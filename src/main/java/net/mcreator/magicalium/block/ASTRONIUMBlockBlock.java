@@ -3,8 +3,8 @@ package net.mcreator.magicalium.block;
 
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
-public class MagicalglassBlockBlock extends Block {
-	public MagicalglassBlockBlock() {
+public class ASTRONIUMBlockBlock extends Block {
+	public ASTRONIUMBlockBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
 	}
 

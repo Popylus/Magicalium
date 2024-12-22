@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "magicalium:blocks/magicalglass_ore",
+  "random_sequence": "magicalium:blocks/astronium_block",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "magicalium:deleted_mod_element"
+          "name": "magicalium:astronium_block"
         }
       ]
     }

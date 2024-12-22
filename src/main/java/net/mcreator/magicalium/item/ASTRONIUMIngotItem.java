@@ -1,8 +1,8 @@
 
 package net.mcreator.magicalium.item;
 
-public class MagicalglassItem extends Item {
-	public MagicalglassItem() {
+public class ASTRONIUMIngotItem extends Item {
+	public ASTRONIUMIngotItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 }
