@@ -27,6 +27,15 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModBlocks.ASTRONIUM_ORE.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASS_ORE.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASS_BLOCK.get().asItem());
+			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_WOOD.get().asItem());
+			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_LOG.get().asItem());
+			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_PLANKS.get().asItem());
+			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_STAIRS.get().asItem());
+			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_SLAB.get().asItem());
+			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_FENCE.get().asItem());
+			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_FENCE_GATE.get().asItem());
+			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_PRESSURE_PLATE.get().asItem());
+			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_BUTTON.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 
@@ -43,6 +52,10 @@ public class MagicaliumModTabs {
 
 			tabData.accept(MagicaliumModItems.ASTRONIUM_INGOT.get());
 			tabData.accept(MagicaliumModItems.MAGICALGLASS.get());
+
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+
+			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_LEAVES.get().asItem());
 
 		}
 	}

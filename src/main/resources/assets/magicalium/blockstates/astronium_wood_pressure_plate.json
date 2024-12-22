@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "magicalium:block/astronium_wood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "magicalium:block/astronium_wood_pressure_plate_down"
+    }
+  }
+}

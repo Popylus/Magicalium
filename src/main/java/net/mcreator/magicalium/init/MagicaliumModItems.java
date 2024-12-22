@@ -34,6 +34,16 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> MAGICAL_GLASS_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("magical_glass_armor_armor_chestplate", () -> new Magical_glass_armorArmorItem.Chestplate());
 	public static final RegistryObject<Item> MAGICAL_GLASS_ARMOR_ARMOR_LEGGINGS = REGISTRY.register("magical_glass_armor_armor_leggings", () -> new Magical_glass_armorArmorItem.Leggings());
 	public static final RegistryObject<Item> MAGICAL_GLASS_ARMOR_ARMOR_BOOTS = REGISTRY.register("magical_glass_armor_armor_boots", () -> new Magical_glass_armorArmorItem.Boots());
+	public static final RegistryObject<Item> ASTRONIUM_WOOD_WOOD = block(MagicaliumModBlocks.ASTRONIUM_WOOD_WOOD);
+	public static final RegistryObject<Item> ASTRONIUM_WOOD_LOG = block(MagicaliumModBlocks.ASTRONIUM_WOOD_LOG);
+	public static final RegistryObject<Item> ASTRONIUM_WOOD_PLANKS = block(MagicaliumModBlocks.ASTRONIUM_WOOD_PLANKS);
+	public static final RegistryObject<Item> ASTRONIUM_WOOD_LEAVES = block(MagicaliumModBlocks.ASTRONIUM_WOOD_LEAVES);
+	public static final RegistryObject<Item> ASTRONIUM_WOOD_STAIRS = block(MagicaliumModBlocks.ASTRONIUM_WOOD_STAIRS);
+	public static final RegistryObject<Item> ASTRONIUM_WOOD_SLAB = block(MagicaliumModBlocks.ASTRONIUM_WOOD_SLAB);
+	public static final RegistryObject<Item> ASTRONIUM_WOOD_FENCE = block(MagicaliumModBlocks.ASTRONIUM_WOOD_FENCE);
+	public static final RegistryObject<Item> ASTRONIUM_WOOD_FENCE_GATE = block(MagicaliumModBlocks.ASTRONIUM_WOOD_FENCE_GATE);
+	public static final RegistryObject<Item> ASTRONIUM_WOOD_PRESSURE_PLATE = block(MagicaliumModBlocks.ASTRONIUM_WOOD_PRESSURE_PLATE);
+	public static final RegistryObject<Item> ASTRONIUM_WOOD_BUTTON = block(MagicaliumModBlocks.ASTRONIUM_WOOD_BUTTON);
 
 	// Start of user code block custom items
 	// End of user code block custom items
