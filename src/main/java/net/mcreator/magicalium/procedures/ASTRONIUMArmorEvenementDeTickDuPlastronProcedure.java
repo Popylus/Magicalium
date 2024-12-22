@@ -15,7 +15,7 @@ public class ASTRONIUMArmorEvenementDeTickDuPlastronProcedure {
 				_player.giveExperiencePoints((int) 0.1);
 		} else {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 1000, 1));
+				_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 1000, 1, false, false));
 		}
 	}
 }
