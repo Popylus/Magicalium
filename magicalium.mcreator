@@ -124,12 +124,12 @@
       "registry_name": "magicalglass_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/item/magicalglass_ore.json",
-          "src/main/java/net/mcreator/magicalium/block/MagicalglassOreBlock.java",
-          "src/main/resources/assets/magicalium/blockstates/magicalglass_ore.json",
-          "src/main/resources/data/magicalium/worldgen/configured_feature/magicalglass_ore.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglass_ore.json",
           "src/main/resources/data/magicalium/worldgen/placed_feature/magicalglass_ore.json",
+          "src/main/resources/data/magicalium/worldgen/configured_feature/magicalglass_ore.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassOreBlock.java",
+          "src/main/resources/assets/magicalium/models/item/magicalglass_ore.json",
+          "src/main/resources/assets/magicalium/blockstates/magicalglass_ore.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglass_ore.json",
           "src/main/resources/data/magicalium/forge/biome_modifier/magicalglass_ore_biome_modifier.json",
           "src/main/resources/data/magicalium/loot_tables/blocks/magicalglass_ore.json"
         ]
