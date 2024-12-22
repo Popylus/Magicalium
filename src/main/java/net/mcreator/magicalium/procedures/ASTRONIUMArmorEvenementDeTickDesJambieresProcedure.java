@@ -12,9 +12,9 @@ public class ASTRONIUMArmorEvenementDeTickDesJambieresProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		MagicaliumMod.queueServerWork(1000, () -> {
+		MagicaliumMod.queueServerWork(200, () -> {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1000, 1));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 1));
 		});
 	}
 }
