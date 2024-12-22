@@ -47,11 +47,11 @@
       "registry_name": "astronium_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_block.json",
           "src/main/java/net/mcreator/magicalium/block/ASTRONIUMBlockBlock.java",
           "src/main/resources/assets/magicalium/models/block/astronium_block.json",
           "src/main/resources/assets/magicalium/blockstates/astronium_block.json",
-          "src/main/resources/assets/magicalium/models/item/astronium_block.json"
+          "src/main/resources/assets/magicalium/models/item/astronium_block.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_block.json"
         ]
       },
       "path": "~/astronium"
@@ -79,13 +79,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/magicalium/blockstates/astronium_ore.json",
-          "src/main/resources/data/magicalium/worldgen/placed_feature/astronium_ore.json",
-          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_ore.json",
-          "src/main/resources/assets/magicalium/models/item/astronium_ore.json",
-          "src/main/resources/assets/magicalium/models/block/astronium_ore.json",
+          "src/main/resources/data/magicalium/worldgen/configured_feature/astronium_ore.json",
           "src/main/java/net/mcreator/magicalium/block/ASTRONIUMOreBlock.java",
           "src/main/resources/data/magicalium/forge/biome_modifier/astronium_ore_biome_modifier.json",
-          "src/main/resources/data/magicalium/worldgen/configured_feature/astronium_ore.json"
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_ore.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_ore.json",
+          "src/main/resources/data/magicalium/worldgen/placed_feature/astronium_ore.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_ore.json"
         ]
       },
       "path": "~/astronium"
@@ -403,13 +403,17 @@
     "en_us": {
       "item.magicalium.magical_glass_armor_armor_boots": "Merlin_glass_armor Boots",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "block.magicalium.magicalglass_ore": "Magicalglass Ore",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
-      "item.magicalium.magical_glass_armor_armor_helmet": "Merlin_glass_armor Helmet",
+      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
+      "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
+      "item.magicalium.magical_glass_armor_armor_leggings": "Merlin_glass_armor Leggings",
+      "item.magicalium.astronium_armor_boots": "ASTRONIUM Boots",
+      "block.magicalium.magicalglass_ore": "Magicalglass Ore",
+      "item.magicalium.magical_glass_armor_armor_helmet": "Merlin_glass_armor Helmet",
       "block.magicalium.astronium_block": "Block of ASTRONIUM",
       "item.magicalium.magical_glass_armor_armor_chestplate": "Merlin_glass_armor Chestplate",
-      "item.magicalium.magical_glass_armor_armor_leggings": "Merlin_glass_armor Leggings",
+      "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "item.magicalium.magicalglass": "Magicalglass"
     }
   },
