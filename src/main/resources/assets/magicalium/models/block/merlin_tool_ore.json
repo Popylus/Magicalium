@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "magicalium:block/merlin_tool_ore",
-    "particle": "magicalium:block/merlin_tool_ore"
-  },
-  "render_type": "solid"
-}

@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "magicalium:merlin_tool_block",
-    "magicalium:merlin_tool_ore",
     "magicalium:magicalglass_block",
     "magicalium:magicalglass_ore",
     "magicalium:astronium_ore",
