@@ -1,6 +1,58 @@
 {
   "mod_elements": [
     {
+      "name": "ASTRONIUMOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ASTRONIUMOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "ASTRONIUMBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ASTRONIUMBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_block.json",
+          "src/main/java/net/mcreator/magicalium/block/ASTRONIUMBlockBlock.java",
+          "src/main/resources/assets/magicalium/models/block/astronium_block.json",
+          "src/main/resources/assets/magicalium/blockstates/astronium_block.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_block.json"
+        ]
+      }
+    },
+    {
       "name": "ASTRONIUMIngot",
       "type": "item",
       "compiles": true,
@@ -33,54 +85,86 @@
       }
     },
     {
-      "name": "ASTRONIUMBlock",
+      "name": "MagicalglassBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglass_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglass_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicalglassOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglass_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglass_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicalglassOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglass_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglass_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicalglassOre",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "astronium_block",
+      "registry_name": "magicalglass_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_block.json",
-          "src/main/java/net/mcreator/magicalium/block/ASTRONIUMBlockBlock.java",
-          "src/main/resources/assets/magicalium/models/block/astronium_block.json",
-          "src/main/resources/assets/magicalium/blockstates/astronium_block.json",
-          "src/main/resources/assets/magicalium/models/item/astronium_block.json"
+          "src/main/resources/assets/magicalium/models/item/magicalglass_ore.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassOreBlock.java",
+          "src/main/resources/assets/magicalium/blockstates/magicalglass_ore.json",
+          "src/main/resources/data/magicalium/worldgen/configured_feature/magicalglass_ore.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglass_ore.json",
+          "src/main/resources/data/magicalium/worldgen/placed_feature/magicalglass_ore.json",
+          "src/main/resources/data/magicalium/forge/biome_modifier/magicalglass_ore_biome_modifier.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglass_ore.json"
         ]
       }
     },
     {
-      "name": "ASTRONIUMOreBlockRecipe",
-      "type": "recipe",
+      "name": "MagicalglassBlock",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "astronium_ore_block_recipe",
+      "registry_name": "magicalglass_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/magicalium/recipes/astronium_ore_block_recipe.json"
+          "src/main/resources/assets/magicalium/models/item/magicalglass_block.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassBlockBlock.java",
+          "src/main/resources/assets/magicalium/blockstates/magicalglass_block.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglass_block.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglass_block.json"
         ]
       }
     },
     {
-      "name": "ASTRONIUMBlockOreRecipe",
-      "type": "recipe",
+      "name": "Magicalglass",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "astronium_block_ore_recipe",
+      "registry_name": "magicalglass",
       "metadata": {
         "files": [
-          "src/main/resources/data/magicalium/recipes/astronium_block_ore_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "ASTRONIUMOreSmelting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "astronium_ore_smelting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/magicalium/recipes/astronium_ore_smelting.json"
+          "src/main/resources/assets/magicalium/models/item/magicalglass.json",
+          "src/main/java/net/mcreator/magicalium/item/MagicalglassItem.java"
         ]
       }
     }
@@ -89,21 +173,21 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CUSTOM:ASTRONIUMBlock",
-      "~CUSTOM:ASTRONIUMOre"
+      "~CUSTOM:MagicalglassBlock",
+      "~CUSTOM:MagicalglassOre",
+      "~CUSTOM:ASTRONIUMOre",
+      "~CUSTOM:ASTRONIUMBlock"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:ASTRONIUMBlock",
-      "~CUSTOM:ASTRONIUMOre"
+      "~CUSTOM:MagicalglassBlock",
+      "~CUSTOM:MagicalglassOre",
+      "~CUSTOM:ASTRONIUMOre",
+      "~CUSTOM:ASTRONIUMBlock"
     ]
   },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "item.magicalium.astronium_ingot": "ASTRONIUM",
-      "block.magicalium.astronium_block": "Block of ASTRONIUM"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
