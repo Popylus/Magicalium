@@ -402,11 +402,15 @@
   "language_map": {
     "en_us": {
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "block.magicalium.magicalglass_block": "Block of Magicalglass",
-      "item.magicalium.astronium_ingot": "ASTRONIUM",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
+      "block.magicalium.magicalglass_block": "Block of Magicalglass",
+      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
+      "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
+      "item.magicalium.astronium_ingot": "ASTRONIUM",
       "block.magicalium.astronium_block": "Block of ASTRONIUM",
-      "item.magicalium.magicalglass": "Magicalglass"
+      "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
+      "item.magicalium.magicalglass": "Magicalglass",
+      "item.magicalium.astronium_armor_boots": "ASTRONIUM Boots"
     }
   },
   "foldersRoot": {

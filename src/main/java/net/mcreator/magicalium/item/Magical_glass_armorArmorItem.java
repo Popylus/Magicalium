@@ -1,11 +1,19 @@
 
 package net.mcreator.magicalium.item;
 
-import java.util.function.Consumer;
-import net.minecraft.client.model.Model;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundEvent;
+
+import net.mcreator.magicalium.init.MagicaliumModItems;
 
 public abstract class Magical_glass_armorArmorItem extends ArmorItem {
-
 	public Magical_glass_armorArmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -51,7 +59,6 @@ public abstract class Magical_glass_armorArmorItem extends ArmorItem {
 	}
 
 	public static class Helmet extends Magical_glass_armorArmorItem {
-
 		public Helmet() {
 			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
@@ -60,11 +67,9 @@ public abstract class Magical_glass_armorArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "magicalium:textures/models/armor/magical_glass_armor_layer_1.png";
 		}
-
 	}
 
 	public static class Chestplate extends Magical_glass_armorArmorItem {
-
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
@@ -73,11 +78,9 @@ public abstract class Magical_glass_armorArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "magicalium:textures/models/armor/magical_glass_armor_layer_1.png";
 		}
-
 	}
 
 	public static class Leggings extends Magical_glass_armorArmorItem {
-
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
@@ -86,11 +89,9 @@ public abstract class Magical_glass_armorArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "magicalium:textures/models/armor/magical_glass_armor_layer_2.png";
 		}
-
 	}
 
 	public static class Boots extends Magical_glass_armorArmorItem {
-
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
@@ -99,7 +100,5 @@ public abstract class Magical_glass_armorArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "magicalium:textures/models/armor/magical_glass_armor_layer_1.png";
 		}
-
 	}
-
 }
