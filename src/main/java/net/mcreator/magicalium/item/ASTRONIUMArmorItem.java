@@ -80,7 +80,7 @@ public abstract class ASTRONIUMArmorItem extends ArmorItem {
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				ASTRONIUMArmorEvenementDeTickDuCasqueProcedure.execute(world, entity);
+				ASTRONIUMArmorEvenementDeTickDuCasqueProcedure.execute(entity);
 			}
 		}
 	}
@@ -99,7 +99,7 @@ public abstract class ASTRONIUMArmorItem extends ArmorItem {
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				ASTRONIUMArmorEvenementDeTickDuPlastronProcedure.execute(world, entity);
+				ASTRONIUMArmorEvenementDeTickDuPlastronProcedure.execute(entity);
 			}
 		}
 	}
@@ -118,7 +118,7 @@ public abstract class ASTRONIUMArmorItem extends ArmorItem {
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				ASTRONIUMArmorEvenementDeTickDesJambieresProcedure.execute(world, entity);
+				ASTRONIUMArmorEvenementDeTickDesJambieresProcedure.execute(entity);
 			}
 		}
 	}
