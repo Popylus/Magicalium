@@ -117,19 +117,6 @@
       "path": "~/magicalglass"
     },
     {
-      "name": "MagicalglassOreSmelting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magicalglass_ore_smelting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/magicalium/recipes/magicalglass_ore_smelting.json"
-        ]
-      },
-      "path": "~/magicalglass"
-    },
-    {
       "name": "MagicalglassOre",
       "type": "block",
       "compiles": true,
@@ -181,49 +168,6 @@
       "path": "~/magicalglass"
     },
     {
-      "name": "ASTRONIUMArmor",
-      "type": "armor",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "astronium_armor",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/magicalium/models/item/astronium_armor_leggings.json",
-          "src/main/resources/assets/magicalium/models/item/astronium_armor_boots.json",
-          "src/main/resources/assets/magicalium/models/item/astronium_armor_helmet.json",
-          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMArmorItem.java",
-          "src/main/resources/assets/magicalium/models/item/astronium_armor_chestplate.json"
-        ]
-      },
-      "path": "~/astronium"
-    },
-    {
-      "name": "ASTRONIUMArmorHelmetRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "astronium_armor_helmet_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/magicalium/recipes/astronium_armor_helmet_recipe.json"
-        ]
-      },
-      "path": "~/astronium"
-    },
-    {
-      "name": "ASTRONIUMArmorChestplateRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "astronium_armor_chestplate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/magicalium/recipes/astronium_armor_chestplate_recipe.json"
-        ]
-      },
-      "path": "~/astronium"
-    },
-    {
       "name": "ASTRONIUMArmorLeggingsRecipe",
       "type": "recipe",
       "compiles": true,
@@ -250,14 +194,27 @@
       "path": "~/astronium"
     },
     {
-      "name": "ASTRONIUMArmorEvenementDeTickDuCasque",
+      "name": "ASTRONIUMArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "ASTRONIUMArmorEvenementDeTickDesJambieres",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "astronium_armor_evenement_de_tick_du_casque",
+      "registry_name": "astronium_armor_evenement_de_tick_des_jambieres",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalium/procedures/ASTRONIUMArmorEvenementDeTickDuCasqueProcedure.java"
+          "src/main/java/net/mcreator/magicalium/procedures/ASTRONIUMArmorEvenementDeTickDesJambieresProcedure.java"
         ],
         "dependencies": [
           {
@@ -288,20 +245,50 @@
       "path": "~/astronium"
     },
     {
-      "name": "ASTRONIUMArmorEvenementDeTickDesJambieres",
+      "name": "ASTRONIUMArmorEvenementDeTickDuCasque",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "astronium_armor_evenement_de_tick_des_jambieres",
+      "registry_name": "astronium_armor_evenement_de_tick_du_casque",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalium/procedures/ASTRONIUMArmorEvenementDeTickDesJambieresProcedure.java"
+          "src/main/java/net/mcreator/magicalium/procedures/ASTRONIUMArmorEvenementDeTickDuCasqueProcedure.java"
         ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
           }
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "ASTRONIUMArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/astronium_armor_leggings.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_armor_boots.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_armor_helmet.json",
+          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMArmorItem.java",
+          "src/main/resources/assets/magicalium/models/item/astronium_armor_chestplate.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "ASTRONIUMArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_armor_chestplate_recipe.json"
         ]
       },
       "path": "~/astronium"
@@ -324,6 +311,75 @@
         ]
       },
       "path": "~/astronium"
+    },
+    {
+      "name": "Magical_glass_armorArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_glass_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magical_glass_armor_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/magicalglass/armor"
+    },
+    {
+      "name": "Magical_glass_armorArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_glass_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/item/Magical_glass_armorArmorItem.java",
+          "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_leggings.json",
+          "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_helmet.json",
+          "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_chestplate.json",
+          "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_boots.json"
+        ]
+      },
+      "path": "~/magicalglass/armor"
+    },
+    {
+      "name": "Magical_glass_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_glass_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magical_glass_armor_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/magicalglass/armor"
+    },
+    {
+      "name": "Magical_glass_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_glass_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magical_glass_armor_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/magicalglass/armor"
+    },
+    {
+      "name": "Magical_glass_armorArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_glass_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magical_glass_armor_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/magicalglass/armor"
     }
   ],
   "variable_elements": [],
@@ -346,27 +402,32 @@
   "language_map": {
     "en_us": {
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "block.magicalium.magicalglass_ore": "Magicalglass Ore",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
-      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
-      "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
+      "block.magicalium.magicalglass_ore": "Magicalglass Ore",
       "block.magicalium.astronium_block": "Block of ASTRONIUM",
-      "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
-      "item.magicalium.magicalglass": "Magicalglass",
-      "item.magicalium.astronium_armor_boots": "ASTRONIUM Boots"
+      "item.magicalium.magicalglass": "Magicalglass"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "magicalglass",
+        "name": "astronium",
         "children": []
       },
       {
-        "name": "astronium",
-        "children": []
+        "name": "magicalglass",
+        "children": [
+          {
+            "name": "armor",
+            "children": []
+          },
+          {
+            "name": "craft",
+            "children": []
+          }
+        ]
       }
     ]
   },

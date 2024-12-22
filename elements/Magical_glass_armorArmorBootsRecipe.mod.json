@@ -2,13 +2,13 @@
   "_fv": 69,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smelting",
+    "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
-    "xpReward": 2.0999999999999996,
+    "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
+    "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -21,34 +21,28 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Magicalglass"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Magicalglass"
+      },
+      {
+        "value": "CUSTOM:Magicalglass"
       },
       {
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Magicalglass"
       }
     ],
     "recipeReturnStack": {
-      "value": ""
+      "value": "CUSTOM:Magical_glass_armorArmor.boots"
     },
-    "smeltingInputStack": {
-      "value": "CUSTOM:MagicalglassOre"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:Magicalglass"
-    },
-    "name": "magicalglass_ore_smelting",
+    "name": "magical_glass_armor_armor_boots_recipe",
     "namespace": "mod"
   }
 }

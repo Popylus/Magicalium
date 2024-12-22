@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "magicalium:astronium_ingot"
+      "item": "magicalium:magicalglass"
     }
   },
   "result": {
-    "item": "magicalium:deleted_mod_element_leggings",
+    "item": "magicalium:magical_glass_armor_armor_leggings",
     "count": 1
   }
 }

@@ -2,17 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "aaa",
     "a a",
     "a a"
   ],
   "key": {
     "a": {
-      "item": "magicalium:astronium_ingot"
+      "item": "magicalium:magicalglass"
     }
   },
   "result": {
-    "item": "magicalium:deleted_mod_element_leggings",
+    "item": "magicalium:magical_glass_armor_armor_boots",
     "count": 1
   }
 }
