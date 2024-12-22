@@ -765,7 +765,21 @@
           "src/main/java/net/mcreator/magicalium/item/MerlinpickaxeItem.java"
         ]
       },
-      "path": "~/magicalglass"
+      "path": "~/magicalglass/tool"
+    },
+    {
+      "name": "MerlinHaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merlin_haxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/merlin_haxe.json",
+          "src/main/java/net/mcreator/magicalium/item/MerlinHaxeItem.java"
+        ]
+      },
+      "path": "~/magicalglass/tool"
     }
   ],
   "variable_elements": [],
@@ -795,6 +809,9 @@
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
     ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:MerlinHaxe"
+    ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
       "~CUSTOM:Astronium_woodLog",
@@ -822,6 +839,7 @@
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
+      "item.magicalium.merlin_haxe": "Merlin Haxe",
       "item.magicalium.magical_glass_armor_armor_leggings": "Merlin_glass_armor Leggings",
       "block.magicalium.astronium_wood_leaves": "Astronium_wood Leaves",
       "block.magicalium.astronium_wood_pressure_plate": "Astronium_wood Pressure Plate",
@@ -880,6 +898,10 @@
           },
           {
             "name": "craft",
+            "children": []
+          },
+          {
+            "name": "tool",
             "children": []
           }
         ]

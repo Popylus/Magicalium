@@ -60,6 +60,7 @@ public class MagicaliumModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
 			tabData.accept(MagicaliumModItems.MERLINPICKAXE.get());
+			tabData.accept(MagicaliumModItems.MERLIN_HAXE.get());
 
 		}
 	}
