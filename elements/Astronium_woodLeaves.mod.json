@@ -127,7 +127,7 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "TAG:stone_ore_replaceables"
+        "value": "TAG:minecraft:leaves"
       }
     ],
     "generationShape": "UNIFORM",
