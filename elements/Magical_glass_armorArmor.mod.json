@@ -16,10 +16,10 @@
       }
     ],
     "armorTextureFile": "magical_glass_armor",
-    "helmetName": "Magical_glass_armor Helmet",
-    "bodyName": "Magical_glass_armor Chestplate",
-    "leggingsName": "Magical_glass_armor Leggings",
-    "bootsName": "Magical_glass_armor Boots",
+    "helmetName": "Merlin_glass_armor Helmet",
+    "bodyName": "Merlin_glass_armor Chestplate",
+    "leggingsName": "Merlin_glass_armor Leggings",
+    "bootsName": "Merlin_glass_armor Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
@@ -56,12 +56,12 @@
     "leggingsItemCustomModelName": "Normal",
     "bootsItemRenderType": 0,
     "bootsItemCustomModelName": "Normal",
-    "helmetImmuneToFire": false,
+    "helmetImmuneToFire": true,
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
     "helmetGlowCondition": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "bodyGlowCondition": {
       "fixedValue": false
@@ -73,7 +73,7 @@
       "fixedValue": false
     },
     "helmetPiglinNeutral": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "bodyPiglinNeutral": {
       "fixedValue": false
@@ -84,14 +84,14 @@
     "bootsPiglinNeutral": {
       "fixedValue": false
     },
-    "maxDamage": 15,
+    "maxDamage": 5,
     "damageValueHelmet": 2,
     "damageValueBody": 6,
     "damageValueLeggings": 5,
     "damageValueBoots": 2,
-    "enchantability": 9,
-    "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "enchantability": 35,
+    "toughness": 0.2,
+    "knockbackResistance": 0.9,
     "equipSound": {
       "value": ""
     },
