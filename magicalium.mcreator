@@ -144,11 +144,11 @@
       "registry_name": "magicalglass_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/item/magicalglass_block.json",
-          "src/main/java/net/mcreator/magicalium/block/MagicalglassBlockBlock.java",
-          "src/main/resources/assets/magicalium/blockstates/magicalglass_block.json",
           "src/main/resources/data/magicalium/loot_tables/blocks/magicalglass_block.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglass_block.json"
+          "src/main/resources/assets/magicalium/models/item/magicalglass_block.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglass_block.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassBlockBlock.java",
+          "src/main/resources/assets/magicalium/blockstates/magicalglass_block.json"
         ]
       },
       "path": "~/magicalglass"
