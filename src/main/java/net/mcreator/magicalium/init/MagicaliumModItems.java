@@ -18,7 +18,14 @@ import net.mcreator.magicalium.item.MerlinSwordItem;
 import net.mcreator.magicalium.item.MerlinHaxeItem;
 import net.mcreator.magicalium.item.MagicalglassItem;
 import net.mcreator.magicalium.item.Magical_glass_armorArmorItem;
+import net.mcreator.magicalium.item.BatonastroniumItem;
+import net.mcreator.magicalium.item.AstroniumcompresseItem;
+import net.mcreator.magicalium.item.ASTRONIUMSwordItem;
+import net.mcreator.magicalium.item.ASTRONIUMShovelItem;
+import net.mcreator.magicalium.item.ASTRONIUMPickaxeItem;
 import net.mcreator.magicalium.item.ASTRONIUMIngotItem;
+import net.mcreator.magicalium.item.ASTRONIUMHoeItem;
+import net.mcreator.magicalium.item.ASTRONIUMAxeItem;
 import net.mcreator.magicalium.item.ASTRONIUMArmorItem;
 import net.mcreator.magicalium.MagicaliumMod;
 
@@ -52,6 +59,13 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> MERLIN_HAXE = REGISTRY.register("merlin_haxe", () -> new MerlinHaxeItem());
 	public static final RegistryObject<Item> MERLIN_SWORD = REGISTRY.register("merlin_sword", () -> new MerlinSwordItem());
 	public static final RegistryObject<Item> MERLINSHOVEL = REGISTRY.register("merlinshovel", () -> new MerlinshovelItem());
+	public static final RegistryObject<Item> ASTRONIUMCOMPRESSE = REGISTRY.register("astroniumcompresse", () -> new AstroniumcompresseItem());
+	public static final RegistryObject<Item> BATONASTRONIUM = REGISTRY.register("batonastronium", () -> new BatonastroniumItem());
+	public static final RegistryObject<Item> ASTRONIUM_PICKAXE = REGISTRY.register("astronium_pickaxe", () -> new ASTRONIUMPickaxeItem());
+	public static final RegistryObject<Item> ASTRONIUM_AXE = REGISTRY.register("astronium_axe", () -> new ASTRONIUMAxeItem());
+	public static final RegistryObject<Item> ASTRONIUM_SWORD = REGISTRY.register("astronium_sword", () -> new ASTRONIUMSwordItem());
+	public static final RegistryObject<Item> ASTRONIUM_SHOVEL = REGISTRY.register("astronium_shovel", () -> new ASTRONIUMShovelItem());
+	public static final RegistryObject<Item> ASTRONIUM_HOE = REGISTRY.register("astronium_hoe", () -> new ASTRONIUMHoeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

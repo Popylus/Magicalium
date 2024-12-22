@@ -469,7 +469,7 @@
           "src/main/resources/assets/magicalium/models/block/astronium_wood_stairs_outer.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/craft "
     },
     {
       "name": "Astronium_woodSlab",
@@ -488,7 +488,7 @@
           "src/main/resources/assets/magicalium/models/block/astronium_wood_slab.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/craft "
     },
     {
       "name": "Astronium_woodFence",
@@ -507,7 +507,7 @@
           "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_inventory.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/craft "
     },
     {
       "name": "Astronium_woodFenceGate",
@@ -527,7 +527,7 @@
           "src/main/java/net/mcreator/magicalium/block/Astronium_woodFenceGateBlock.java"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/craft "
     },
     {
       "name": "Astronium_woodPressurePlate",
@@ -545,7 +545,7 @@
           "src/main/resources/assets/magicalium/models/block/astronium_wood_pressure_plate.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/craft "
     },
     {
       "name": "Astronium_woodButton",
@@ -564,7 +564,7 @@
           "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_button.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/craft "
     },
     {
       "name": "Astronium_woodWoodRecipe",
@@ -603,7 +603,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_planks_wood_recipe.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/craft "
     },
     {
       "name": "Astronium_woodStairsRecipe",
@@ -616,7 +616,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_stairs_recipe.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/craft "
     },
     {
       "name": "Astronium_woodSlabRecipe",
@@ -629,7 +629,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_slab_recipe.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/craft "
     },
     {
       "name": "Astronium_woodFenceRecipe",
@@ -642,7 +642,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_fence_recipe.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/craft "
     },
     {
       "name": "Astronium_woodFenceGateRecipe",
@@ -655,7 +655,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_fence_gate_recipe.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/craft "
     },
     {
       "name": "Astronium_woodPressurePlateRecipe",
@@ -668,7 +668,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_pressure_plate_recipe.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/craft "
     },
     {
       "name": "Astronium_woodButtonRecipe",
@@ -694,7 +694,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_stick_recipe.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/craft "
     },
     {
       "name": "MagicalglassarmorArmorEvenementDeTickDuCasque",
@@ -808,6 +808,214 @@
         ]
       },
       "path": "~/magicalglass/tool"
+    },
+    {
+      "name": "Astroniumcompresse",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumcompresse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/item/AstroniumcompresseItem.java",
+          "src/main/resources/assets/magicalium/models/item/astroniumcompresse.json"
+        ]
+      },
+      "path": "~/astronium/bois/compresser"
+    },
+    {
+      "name": "Astroniumcompresser",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumcompresser",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astroniumcompresser.json"
+        ]
+      },
+      "path": "~/astronium/bois/compresser"
+    },
+    {
+      "name": "Batonastronium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batonastronium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/item/BatonastroniumItem.java",
+          "src/main/resources/assets/magicalium/models/item/batonastronium.json"
+        ]
+      },
+      "path": "~/astronium/bois/compresser"
+    },
+    {
+      "name": "Astroniumbaton",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumbaton",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_baton.json"
+        ]
+      },
+      "path": "~/astronium/bois/compresser"
+    },
+    {
+      "name": "ASTRONIUMPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/astronium_pickaxe.json",
+          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMPickaxeItem.java"
+        ]
+      },
+      "path": "~/astronium/outil"
+    },
+    {
+      "name": "ASTRONIUMAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/astronium_axe.json",
+          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMAxeItem.java"
+        ]
+      },
+      "path": "~/astronium/outil"
+    },
+    {
+      "name": "ASTRONIUMSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/astronium_sword.json",
+          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMSwordItem.java"
+        ]
+      },
+      "path": "~/astronium/outil"
+    },
+    {
+      "name": "ASTRONIUMShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMShovelItem.java",
+          "src/main/resources/assets/magicalium/models/item/astronium_shovel.json"
+        ]
+      },
+      "path": "~/astronium/outil"
+    },
+    {
+      "name": "ASTRONIUMHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/astronium_hoe.json",
+          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMHoeItem.java"
+        ]
+      },
+      "path": "~/astronium/outil"
+    },
+    {
+      "name": "ASTRONIUMPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/astronium/outil"
+    },
+    {
+      "name": "ASTRONIUMAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_axe_recipe.json"
+        ]
+      },
+      "path": "~/astronium/outil"
+    },
+    {
+      "name": "ASTRONIUMSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_sword_recipe.json"
+        ]
+      },
+      "path": "~/astronium/outil"
+    },
+    {
+      "name": "ASTRONIUMShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_shovel_recipe.json"
+        ]
+      },
+      "path": "~/astronium/outil"
+    },
+    {
+      "name": "ASTRONIUMHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_hoe_recipe.json"
+        ]
+      },
+      "path": "~/astronium/outil"
+    },
+    {
+      "name": "ASTRONIUMPickaxeLorsqueLoutilEstDansLaMain",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_pickaxe_lorsque_loutil_est_dans_la_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/ASTRONIUMPickaxeLorsqueLoutilEstDansLaMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/astronium/outil"
     }
   ],
   "variable_elements": [],
@@ -819,16 +1027,11 @@
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:Astronium_woodLeaves"
     ],
-    "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CUSTOM:MagicalglassBlock",
-      "~CUSTOM:MagicalglassOre",
-      "~CUSTOM:ASTRONIUMOre",
-      "~CUSTOM:ASTRONIUMBlock"
-    ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:Astronium_woodSlab"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ASTRONIUMPickaxe",
       "~CUSTOM:Merlinpickaxe"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
@@ -837,21 +1040,33 @@
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
     ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:MerlinHaxe"
-    ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
       "~CUSTOM:Astronium_woodLog",
       "~CUSTOM:Astronium_woodWood"
     ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:MerlinSword"
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:ASTRONIUMHoe"
     ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:Astronium_woodStairs"
     ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:MagicalglassBlock",
+      "~CUSTOM:MagicalglassOre",
+      "~CUSTOM:ASTRONIUMOre",
+      "~CUSTOM:ASTRONIUMBlock"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:ASTRONIUMAxe",
+      "~CUSTOM:MerlinHaxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:ASTRONIUMSword",
+      "~CUSTOM:MerlinSword"
+    ],
     "ITEMS:minecraft:shovels": [
+      "~CUSTOM:ASTRONIUMShovel",
       "~CUSTOM:Merlinshovel"
     ]
   },
@@ -862,7 +1077,9 @@
       "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
       "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
       "block.magicalium.astronium_wood_fence_gate": "Astronium_wood Fence Gate",
+      "item.magicalium.batonastronium": "Batonastronium",
       "item.magicalium.astronium_armor_boots": "ASTRONIUM Boots",
+      "item.magicalium.astronium_sword": "ASTRONIUM Sword",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
       "item.magicalium.magical_glass_armor_armor_chestplate": "Merlin_glass_armor Chestplate",
@@ -870,8 +1087,10 @@
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
       "item.magicalium.merlinpickaxe": "Merlinpickaxe",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
+      "item.magicalium.astroniumcompresse": "Astronium compresser",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
+      "item.magicalium.astronium_axe": "ASTRONIUM Axe",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "item.magicalium.merlin_haxe": "Merlin Haxe",
       "item.magicalium.magical_glass_armor_armor_leggings": "Merlin_glass_armor Leggings",
@@ -879,11 +1098,14 @@
       "block.magicalium.astronium_wood_pressure_plate": "Astronium_wood Pressure Plate",
       "item.magicalium.merlin_sword": "Merlin Sword",
       "block.magicalium.astronium_wood_stairs": "Astronium_wood Stairs",
+      "item.magicalium.astronium_pickaxe": "ASTRONIUM Pickaxe",
+      "item.magicalium.astronium_hoe": "ASTRONIUM Hoe",
       "item.magicalium.magical_glass_armor_armor_helmet": "Merlin_glass_armor Helmet",
       "item.magicalium.merlinshovel": "Merlinshovel",
       "block.magicalium.astronium_wood_fence": "Astronium_wood Fence",
       "block.magicalium.astronium_block": "Block of ASTRONIUM",
       "block.magicalium.astronium_wood_planks": "Astronium_wood Planks",
+      "item.magicalium.astronium_shovel": "ASTRONIUM Shovel",
       "item.magicalium.magicalglass": "Magicalglass",
       "block.magicalium.astronium_wood_button": "Astronium_wood Button"
     }
@@ -904,6 +1126,19 @@
           },
           {
             "name": "bois",
+            "children": [
+              {
+                "name": "compresser",
+                "children": []
+              },
+              {
+                "name": "craft ",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "outil",
             "children": []
           }
         ]
