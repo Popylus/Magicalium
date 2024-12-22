@@ -1,27 +1,30 @@
 
 package net.mcreator.magicalium.item;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.AxeItem;
 
 import net.mcreator.magicalium.init.MagicaliumModItems;
 
-public class MerlinHaxeItem extends AxeItem {
-	public MerlinHaxeItem() {
+public class MerlinshovelItem extends ShovelItem {
+	public MerlinshovelItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 500;
 			}
 
 			public float getSpeed() {
-				return 17f;
+				return 15f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 13f;
+				return 0f;
 			}
 
 			public int getLevel() {
@@ -35,6 +38,12 @@ public class MerlinHaxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(MagicaliumModItems.MAGICALGLASS.get()));
 			}
-		}, 1, -4f, new Item.Properties());
+		}, 1, -3f, new Item.Properties());
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public boolean isFoil(ItemStack itemstack) {
+		return true;
 	}
 }

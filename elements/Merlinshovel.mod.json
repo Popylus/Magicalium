@@ -2,13 +2,13 @@
   "_fv": 69,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
+    "toolType": "Spade",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "merlin_tool_sword",
+    "texture": "merlin_tool_shovel",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Merlin Sword",
+    "name": "Merlinshovel",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,15 +17,19 @@
         "value": "TOOLS"
       }
     ],
-    "efficiency": 17.0,
-    "attackSpeed": 1.5,
+    "efficiency": 15.0,
+    "attackSpeed": 1.0,
     "enchantability": 30,
-    "damageVsEntity": 11.0,
+    "damageVsEntity": 2.0,
     "usageCount": 500,
     "glowCondition": {
       "fixedValue": true
     },
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:Magicalglass"
+      }
+    ],
     "immuneToFire": false,
     "blockDropsTier": "GOLD",
     "blocksAffected": [],

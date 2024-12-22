@@ -22,7 +22,7 @@ public class MerlinSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 7f;
 			}
 
 			public int getLevel() {
@@ -36,7 +36,7 @@ public class MerlinSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -2.5f, new Item.Properties());
 	}
 
 	@Override

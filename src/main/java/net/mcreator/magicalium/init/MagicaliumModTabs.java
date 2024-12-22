@@ -62,6 +62,7 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModItems.MERLINPICKAXE.get());
 			tabData.accept(MagicaliumModItems.MERLIN_HAXE.get());
 			tabData.accept(MagicaliumModItems.MERLIN_SWORD.get());
+			tabData.accept(MagicaliumModItems.MERLINSHOVEL.get());
 
 		}
 	}
