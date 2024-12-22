@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "magicalium:block/astronium_wood_planks",
+    "bottom": "magicalium:block/astronium_wood_planks",
+    "top": "magicalium:block/astronium_wood_planks",
+    "side": "magicalium:block/astronium_wood_planks"
+  },
+  "render_type": "solid"
+}

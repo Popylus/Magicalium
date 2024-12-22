@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "magicalium:block/astronium_wood_leaves",
+    "particle": "magicalium:block/astronium_wood_leaves"
+  }
+}

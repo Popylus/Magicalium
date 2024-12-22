@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "magicalium:block/astronium_wood_slab"
+    },
+    "type=top": {
+      "model": "magicalium:block/astronium_wood_slab_top"
+    },
+    "type=double": {
+      "model": "magicalium:block/astronium_wood_slab_full"
+    }
+  }
+}

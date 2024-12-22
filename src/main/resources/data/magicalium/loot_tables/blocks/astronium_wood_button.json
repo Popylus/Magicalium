@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "magicalium:blocks/astronium_wood_button",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "magicalium:astronium_wood_button"
+        }
+      ]
+    }
+  ]
+}

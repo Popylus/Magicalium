@@ -399,41 +399,380 @@
         ]
       },
       "path": "~/magicalglass/armor"
+    },
+    {
+      "name": "Astronium_woodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_wood.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodWoodBlock.java",
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_wood.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_wood.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_wood.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_log.json",
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_log.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_log.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_log.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodLogBlock.java"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_planks.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_planks.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_planks.json",
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_planks.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodPlanksBlock.java"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodLeavesBlock.java",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_leaves.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_leaves.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_leaves.json",
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_leaves.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_stairs_inner.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodStairsBlock.java",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_stairs.json",
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_stairs.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_stairs.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_stairs.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_stairs_outer.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_slab.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_slab_full.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodSlabBlock.java",
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_slab.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_slab.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_slab_top.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_slab.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_fence.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodFenceBlock.java",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence.json",
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_fence.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_fence.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_post.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_inventory.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_gate_open.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_fence_gate.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_gate_wall.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_gate_wall_open.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_fence_gate.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_gate.json",
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_fence_gate.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodFenceGateBlock.java"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_pressure_plate_down.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodPressurePlateBlock.java",
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_pressure_plate.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_pressure_plate.json",
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_pressure_plate.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_pressure_plate.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_button.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_button_inventory.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_button.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_button.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_button_pressed.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodButtonBlock.java",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_button.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_wood_wood_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_wood_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_wood_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_wood_stairs_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_wood_slab_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_wood_fence_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_wood_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_wood_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_wood_button_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
+    },
+    {
+      "name": "Astronium_woodStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astronium_wood_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/astronium_wood_stick_recipe.json"
+        ]
+      },
+      "path": "~/astronium"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:Astronium_woodFence"
+    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
     ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:Astronium_woodLeaves"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Astronium_woodSlab"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Astronium_woodPlanks",
+      "~CUSTOM:Astronium_woodLog",
+      "~CUSTOM:Astronium_woodWood"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Astronium_woodStairs"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.magicalium.magical_glass_armor_armor_boots": "Merlin_glass_armor Boots",
+      "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
+      "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
+      "block.magicalium.astronium_wood_fence_gate": "Astronium_wood Fence Gate",
+      "item.magicalium.astronium_armor_boots": "ASTRONIUM Boots",
+      "block.magicalium.magicalglass_ore": "Magicalglass Ore",
+      "block.magicalium.astronium_wood_log": "Astronium_wood Log",
+      "item.magicalium.magical_glass_armor_armor_chestplate": "Merlin_glass_armor Chestplate",
+      "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
+      "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
-      "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "item.magicalium.magical_glass_armor_armor_leggings": "Merlin_glass_armor Leggings",
-      "item.magicalium.astronium_armor_boots": "ASTRONIUM Boots",
-      "block.magicalium.magicalglass_ore": "Magicalglass Ore",
+      "block.magicalium.astronium_wood_leaves": "Astronium_wood Leaves",
+      "block.magicalium.astronium_wood_pressure_plate": "Astronium_wood Pressure Plate",
+      "block.magicalium.astronium_wood_stairs": "Astronium_wood Stairs",
       "item.magicalium.magical_glass_armor_armor_helmet": "Merlin_glass_armor Helmet",
+      "block.magicalium.astronium_wood_fence": "Astronium_wood Fence",
       "block.magicalium.astronium_block": "Block of ASTRONIUM",
-      "item.magicalium.magical_glass_armor_armor_chestplate": "Merlin_glass_armor Chestplate",
-      "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
-      "item.magicalium.magicalglass": "Magicalglass"
+      "block.magicalium.astronium_wood_planks": "Astronium_wood Planks",
+      "item.magicalium.magicalglass": "Magicalglass",
+      "block.magicalium.astronium_wood_button": "Astronium_wood Button"
     }
   },
   "foldersRoot": {

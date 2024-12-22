@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "magicalium:astronium_wood_planks"
+    }
+  ],
+  "result": {
+    "item": "magicalium:astronium_wood_button",
+    "count": 1
+  }
+}

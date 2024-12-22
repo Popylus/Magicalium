@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Astronium_woodLog"
+      },
+      {
+        "value": "CUSTOM:Astronium_woodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Astronium_woodLog"
+      },
+      {
+        "value": "CUSTOM:Astronium_woodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Astronium_woodWood"
+    },
+    "name": "astronium_wood_wood_recipe",
+    "namespace": "mod"
+  }
+}
