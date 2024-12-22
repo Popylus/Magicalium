@@ -44,6 +44,8 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> ASTRONIUM_WOOD_FENCE_GATE = block(MagicaliumModBlocks.ASTRONIUM_WOOD_FENCE_GATE);
 	public static final RegistryObject<Item> ASTRONIUM_WOOD_PRESSURE_PLATE = block(MagicaliumModBlocks.ASTRONIUM_WOOD_PRESSURE_PLATE);
 	public static final RegistryObject<Item> ASTRONIUM_WOOD_BUTTON = block(MagicaliumModBlocks.ASTRONIUM_WOOD_BUTTON);
+	public static final RegistryObject<Item> MERLIN_TOOL_ORE = block(MagicaliumModBlocks.MERLIN_TOOL_ORE);
+	public static final RegistryObject<Item> MERLIN_TOOL_BLOCK = block(MagicaliumModBlocks.MERLIN_TOOL_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

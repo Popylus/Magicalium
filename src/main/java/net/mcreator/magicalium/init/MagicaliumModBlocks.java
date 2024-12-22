@@ -10,6 +10,8 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.magicalium.block.Merlin_toolOreBlock;
+import net.mcreator.magicalium.block.Merlin_toolBlockBlock;
 import net.mcreator.magicalium.block.MagicalglassOreBlock;
 import net.mcreator.magicalium.block.MagicalglassBlockBlock;
 import net.mcreator.magicalium.block.Astronium_woodWoodBlock;
@@ -42,6 +44,8 @@ public class MagicaliumModBlocks {
 	public static final RegistryObject<Block> ASTRONIUM_WOOD_FENCE_GATE = REGISTRY.register("astronium_wood_fence_gate", () -> new Astronium_woodFenceGateBlock());
 	public static final RegistryObject<Block> ASTRONIUM_WOOD_PRESSURE_PLATE = REGISTRY.register("astronium_wood_pressure_plate", () -> new Astronium_woodPressurePlateBlock());
 	public static final RegistryObject<Block> ASTRONIUM_WOOD_BUTTON = REGISTRY.register("astronium_wood_button", () -> new Astronium_woodButtonBlock());
+	public static final RegistryObject<Block> MERLIN_TOOL_ORE = REGISTRY.register("merlin_tool_ore", () -> new Merlin_toolOreBlock());
+	public static final RegistryObject<Block> MERLIN_TOOL_BLOCK = REGISTRY.register("merlin_tool_block", () -> new Merlin_toolBlockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
