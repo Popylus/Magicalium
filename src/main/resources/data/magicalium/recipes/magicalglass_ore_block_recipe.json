@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "magicalium:deleted_mod_element"
+      "item": "magicalium:magicalglass"
     }
   },
   "result": {
-    "item": "magicalium:deleted_mod_element",
+    "item": "magicalium:magicalglass_block",
     "count": 1
   }
 }
