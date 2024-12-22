@@ -195,7 +195,7 @@
           "src/main/resources/data/magicalium/recipes/magical_glass_armor_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/magicalglass/armor"
+      "path": "~/magicalglass/armor/helmet"
     },
     {
       "name": "Magical_glass_armorArmorChestplateRecipe",
@@ -208,7 +208,7 @@
           "src/main/resources/data/magicalium/recipes/magical_glass_armor_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/magicalglass/armor"
+      "path": "~/magicalglass/armor/chestplate"
     },
     {
       "name": "Magical_glass_armorArmorLeggingsRecipe",
@@ -221,7 +221,7 @@
           "src/main/resources/data/magicalium/recipes/magical_glass_armor_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/magicalglass/armor"
+      "path": "~/magicalglass/armor/leggins"
     },
     {
       "name": "Magical_glass_armorArmorBootsRecipe",
@@ -234,7 +234,7 @@
           "src/main/resources/data/magicalium/recipes/magical_glass_armor_armor_boots_recipe.json"
         ]
       },
-      "path": "~/magicalglass/armor"
+      "path": "~/magicalglass/armor/boots"
     },
     {
       "name": "ASTRONIUMArmorLeggingsRecipe",
@@ -713,7 +713,7 @@
           }
         ]
       },
-      "path": "~/magicalglass/armor"
+      "path": "~/magicalglass/armor/helmet"
     },
     {
       "name": "MagicalglassarmorArmorEvenementDeTickDuPlastron",
@@ -732,7 +732,7 @@
           }
         ]
       },
-      "path": "~/magicalglass/armor"
+      "path": "~/magicalglass/armor/chestplate"
     },
     {
       "name": "MagicalglassarmorArmorEvenementDeTickDesBottes",
@@ -751,7 +751,7 @@
           }
         ]
       },
-      "path": "~/magicalglass/armor"
+      "path": "~/magicalglass/armor/boots"
     }
   ],
   "variable_elements": [],
@@ -760,14 +760,14 @@
     "BLOCKS:minecraft:fences": [
       "~CUSTOM:Astronium_woodFence"
     ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:Astronium_woodLeaves"
+    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
-    ],
-    "BLOCKS:minecraft:leaves": [
-      "~CUSTOM:Astronium_woodLeaves"
     ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:Astronium_woodSlab"
@@ -841,10 +841,31 @@
         "children": [
           {
             "name": "armor",
-            "children": []
+            "children": [
+              {
+                "name": "chestplate",
+                "children": []
+              },
+              {
+                "name": "leggins",
+                "children": []
+              },
+              {
+                "name": "boots",
+                "children": []
+              },
+              {
+                "name": "helmet",
+                "children": []
+              }
+            ]
           },
           {
             "name": "craft",
+            "children": []
+          },
+          {
+            "name": "tool",
             "children": []
           }
         ]
