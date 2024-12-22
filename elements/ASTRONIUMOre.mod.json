@@ -137,12 +137,18 @@
       },
       {
         "value": "Blocks.DEEPSLATE"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_TILES"
+      },
+      {
+        "value": "Blocks.STONE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 5,
-    "frequencyOnChunk": 3,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 33
+    "frequencyPerChunks": 20,
+    "frequencyOnChunk": 17,
+    "minGenerateHeight": -70,
+    "maxGenerateHeight": 74
   }
 }

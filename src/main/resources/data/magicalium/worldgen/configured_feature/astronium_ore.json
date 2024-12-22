@@ -1,7 +1,7 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 3,
+    "size": 17,
     "discard_chance_on_air_exposure": 0,
     "targets": [
       {
@@ -33,6 +33,26 @@
               "axis": "y"
             }
           }
+        },
+        "state": {
+          "Name": "magicalium:astronium_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_tiles"
+          }
+        },
+        "state": {
+          "Name": "magicalium:astronium_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "forge:stone"
         },
         "state": {
           "Name": "magicalium:astronium_ore"
