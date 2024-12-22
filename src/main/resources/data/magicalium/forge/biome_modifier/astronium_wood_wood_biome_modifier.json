@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "magicalium:astronium_wood_wood",
+  "step": "underground_ores"
+}
