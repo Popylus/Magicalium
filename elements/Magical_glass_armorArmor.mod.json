@@ -16,10 +16,10 @@
       }
     ],
     "armorTextureFile": "magical_glass_armor",
-    "helmetName": "Magical_glass_armor Helmet",
-    "bodyName": "Magical_glass_armor Chestplate",
-    "leggingsName": "Magical_glass_armor Leggings",
-    "bootsName": "Magical_glass_armor Boots",
+    "helmetName": "Merlin_glass_armor Helmet",
+    "bodyName": "Merlin_glass_armor Chestplate",
+    "leggingsName": "Merlin_glass_armor Leggings",
+    "bootsName": "Merlin_glass_armor Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
