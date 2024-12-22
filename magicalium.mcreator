@@ -384,7 +384,7 @@
     {
       "name": "MagicalglassarmorArmorEvenementDeTickDuCasque",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "magicalglassarmor_armor_evenement_de_tick_du_casque",
       "metadata": {
