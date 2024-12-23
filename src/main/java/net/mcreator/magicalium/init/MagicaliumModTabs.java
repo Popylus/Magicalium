@@ -73,7 +73,6 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModItems.MERLINAXERAW.get());
 			tabData.accept(MagicaliumModItems.MERLINHOERAW.get());
 			tabData.accept(MagicaliumModItems.MERLINHOE.get());
-			tabData.accept(MagicaliumModItems.MERLINTOOLSWORDRAW.get());
 
 		}
 	}
