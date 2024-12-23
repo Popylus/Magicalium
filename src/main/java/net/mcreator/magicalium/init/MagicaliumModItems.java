@@ -82,6 +82,8 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> MERLINHOE = REGISTRY.register("merlinhoe", () -> new MerlinhoeItem());
 	public static final RegistryObject<Item> MERLINTOOLSWORDRAW = REGISTRY.register("merlintoolswordraw", () -> new MerlintoolswordrawItem());
 	public static final RegistryObject<Item> MAGICALGLASSSLAB = block(MagicaliumModBlocks.MAGICALGLASSSLAB);
+	public static final RegistryObject<Item> MAGICALGLASSSTONE = block(MagicaliumModBlocks.MAGICALGLASSSTONE);
+	public static final RegistryObject<Item> MAGICALGLASSRAFINED = block(MagicaliumModBlocks.MAGICALGLASSRAFINED);
 
 	// Start of user code block custom items
 	// End of user code block custom items

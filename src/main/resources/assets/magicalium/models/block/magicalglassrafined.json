@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magicalium:block/magical_glass_rafined",
+    "up": "magicalium:block/magical_glass_rafined",
+    "north": "magicalium:block/magical_glass_rafined",
+    "east": "magicalium:block/magical_glass_rafined",
+    "south": "magicalium:block/magical_glass_rafined",
+    "west": "magicalium:block/magical_glass_rafined",
+    "particle": "magicalium:block/magical_glass_rafined"
+  },
+  "render_type": "translucent"
+}

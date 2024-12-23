@@ -1337,6 +1337,40 @@
         ]
       },
       "path": "~/magicalglass/bloc"
+    },
+    {
+      "name": "Magicalglassstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/magicalglassstone.json",
+          "src/main/resources/assets/magicalium/blockstates/magicalglassstone.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassstone.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassstoneBlock.java",
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassstone.json"
+        ]
+      },
+      "path": "~/magicalglass/bloc"
+    },
+    {
+      "name": "Magicalglassrafined",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassrafined",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/blockstates/magicalglassrafined.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassrafined.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassrafined.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassrafinedBlock.java",
+          "src/main/resources/assets/magicalium/models/item/magicalglassrafined.json"
+        ]
+      },
+      "path": "~/magicalglass/bloc"
     }
   ],
   "variable_elements": [],
@@ -1357,14 +1391,14 @@
       "~CUSTOM:ASTRONIUMPickaxe",
       "~CUSTOM:Merlinpickaxe"
     ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Astronium_woodLog"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
-    ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Astronium_woodLog"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
@@ -1406,8 +1440,8 @@
     "en_us": {
       "item.magicalium.merlinhoeraw": "Merlinhoeraw",
       "item.magicalium.magical_glass_armor_armor_boots": "Merlin_glass_armor Boots",
-      "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
       "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
+      "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
       "block.magicalium.magicalglassslab": "Magicalglassslab",
       "block.magicalium.astronium_wood_fence_gate": "Astronium_wood Fence Gate",
       "item.magicalium.batonastronium": "Batonastronium",
@@ -1420,6 +1454,7 @@
       "item.magicalium.merlintoolswordraw": "Merlintoolswordraw",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
+      "block.magicalium.magicalglassstone": "Magicalglassstone",
       "item.magicalium.merlinpickaxe": "Merlinpickaxe",
       "item.magicalium.merlinhoe": "Merlinhoe",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
@@ -1430,6 +1465,7 @@
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "item.magicalium.merlin_haxe": "Merlin Haxe",
       "item.magicalium.merlinshovelraw": "Merlinshovelraw",
+      "block.magicalium.magicalglassrafined": "Magicalglassrafined",
       "item.magicalium.merlinpickaxeraw": "Merlinpickaxeraw",
       "item.magicalium.merlinaxeraw": "Merlinaxeraw",
       "item.magicalium.magical_glass_armor_armor_leggings": "Merlin_glass_armor Leggings",
