@@ -10,6 +10,8 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
+import net.mcreator.magicalium.init.MagicaliumModBlocks;
+
 public class MerlinSwordItem extends SwordItem {
 	public MerlinSwordItem() {
 		super(new Tier() {
@@ -34,7 +36,7 @@ public class MerlinSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(MagicaliumModBlocks.MAGICALGLASS_BLOCK.get()));
 			}
 		}, 3, -2.5f, new Item.Properties());
 	}

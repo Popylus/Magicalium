@@ -10,6 +10,8 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
+import net.mcreator.magicalium.init.MagicaliumModBlocks;
+
 public class MerlinpickaxeItem extends PickaxeItem {
 	public MerlinpickaxeItem() {
 		super(new Tier() {
@@ -34,7 +36,7 @@ public class MerlinpickaxeItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(MagicaliumModBlocks.MAGICALGLASS_BLOCK.get()));
 			}
 		}, 1, -2.9f, new Item.Properties().fireResistant());
 	}

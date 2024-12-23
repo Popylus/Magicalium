@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "magicalium:merlinhoe",
+    "magicalium:merlinhoeraw",
     "magicalium:astronium_hoe"
   ]
 }

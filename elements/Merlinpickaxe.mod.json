@@ -25,7 +25,11 @@
     "glowCondition": {
       "fixedValue": true
     },
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:MagicalglassBlock"
+      }
+    ],
     "immuneToFire": true,
     "blockDropsTier": "GOLD",
     "blocksAffected": [],

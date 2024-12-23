@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "magicalium:item/merlin_tool_hoe"
+  }
+}

@@ -27,7 +27,7 @@
     },
     "repairItems": [
       {
-        "value": "CUSTOM:Magicalglass"
+        "value": "CUSTOM:MagicalglassBlock"
       }
     ],
     "immuneToFire": false,

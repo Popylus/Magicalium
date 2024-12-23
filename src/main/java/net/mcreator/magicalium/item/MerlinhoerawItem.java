@@ -5,23 +5,23 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.item.HoeItem;
 
-import net.mcreator.magicalium.init.MagicaliumModBlocks;
+import net.mcreator.magicalium.init.MagicaliumModItems;
 
-public class MerlinHaxeItem extends AxeItem {
-	public MerlinHaxeItem() {
+public class MerlinhoerawItem extends HoeItem {
+	public MerlinhoerawItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 500;
+				return 20;
 			}
 
 			public float getSpeed() {
-				return 17f;
+				return 2f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 13f;
+				return 3f;
 			}
 
 			public int getLevel() {
@@ -29,12 +29,12 @@ public class MerlinHaxeItem extends AxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 30;
+				return 2;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(MagicaliumModBlocks.MAGICALGLASS_BLOCK.get()));
+				return Ingredient.of(new ItemStack(MagicaliumModItems.MAGICALGLASS.get()));
 			}
-		}, 1, -4f, new Item.Properties());
+		}, 0, -3f, new Item.Properties());
 	}
 }

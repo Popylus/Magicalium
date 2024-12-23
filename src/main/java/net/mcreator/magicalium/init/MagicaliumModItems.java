@@ -16,6 +16,9 @@ import net.mcreator.magicalium.item.MerlinshovelrawItem;
 import net.mcreator.magicalium.item.MerlinshovelItem;
 import net.mcreator.magicalium.item.MerlinpickaxerawItem;
 import net.mcreator.magicalium.item.MerlinpickaxeItem;
+import net.mcreator.magicalium.item.MerlinhoerawItem;
+import net.mcreator.magicalium.item.MerlinhoeItem;
+import net.mcreator.magicalium.item.MerlinaxerawItem;
 import net.mcreator.magicalium.item.MerlinSwordItem;
 import net.mcreator.magicalium.item.MerlinHaxeItem;
 import net.mcreator.magicalium.item.MagicalglassItem;
@@ -73,6 +76,9 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> ASTRONIUMSAPLING = block(MagicaliumModBlocks.ASTRONIUMSAPLING);
 	public static final RegistryObject<Item> MERLINPICKAXERAW = REGISTRY.register("merlinpickaxeraw", () -> new MerlinpickaxerawItem());
 	public static final RegistryObject<Item> MERLINSHOVELRAW = REGISTRY.register("merlinshovelraw", () -> new MerlinshovelrawItem());
+	public static final RegistryObject<Item> MERLINAXERAW = REGISTRY.register("merlinaxeraw", () -> new MerlinaxerawItem());
+	public static final RegistryObject<Item> MERLINHOERAW = REGISTRY.register("merlinhoeraw", () -> new MerlinhoerawItem());
+	public static final RegistryObject<Item> MERLINHOE = REGISTRY.register("merlinhoe", () -> new MerlinhoeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

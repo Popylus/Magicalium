@@ -2,13 +2,13 @@
   "_fv": 69,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
+    "toolType": "Hoe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "merlin_tool_sword",
+    "texture": "merlin_tool_hoe_raw",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Merlin Sword",
+    "name": "Merlinhoeraw",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,21 +17,21 @@
         "value": "TOOLS"
       }
     ],
-    "efficiency": 17.0,
-    "attackSpeed": 1.5,
-    "enchantability": 30,
-    "damageVsEntity": 11.0,
-    "usageCount": 500,
+    "efficiency": 2.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 20,
     "glowCondition": {
-      "fixedValue": true
+      "fixedValue": false
     },
     "repairItems": [
       {
-        "value": "CUSTOM:MagicalglassBlock"
+        "value": "CUSTOM:Magicalglass"
       }
     ],
     "immuneToFire": false,
-    "blockDropsTier": "GOLD",
+    "blockDropsTier": "WOOD",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
