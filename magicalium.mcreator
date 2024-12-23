@@ -1247,6 +1247,20 @@
         ]
       },
       "path": "~/magicalglass/craft"
+    },
+    {
+      "name": "Merlintoolswordraw",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merlintoolswordraw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/item/MerlintoolswordrawItem.java",
+          "src/main/resources/assets/magicalium/models/item/merlintoolswordraw.json"
+        ]
+      },
+      "path": "~/magicalglass/tool/raw"
     }
   ],
   "variable_elements": [],
@@ -1266,14 +1280,14 @@
       "~CUSTOM:ASTRONIUMPickaxe",
       "~CUSTOM:Merlinpickaxe"
     ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Astronium_woodLog"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Astronium_woodLog"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
@@ -1301,6 +1315,7 @@
       "~CUSTOM:MerlinHaxe"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Merlintoolswordraw",
       "~CUSTOM:ASTRONIUMSword",
       "~CUSTOM:MerlinSword"
     ],
@@ -1315,8 +1330,8 @@
     "en_us": {
       "item.magicalium.merlinhoeraw": "Merlinhoeraw",
       "item.magicalium.magical_glass_armor_armor_boots": "Merlin_glass_armor Boots",
-      "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
       "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
+      "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
       "block.magicalium.astronium_wood_fence_gate": "Astronium_wood Fence Gate",
       "item.magicalium.batonastronium": "Batonastronium",
       "item.magicalium.astronium_armor_boots": "ASTRONIUM Boots",
@@ -1325,6 +1340,7 @@
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
       "block.magicalium.astroniumsapling": "Astroniumsapling",
       "item.magicalium.magical_glass_armor_armor_chestplate": "Merlin_glass_armor Chestplate",
+      "item.magicalium.merlintoolswordraw": "Merlintoolswordraw",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
       "item.magicalium.merlinpickaxe": "Merlinpickaxe",
