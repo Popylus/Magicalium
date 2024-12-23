@@ -1571,6 +1571,32 @@
         ]
       },
       "path": "~/astronium/bois"
+    },
+    {
+      "name": "Magicalglassstonerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassstonerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglassstonerecipe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft"
+    },
+    {
+      "name": "Magicallglassstoneslabrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicallglassstoneslabrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicallglassstoneslabrecipe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft"
     }
   ],
   "variable_elements": [],
