@@ -1348,7 +1348,24 @@
         "files": [
           "src/main/java/net/mcreator/magicalium/procedures/AstroniumarbreprocedureProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/astronium/bois"
     },
@@ -1535,6 +1552,25 @@
         ]
       },
       "path": "~/magicalglass/bloc"
+    },
+    {
+      "name": "AstroniumsaplingOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumsapling_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/AstroniumsaplingOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/astronium/bois"
     }
   ],
   "variable_elements": [],
@@ -1626,8 +1662,8 @@
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
+      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "block.magicalium.magicalglassrafined": "Magicalglassrafined",
