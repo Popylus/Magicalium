@@ -2,10 +2,10 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "magicalglass_ore_block",
+    "texture": "magical_glass_slab",
     "textureTop": "",
     "textureLeft": "",
-    "textureFront": "magical_glass_slab",
+    "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,
