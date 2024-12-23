@@ -1,6 +1,9 @@
 
 package net.mcreator.magicalium.item;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
@@ -36,5 +39,11 @@ public class MerlinhoeItem extends HoeItem {
 				return Ingredient.of(new ItemStack(MagicaliumModBlocks.MAGICALGLASS_BLOCK.get()));
 			}
 		}, 0, -3f, new Item.Properties());
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public boolean isFoil(ItemStack itemstack) {
+		return true;
 	}
 }

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 170,
+  "cookingtime": 4000,
+  "ingredient": {
+    "item": "magicalium:merlintoolswordraw"
+  },
+  "result": "magicalium:merlin_sword"
+}
