@@ -1341,7 +1341,7 @@
     {
       "name": "Astroniumarbreprocedure",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "astroniumarbreprocedure",
       "metadata": {
@@ -1556,7 +1556,7 @@
     {
       "name": "AstroniumsaplingOnBlockRightClicked",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "astroniumsapling_on_block_right_clicked",
       "metadata": {
@@ -1688,8 +1688,8 @@
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
+      "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "block.magicalium.magicalglassrafined": "Magicalglassrafined",
