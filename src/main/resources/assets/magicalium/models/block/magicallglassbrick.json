@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magicalium:block/magical_glass_brick",
+    "up": "magicalium:block/magical_glass_brick",
+    "north": "magicalium:block/magical_glass_brick",
+    "east": "magicalium:block/magical_glass_brick",
+    "south": "magicalium:block/magical_glass_brick",
+    "west": "magicalium:block/magical_glass_brick",
+    "particle": "magicalium:block/magical_glass_brick"
+  },
+  "render_type": "solid"
+}

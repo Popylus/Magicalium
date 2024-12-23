@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "magicalium:magicalglassslabm",
+    "magicalium:magicalglassbrickslab",
+    "magicalium:magicalglassrafinedslab",
     "magicalium:magicalglassslab",
     "magicalium:astronium_wood_slab"
   ]

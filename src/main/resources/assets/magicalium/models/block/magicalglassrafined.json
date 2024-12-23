@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "magicalium:block/magical_glass_rafined",
+    "particle": "magicalium:block/magical_glass_rafined"
+  },
+  "render_type": "translucent"
+}

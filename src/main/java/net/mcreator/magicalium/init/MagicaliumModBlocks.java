@@ -10,7 +10,17 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.magicalium.block.MagicallglassbrickBlock;
+import net.mcreator.magicalium.block.MagicalglassstonestairsBlock;
+import net.mcreator.magicalium.block.MagicalglassstoneBlock;
+import net.mcreator.magicalium.block.MagicalglassstairsBlock;
+import net.mcreator.magicalium.block.MagicalglassslabmBlock;
 import net.mcreator.magicalium.block.MagicalglassslabBlock;
+import net.mcreator.magicalium.block.MagicalglassrafinedstairsBlock;
+import net.mcreator.magicalium.block.MagicalglassrafinedslabBlock;
+import net.mcreator.magicalium.block.MagicalglassrafinedBlock;
+import net.mcreator.magicalium.block.MagicalglassbricksstairsBlock;
+import net.mcreator.magicalium.block.MagicalglassbrickslabBlock;
 import net.mcreator.magicalium.block.MagicalglassOreBlock;
 import net.mcreator.magicalium.block.MagicalglassBlockBlock;
 import net.mcreator.magicalium.block.AstroniumsaplingBlock;
@@ -46,6 +56,16 @@ public class MagicaliumModBlocks {
 	public static final RegistryObject<Block> ASTRONIUM_WOOD_BUTTON = REGISTRY.register("astronium_wood_button", () -> new Astronium_woodButtonBlock());
 	public static final RegistryObject<Block> ASTRONIUMSAPLING = REGISTRY.register("astroniumsapling", () -> new AstroniumsaplingBlock());
 	public static final RegistryObject<Block> MAGICALGLASSSLAB = REGISTRY.register("magicalglassslab", () -> new MagicalglassslabBlock());
+	public static final RegistryObject<Block> MAGICALGLASSRAFINED = REGISTRY.register("magicalglassrafined", () -> new MagicalglassrafinedBlock());
+	public static final RegistryObject<Block> MAGICALGLASSRAFINEDSLAB = REGISTRY.register("magicalglassrafinedslab", () -> new MagicalglassrafinedslabBlock());
+	public static final RegistryObject<Block> MAGICALGLASSSTONE = REGISTRY.register("magicalglassstone", () -> new MagicalglassstoneBlock());
+	public static final RegistryObject<Block> MAGICALGLASSSTONESTAIRS = REGISTRY.register("magicalglassstonestairs", () -> new MagicalglassstonestairsBlock());
+	public static final RegistryObject<Block> MAGICALGLASSSTAIRS = REGISTRY.register("magicalglassstairs", () -> new MagicalglassstairsBlock());
+	public static final RegistryObject<Block> MAGICALGLASSBRICKSSTAIRS = REGISTRY.register("magicalglassbricksstairs", () -> new MagicalglassbricksstairsBlock());
+	public static final RegistryObject<Block> MAGICALGLASSBRICKSLAB = REGISTRY.register("magicalglassbrickslab", () -> new MagicalglassbrickslabBlock());
+	public static final RegistryObject<Block> MAGICALGLASSRAFINEDSTAIRS = REGISTRY.register("magicalglassrafinedstairs", () -> new MagicalglassrafinedstairsBlock());
+	public static final RegistryObject<Block> MAGICALGLASSSLABM = REGISTRY.register("magicalglassslabm", () -> new MagicalglassslabmBlock());
+	public static final RegistryObject<Block> MAGICALLGLASSBRICK = REGISTRY.register("magicallglassbrick", () -> new MagicallglassbrickBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

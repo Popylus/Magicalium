@@ -1,5 +1,5 @@
 {
-  "parent": "block/slab",
+  "parent": "block/outer_stairs",
   "textures": {
     "particle": "magicalium:block/magical_glass_stone",
     "bottom": "magicalium:block/magical_glass_stone",
