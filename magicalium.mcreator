@@ -765,7 +765,7 @@
           "src/main/java/net/mcreator/magicalium/item/MerlinpickaxeItem.java"
         ]
       },
-      "path": "~/magicalglass/tool"
+      "path": "~/magicalglass/tool/normal"
     },
     {
       "name": "MerlinHaxe",
@@ -779,7 +779,7 @@
           "src/main/java/net/mcreator/magicalium/item/MerlinHaxeItem.java"
         ]
       },
-      "path": "~/magicalglass/tool"
+      "path": "~/magicalglass/tool/normal"
     },
     {
       "name": "MerlinSword",
@@ -793,7 +793,7 @@
           "src/main/resources/assets/magicalium/models/item/merlin_sword.json"
         ]
       },
-      "path": "~/magicalglass/tool"
+      "path": "~/magicalglass/tool/normal"
     },
     {
       "name": "Merlinshovel",
@@ -807,7 +807,7 @@
           "src/main/java/net/mcreator/magicalium/item/MerlinshovelItem.java"
         ]
       },
-      "path": "~/magicalglass/tool"
+      "path": "~/magicalglass/tool/normal"
     },
     {
       "name": "ASTRONIUMHoe",
@@ -1112,7 +1112,7 @@
           "src/main/java/net/mcreator/magicalium/item/MerlinpickaxerawItem.java"
         ]
       },
-      "path": "~/magicalglass/tool"
+      "path": "~/magicalglass/tool/raw"
     },
     {
       "name": "Merlinshovelraw",
@@ -1126,7 +1126,7 @@
           "src/main/java/net/mcreator/magicalium/item/MerlinshovelrawItem.java"
         ]
       },
-      "path": "~/magicalglass/tool"
+      "path": "~/magicalglass/tool/raw"
     },
     {
       "name": "Merlinaxeraw",
@@ -1140,7 +1140,7 @@
           "src/main/resources/assets/magicalium/models/item/merlinaxeraw.json"
         ]
       },
-      "path": "~/magicalglass/tool"
+      "path": "~/magicalglass/tool/raw"
     },
     {
       "name": "Merlinhoeraw",
@@ -1154,7 +1154,7 @@
           "src/main/java/net/mcreator/magicalium/item/MerlinhoerawItem.java"
         ]
       },
-      "path": "~/magicalglass/tool"
+      "path": "~/magicalglass/tool/raw"
     },
     {
       "name": "Merlinhoe",
@@ -1168,7 +1168,7 @@
           "src/main/java/net/mcreator/magicalium/item/MerlinhoeItem.java"
         ]
       },
-      "path": "~/magicalglass/tool"
+      "path": "~/magicalglass/tool/normal"
     }
   ],
   "variable_elements": [],
@@ -1188,14 +1188,14 @@
       "~CUSTOM:ASTRONIUMPickaxe",
       "~CUSTOM:Merlinpickaxe"
     ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Astronium_woodLog"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Astronium_woodLog"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
@@ -1237,8 +1237,8 @@
     "en_us": {
       "item.magicalium.merlinhoeraw": "Merlinhoeraw",
       "item.magicalium.magical_glass_armor_armor_boots": "Merlin_glass_armor Boots",
-      "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
       "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
+      "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
       "block.magicalium.astronium_wood_fence_gate": "Astronium_wood Fence Gate",
       "item.magicalium.batonastronium": "Batonastronium",
       "item.magicalium.astronium_armor_boots": "ASTRONIUM Boots",
@@ -1342,7 +1342,16 @@
           },
           {
             "name": "tool",
-            "children": []
+            "children": [
+              {
+                "name": "raw",
+                "children": []
+              },
+              {
+                "name": "normal",
+                "children": []
+              }
+            ]
           }
         ]
       }
