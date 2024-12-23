@@ -1123,6 +1123,7 @@
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
     ],
+    "BLOCKS:minecraft:logs": [],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
       "~CUSTOM:Astronium_woodLog",
@@ -1134,6 +1135,7 @@
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:Astronium_woodStairs"
     ],
+    "BIOMES:minecraft:is_overworld": [],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
@@ -1157,12 +1159,12 @@
   "language_map": {
     "en_us": {
       "item.magicalium.magical_glass_armor_armor_boots": "Merlin_glass_armor Boots",
-      "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
       "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
+      "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
       "block.magicalium.astronium_wood_fence_gate": "Astronium_wood Fence Gate",
       "item.magicalium.batonastronium": "Batonastronium",
-      "item.magicalium.astronium_armor_boots": "ASTRONIUM Boots",
       "item.magicalium.astronium_sword": "ASTRONIUM Sword",
+      "item.magicalium.astronium_armor_boots": "ASTRONIUM Boots",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
       "block.magicalium.astroniumsapling": "Astroniumsapling",
