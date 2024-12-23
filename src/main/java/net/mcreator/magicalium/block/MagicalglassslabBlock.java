@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class MagicalglassslabBlock extends SlabBlock {
 	public MagicalglassslabBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

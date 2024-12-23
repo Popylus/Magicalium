@@ -1,10 +1,10 @@
 {
   "parent": "block/slab",
   "textures": {
-    "particle": "magicalium:block/magical_glass_slab",
-    "bottom": "magicalium:block/magical_glass_slab",
-    "top": "magicalium:block/magical_glass_slab",
-    "side": "magicalium:block/magical_glass_slab"
+    "particle": "magicalium:block/magical_glass_stone",
+    "bottom": "magicalium:block/magical_glass_stone",
+    "top": "magicalium:block/magical_glass_stone",
+    "side": "magicalium:block/magical_glass_stone"
   },
   "render_type": "solid"
 }
