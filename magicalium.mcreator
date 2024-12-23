@@ -1521,6 +1521,32 @@
         ]
       },
       "path": "~/magicalglass/bloc"
+    },
+    {
+      "name": "Magicallglassstoneslabrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicallglassstoneslabrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicallglassstoneslabrecipe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft"
+    },
+    {
+      "name": "Magicalglassstonerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassstonerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglassstonerecipe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft"
     }
   ],
   "variable_elements": [],
@@ -1544,14 +1570,14 @@
       "~CUSTOM:ASTRONIUMPickaxe",
       "~CUSTOM:Merlinpickaxe"
     ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Astronium_woodLog"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
-    ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Astronium_woodLog"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
@@ -1612,8 +1638,8 @@
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
+      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "block.magicalium.magicalglassrafined": "Magicalglassrafined",
