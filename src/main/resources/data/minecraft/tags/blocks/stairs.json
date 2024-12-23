@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "magicalium:magicalglassstairs",
+    "magicalium:magicalglassbricksstairs",
+    "magicalium:magicalglassrafinedstairs",
+    "magicalium:magicalglassstonestairs",
     "magicalium:astronium_wood_stairs"
   ]
 }

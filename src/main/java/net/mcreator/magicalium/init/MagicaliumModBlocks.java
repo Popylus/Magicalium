@@ -11,11 +11,15 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.magicalium.block.MagicallglassbrickBlock;
+import net.mcreator.magicalium.block.MagicalglassstonestairsBlock;
 import net.mcreator.magicalium.block.MagicalglassstoneBlock;
+import net.mcreator.magicalium.block.MagicalglassstairsBlock;
 import net.mcreator.magicalium.block.MagicalglassslabmBlock;
 import net.mcreator.magicalium.block.MagicalglassslabBlock;
+import net.mcreator.magicalium.block.MagicalglassrafinedstairsBlock;
 import net.mcreator.magicalium.block.MagicalglassrafinedslabBlock;
 import net.mcreator.magicalium.block.MagicalglassrafinedBlock;
+import net.mcreator.magicalium.block.MagicalglassbricksstairsBlock;
 import net.mcreator.magicalium.block.MagicalglassbrickslabBlock;
 import net.mcreator.magicalium.block.MagicalglassOreBlock;
 import net.mcreator.magicalium.block.MagicalglassBlockBlock;
@@ -58,6 +62,10 @@ public class MagicaliumModBlocks {
 	public static final RegistryObject<Block> MAGICALLGLASSBRICK = REGISTRY.register("magicallglassbrick", () -> new MagicallglassbrickBlock());
 	public static final RegistryObject<Block> MAGICALGLASSBRICKSLAB = REGISTRY.register("magicalglassbrickslab", () -> new MagicalglassbrickslabBlock());
 	public static final RegistryObject<Block> MAGICALGLASSSLABM = REGISTRY.register("magicalglassslabm", () -> new MagicalglassslabmBlock());
+	public static final RegistryObject<Block> MAGICALGLASSSTONESTAIRS = REGISTRY.register("magicalglassstonestairs", () -> new MagicalglassstonestairsBlock());
+	public static final RegistryObject<Block> MAGICALGLASSRAFINEDSTAIRS = REGISTRY.register("magicalglassrafinedstairs", () -> new MagicalglassrafinedstairsBlock());
+	public static final RegistryObject<Block> MAGICALGLASSBRICKSSTAIRS = REGISTRY.register("magicalglassbricksstairs", () -> new MagicalglassbricksstairsBlock());
+	public static final RegistryObject<Block> MAGICALGLASSSTAIRS = REGISTRY.register("magicalglassstairs", () -> new MagicalglassstairsBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

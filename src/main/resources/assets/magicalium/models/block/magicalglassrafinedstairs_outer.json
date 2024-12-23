@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "magicalium:block/magical_glass_rafined",
+    "bottom": "magicalium:block/magical_glass_rafined",
+    "top": "magicalium:block/magical_glass_rafined",
+    "side": "magicalium:block/magical_glass_rafined"
+  },
+  "render_type": "translucent"
+}

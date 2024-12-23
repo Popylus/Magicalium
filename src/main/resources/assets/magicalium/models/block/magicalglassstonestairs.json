@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "magicalium:block/magical_glass_stone",
+    "bottom": "magicalium:block/magical_glass_stone",
+    "top": "magicalium:block/magical_glass_stone",
+    "side": "magicalium:block/magical_glass_stone"
+  },
+  "render_type": "solid"
+}

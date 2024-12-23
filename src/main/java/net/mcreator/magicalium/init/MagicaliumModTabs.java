@@ -43,6 +43,10 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModBlocks.MAGICALLGLASSBRICK.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASSBRICKSLAB.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSLABM.get().asItem());
+			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSTONESTAIRS.get().asItem());
+			tabData.accept(MagicaliumModBlocks.MAGICALGLASSRAFINEDSTAIRS.get().asItem());
+			tabData.accept(MagicaliumModBlocks.MAGICALGLASSBRICKSSTAIRS.get().asItem());
+			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSTAIRS.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 
