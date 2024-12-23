@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.magicalium.init.MagicaliumModTabs;
 import net.mcreator.magicalium.init.MagicaliumModItems;
 import net.mcreator.magicalium.init.MagicaliumModBlocks;
+import net.mcreator.magicalium.init.MagicaliumModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -42,7 +43,7 @@ public class MagicaliumMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		MagicaliumModBlocks.REGISTRY.register(bus);
-
+		MagicaliumModBlockEntities.REGISTRY.register(bus);
 		MagicaliumModItems.REGISTRY.register(bus);
 
 		MagicaliumModTabs.REGISTRY.register(bus);

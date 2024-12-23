@@ -68,6 +68,7 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> ASTRONIUM_SWORD = REGISTRY.register("astronium_sword", () -> new ASTRONIUMSwordItem());
 	public static final RegistryObject<Item> ASTRONIUM_SHOVEL = REGISTRY.register("astronium_shovel", () -> new ASTRONIUMShovelItem());
 	public static final RegistryObject<Item> GLASSSTICK = REGISTRY.register("glassstick", () -> new GlassstickItem());
+	public static final RegistryObject<Item> ASTRONIUMSAPLING = block(MagicaliumModBlocks.ASTRONIUMSAPLING);
 
 	// Start of user code block custom items
 	// End of user code block custom items
