@@ -1523,6 +1523,19 @@
       "path": "~/magicalglass/bloc"
     },
     {
+      "name": "Magicalglassstonerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassstonerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglassstonerecipe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft"
+    },
+    {
       "name": "Magicallglassstoneslabrecipe",
       "type": "recipe",
       "compiles": true,
@@ -1536,17 +1549,18 @@
       "path": "~/magicalglass/craft"
     },
     {
-      "name": "Magicalglassstonerecipe",
-      "type": "recipe",
+      "name": "Astroniumarbreprocedure",
+      "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magicalglassstonerecipe",
+      "registry_name": "astroniumarbreprocedure",
       "metadata": {
         "files": [
-          "src/main/resources/data/magicalium/recipes/magicalglassstonerecipe.json"
-        ]
+          "src/main/java/net/mcreator/magicalium/procedures/AstroniumarbreprocedureProcedure.java"
+        ],
+        "dependencies": []
       },
-      "path": "~/magicalglass/craft"
+      "path": "~/astronium/bois"
     }
   ],
   "variable_elements": [],
