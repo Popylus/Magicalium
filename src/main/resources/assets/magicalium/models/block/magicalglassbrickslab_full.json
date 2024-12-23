@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "magicalium:block/magical_glass_brick",
+    "bottom": "magicalium:block/magical_glass_brick",
+    "top": "magicalium:block/magical_glass_brick",
+    "side": "magicalium:block/magical_glass_brick"
+  },
+  "render_type": "solid"
+}
