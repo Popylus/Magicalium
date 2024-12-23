@@ -84,6 +84,7 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> MAGICALGLASSSLAB = block(MagicaliumModBlocks.MAGICALGLASSSLAB);
 	public static final RegistryObject<Item> MAGICALGLASSSTONE = block(MagicaliumModBlocks.MAGICALGLASSSTONE);
 	public static final RegistryObject<Item> MAGICALGLASSRAFINED = block(MagicaliumModBlocks.MAGICALGLASSRAFINED);
+	public static final RegistryObject<Item> MAGICALGLASSRAFINEDSLAB = block(MagicaliumModBlocks.MAGICALGLASSRAFINEDSLAB);
 
 	// Start of user code block custom items
 	// End of user code block custom items

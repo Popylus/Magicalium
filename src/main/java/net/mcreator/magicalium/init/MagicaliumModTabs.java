@@ -39,6 +39,7 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSLAB.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSTONE.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASSRAFINED.get().asItem());
+			tabData.accept(MagicaliumModBlocks.MAGICALGLASSRAFINEDSLAB.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 

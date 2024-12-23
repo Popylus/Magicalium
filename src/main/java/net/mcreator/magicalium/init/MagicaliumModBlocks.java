@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.magicalium.block.MagicalglassstoneBlock;
 import net.mcreator.magicalium.block.MagicalglassslabBlock;
+import net.mcreator.magicalium.block.MagicalglassrafinedslabBlock;
 import net.mcreator.magicalium.block.MagicalglassrafinedBlock;
 import net.mcreator.magicalium.block.MagicalglassOreBlock;
 import net.mcreator.magicalium.block.MagicalglassBlockBlock;
@@ -50,6 +51,7 @@ public class MagicaliumModBlocks {
 	public static final RegistryObject<Block> MAGICALGLASSSLAB = REGISTRY.register("magicalglassslab", () -> new MagicalglassslabBlock());
 	public static final RegistryObject<Block> MAGICALGLASSSTONE = REGISTRY.register("magicalglassstone", () -> new MagicalglassstoneBlock());
 	public static final RegistryObject<Block> MAGICALGLASSRAFINED = REGISTRY.register("magicalglassrafined", () -> new MagicalglassrafinedBlock());
+	public static final RegistryObject<Block> MAGICALGLASSRAFINEDSLAB = REGISTRY.register("magicalglassrafinedslab", () -> new MagicalglassrafinedslabBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

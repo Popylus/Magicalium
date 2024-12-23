@@ -1,8 +1,8 @@
 {
   "item.magicalium.merlinhoeraw": "Merlinhoeraw",
   "item.magicalium.magical_glass_armor_armor_boots": "Merlin_glass_armor Boots",
-  "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
   "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
+  "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
   "block.magicalium.magicalglassslab": "Magicalglassslab",
   "block.magicalium.astronium_wood_fence_gate": "Astronium_wood Fence Gate",
   "item.magicalium.batonastronium": "Batonastronium",
@@ -23,6 +23,7 @@
   "block.magicalium.magicalglass_block": "Block of Magicalglass",
   "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
   "item.magicalium.astronium_axe": "ASTRONIUM Axe",
+  "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
   "item.magicalium.astronium_ingot": "ASTRONIUM",
   "item.magicalium.merlin_haxe": "Merlin Haxe",
   "item.magicalium.merlinshovelraw": "Merlinshovelraw",
