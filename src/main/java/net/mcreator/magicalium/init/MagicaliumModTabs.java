@@ -36,6 +36,7 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_FENCE_GATE.get().asItem());
 			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_PRESSURE_PLATE.get().asItem());
 			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_BUTTON.get().asItem());
+			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSLAB.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 
