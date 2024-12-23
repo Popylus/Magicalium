@@ -1337,13 +1337,43 @@
         ]
       },
       "path": "~/magicalglass/bloc"
+    },
+    {
+      "name": "Astroniumarbreprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumarbreprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/AstroniumarbreprocedureProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/astronium/bois"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:minecraft:fences": [
-      "~CUSTOM:Astronium_woodFence"
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:MagicalglassBlock",
+      "~CUSTOM:MagicalglassOre",
+      "~CUSTOM:ASTRONIUMOre",
+      "~CUSTOM:ASTRONIUMBlock"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Merlinpickaxeraw",
+      "~CUSTOM:ASTRONIUMPickaxe",
+      "~CUSTOM:Merlinpickaxe"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Merlinhoe",
+      "~CUSTOM:Merlinhoeraw",
+      "~CUSTOM:ASTRONIUMHoe"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Astronium_woodLog"
     ],
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:Astronium_woodLeaves"
@@ -1352,43 +1382,27 @@
       "~CUSTOM:Magicalglassslab",
       "~CUSTOM:Astronium_woodSlab"
     ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:Merlinpickaxeraw",
-      "~CUSTOM:ASTRONIUMPickaxe",
-      "~CUSTOM:Merlinpickaxe"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
     ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Astronium_woodLog"
-    ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
       "~CUSTOM:Astronium_woodLog",
       "~CUSTOM:Astronium_woodWood"
     ],
-    "ITEMS:minecraft:hoes": [
-      "~CUSTOM:Merlinhoe",
-      "~CUSTOM:Merlinhoeraw",
-      "~CUSTOM:ASTRONIUMHoe"
-    ],
-    "BLOCKS:minecraft:stairs": [
-      "~CUSTOM:Astronium_woodStairs"
-    ],
-    "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CUSTOM:MagicalglassBlock",
-      "~CUSTOM:MagicalglassOre",
-      "~CUSTOM:ASTRONIUMOre",
-      "~CUSTOM:ASTRONIUMBlock"
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:Astronium_woodFence"
     ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:Merlinaxeraw",
       "~CUSTOM:ASTRONIUMAxe",
       "~CUSTOM:MerlinHaxe"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Astronium_woodStairs"
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Merlintoolswordraw",
