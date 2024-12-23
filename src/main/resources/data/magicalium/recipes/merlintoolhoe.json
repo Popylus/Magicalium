@@ -4,7 +4,7 @@
   "experience": 170,
   "cookingtime": 4000,
   "ingredient": {
-    "item": "magicalium:merlinpickaxeraw"
+    "item": "magicalium:merlinhoeraw"
   },
-  "result": "magicalium:merlinpickaxe"
+  "result": "magicalium:merlinhoe"
 }

@@ -11,12 +11,12 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:Merlinpickaxeraw"
+      "value": "CUSTOM:Merlinhoeraw"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:Merlinpickaxe"
+      "value": "CUSTOM:Merlinhoe"
     },
-    "name": "merlintoolpickaxe",
+    "name": "merlintoolhoe",
     "namespace": "mod"
   }
 }
