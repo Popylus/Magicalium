@@ -124,12 +124,12 @@
       "registry_name": "magicalglass_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/magicalium/worldgen/placed_feature/magicalglass_ore.json",
-          "src/main/resources/data/magicalium/worldgen/configured_feature/magicalglass_ore.json",
-          "src/main/java/net/mcreator/magicalium/block/MagicalglassOreBlock.java",
           "src/main/resources/assets/magicalium/models/item/magicalglass_ore.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassOreBlock.java",
           "src/main/resources/assets/magicalium/blockstates/magicalglass_ore.json",
+          "src/main/resources/data/magicalium/worldgen/configured_feature/magicalglass_ore.json",
           "src/main/resources/assets/magicalium/models/block/magicalglass_ore.json",
+          "src/main/resources/data/magicalium/worldgen/placed_feature/magicalglass_ore.json",
           "src/main/resources/data/magicalium/forge/biome_modifier/magicalglass_ore_biome_modifier.json",
           "src/main/resources/data/magicalium/loot_tables/blocks/magicalglass_ore.json"
         ]
@@ -775,8 +775,8 @@
       "registry_name": "merlin_haxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/item/merlin_haxe.json",
-          "src/main/java/net/mcreator/magicalium/item/MerlinHaxeItem.java"
+          "src/main/java/net/mcreator/magicalium/item/MerlinHaxeItem.java",
+          "src/main/resources/assets/magicalium/models/item/merlin_haxe.json"
         ]
       },
       "path": "~/magicalglass/tool/normal"
@@ -1108,8 +1108,8 @@
       "registry_name": "merlinpickaxeraw",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/item/merlinpickaxeraw.json",
-          "src/main/java/net/mcreator/magicalium/item/MerlinpickaxerawItem.java"
+          "src/main/java/net/mcreator/magicalium/item/MerlinpickaxerawItem.java",
+          "src/main/resources/assets/magicalium/models/item/merlinpickaxeraw.json"
         ]
       },
       "path": "~/magicalglass/tool/raw"
@@ -1164,8 +1164,8 @@
       "registry_name": "merlinhoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/item/merlinhoe.json",
-          "src/main/java/net/mcreator/magicalium/item/MerlinhoeItem.java"
+          "src/main/java/net/mcreator/magicalium/item/MerlinhoeItem.java",
+          "src/main/resources/assets/magicalium/models/item/merlinhoe.json"
         ]
       },
       "path": "~/magicalglass/tool/normal"
@@ -1327,13 +1327,13 @@
       "registry_name": "magicalglassslab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/magicalium/models/block/magicalglassslab.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassslabBlock.java",
+          "src/main/resources/assets/magicalium/models/item/magicalglassslab.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassslab_top.json",
           "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassslab.json",
           "src/main/resources/assets/magicalium/blockstates/magicalglassslab.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglassslab_top.json",
-          "src/main/java/net/mcreator/magicalium/block/MagicalglassslabBlock.java",
-          "src/main/resources/assets/magicalium/models/block/magicalglassslab_full.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglassslab.json",
-          "src/main/resources/assets/magicalium/models/item/magicalglassslab.json"
+          "src/main/resources/assets/magicalium/models/block/magicalglassslab_full.json"
         ]
       },
       "path": "~/magicalglass/bloc"
@@ -1379,7 +1379,6 @@
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:Astronium_woodStairs"
     ],
-    "BIOMES:minecraft:is_overworld": [],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
@@ -1409,6 +1408,7 @@
       "item.magicalium.magical_glass_armor_armor_boots": "Merlin_glass_armor Boots",
       "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
       "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
+      "block.magicalium.magicalglassslab": "Magicalglassslab",
       "block.magicalium.astronium_wood_fence_gate": "Astronium_wood Fence Gate",
       "item.magicalium.batonastronium": "Batonastronium",
       "item.magicalium.astronium_armor_boots": "ASTRONIUM Boots",
