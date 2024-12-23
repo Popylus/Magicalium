@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.magicalium.item.MerlintoolswordrawItem;
 import net.mcreator.magicalium.item.MerlinshovelrawItem;
 import net.mcreator.magicalium.item.MerlinshovelItem;
 import net.mcreator.magicalium.item.MerlinpickaxerawItem;
@@ -79,6 +80,7 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> MERLINAXERAW = REGISTRY.register("merlinaxeraw", () -> new MerlinaxerawItem());
 	public static final RegistryObject<Item> MERLINHOERAW = REGISTRY.register("merlinhoeraw", () -> new MerlinhoerawItem());
 	public static final RegistryObject<Item> MERLINHOE = REGISTRY.register("merlinhoe", () -> new MerlinhoeItem());
+	public static final RegistryObject<Item> MERLINTOOLSWORDRAW = REGISTRY.register("merlintoolswordraw", () -> new MerlintoolswordrawItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
