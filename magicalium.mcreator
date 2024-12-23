@@ -1411,14 +1411,14 @@
       "~CUSTOM:ASTRONIUMPickaxe",
       "~CUSTOM:Merlinpickaxe"
     ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Astronium_woodLog"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
-    ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Astronium_woodLog"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
@@ -1460,8 +1460,8 @@
     "en_us": {
       "item.magicalium.merlinhoeraw": "Merlinhoeraw",
       "item.magicalium.magical_glass_armor_armor_boots": "Merlin_glass_armor Boots",
-      "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
       "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
+      "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
       "block.magicalium.magicalglassslab": "Magicalglassslab",
       "block.magicalium.astronium_wood_fence_gate": "Astronium_wood Fence Gate",
       "item.magicalium.batonastronium": "Batonastronium",
