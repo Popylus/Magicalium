@@ -127,18 +127,6 @@
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"
-      },
-      {
-        "value": "Blocks.LOG#0"
-      },
-      {
-        "value": "Blocks.LOG#1"
-      },
-      {
-        "value": "Blocks.LOG#2"
-      },
-      {
-        "value": "Blocks.LOG#3"
       }
     ],
     "generationShape": "UNIFORM",
