@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "magicalium:merlinshovelraw",
     "magicalium:astronium_shovel",
     "magicalium:merlinshovel"
   ]

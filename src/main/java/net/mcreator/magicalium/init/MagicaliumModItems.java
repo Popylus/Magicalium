@@ -12,7 +12,9 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.magicalium.item.MerlinshovelrawItem;
 import net.mcreator.magicalium.item.MerlinshovelItem;
+import net.mcreator.magicalium.item.MerlinpickaxerawItem;
 import net.mcreator.magicalium.item.MerlinpickaxeItem;
 import net.mcreator.magicalium.item.MerlinSwordItem;
 import net.mcreator.magicalium.item.MerlinHaxeItem;
@@ -69,6 +71,8 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> ASTRONIUM_SHOVEL = REGISTRY.register("astronium_shovel", () -> new ASTRONIUMShovelItem());
 	public static final RegistryObject<Item> GLASSSTICK = REGISTRY.register("glassstick", () -> new GlassstickItem());
 	public static final RegistryObject<Item> ASTRONIUMSAPLING = block(MagicaliumModBlocks.ASTRONIUMSAPLING);
+	public static final RegistryObject<Item> MERLINPICKAXERAW = REGISTRY.register("merlinpickaxeraw", () -> new MerlinpickaxerawItem());
+	public static final RegistryObject<Item> MERLINSHOVELRAW = REGISTRY.register("merlinshovelraw", () -> new MerlinshovelrawItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

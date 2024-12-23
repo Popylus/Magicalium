@@ -68,6 +68,8 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModItems.ASTRONIUM_PICKAXE.get());
 			tabData.accept(MagicaliumModItems.ASTRONIUM_AXE.get());
 			tabData.accept(MagicaliumModItems.ASTRONIUM_SHOVEL.get());
+			tabData.accept(MagicaliumModItems.MERLINPICKAXERAW.get());
+			tabData.accept(MagicaliumModItems.MERLINSHOVELRAW.get());
 
 		}
 	}
