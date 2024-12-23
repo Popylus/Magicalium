@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "magicalium:magicalglass_block"
+    },
+    "b": {
+      "item": "magicalium:glassstick"
+    }
+  },
+  "result": {
+    "item": "magicalium:merlinpickaxeraw",
+    "count": 1
+  }
+}
