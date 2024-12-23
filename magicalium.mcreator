@@ -1208,6 +1208,85 @@
         ]
       },
       "path": "~/magicalglass/craft"
+    },
+    {
+      "name": "Merlintoolaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merlintoolaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/merlintoolaxe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft"
+    },
+    {
+      "name": "Merlintoolpickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merlintoolpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/merlintoolpickaxe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft"
+    },
+    {
+      "name": "Merlintoolhoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merlintoolhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/merlintoolhoe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft"
+    },
+    {
+      "name": "Merlintoolswordraw",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merlintoolswordraw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/item/MerlintoolswordrawItem.java",
+          "src/main/resources/assets/magicalium/models/item/merlintoolswordraw.json"
+        ]
+      },
+      "path": "~/magicalglass/tool/raw"
+    },
+    {
+      "name": "Merlintoolswordrawrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merlintoolswordrawrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/merlintoolswordrawrecipe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft"
+    },
+    {
+      "name": "Merlintoolswordrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merlintoolswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/merlintoolswordrecipe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft"
     }
   ],
   "variable_elements": [],
@@ -1227,14 +1306,14 @@
       "~CUSTOM:ASTRONIUMPickaxe",
       "~CUSTOM:Merlinpickaxe"
     ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Astronium_woodLog"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
-    ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Astronium_woodLog"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
@@ -1262,6 +1341,7 @@
       "~CUSTOM:MerlinHaxe"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Merlintoolswordraw",
       "~CUSTOM:ASTRONIUMSword",
       "~CUSTOM:MerlinSword"
     ],
@@ -1286,6 +1366,7 @@
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
       "block.magicalium.astroniumsapling": "Astroniumsapling",
       "item.magicalium.magical_glass_armor_armor_chestplate": "Merlin_glass_armor Chestplate",
+      "item.magicalium.merlintoolswordraw": "Merlintoolswordraw",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
       "item.magicalium.merlinpickaxe": "Merlinpickaxe",

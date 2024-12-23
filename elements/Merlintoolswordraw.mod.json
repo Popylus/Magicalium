@@ -2,13 +2,13 @@
   "_fv": 69,
   "_type": "tool",
   "definition": {
-    "toolType": "Axe",
+    "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "merlin_tool_axe",
+    "texture": "merlin_tool_sword_raw",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Merlin Haxe",
+    "name": "Merlintoolswordraw",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,19 +17,15 @@
         "value": "TOOLS"
       }
     ],
-    "efficiency": 17.0,
-    "attackSpeed": 0.0,
-    "enchantability": 30,
-    "damageVsEntity": 15.0,
-    "usageCount": 500,
+    "efficiency": 2.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
     "glowCondition": {
-      "fixedValue": true
+      "fixedValue": false
     },
-    "repairItems": [
-      {
-        "value": "CUSTOM:MagicalglassBlock"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
