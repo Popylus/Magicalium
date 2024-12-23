@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "magicalium:block/magicalglassslab"
+    },
+    "type=top": {
+      "model": "magicalium:block/magicalglassslab_top"
+    },
+    "type=double": {
+      "model": "magicalium:block/magicalglassslab_full"
+    }
+  }
+}

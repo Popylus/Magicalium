@@ -151,7 +151,7 @@
           "src/main/resources/assets/magicalium/models/block/magicalglass_block.json"
         ]
       },
-      "path": "~/magicalglass"
+      "path": "~/magicalglass/bloc"
     },
     {
       "name": "Magicalglass",
@@ -1318,6 +1318,25 @@
         ]
       },
       "path": "~/astronium/bois"
+    },
+    {
+      "name": "Magicalglassslab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassslab.json",
+          "src/main/resources/assets/magicalium/blockstates/magicalglassslab.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassslab_top.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassslabBlock.java",
+          "src/main/resources/assets/magicalium/models/block/magicalglassslab_full.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassslab.json",
+          "src/main/resources/assets/magicalium/models/item/magicalglassslab.json"
+        ]
+      },
+      "path": "~/magicalglass/bloc"
     }
   ],
   "variable_elements": [],
@@ -1330,6 +1349,7 @@
       "~CUSTOM:Astronium_woodLeaves"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Magicalglassslab",
       "~CUSTOM:Astronium_woodSlab"
     ],
     "ITEMS:minecraft:pickaxes": [
@@ -1389,6 +1409,7 @@
       "item.magicalium.magical_glass_armor_armor_boots": "Merlin_glass_armor Boots",
       "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
       "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
+      "block.magicalium.magicalglassslab": "Magicalglassslab",
       "block.magicalium.astronium_wood_fence_gate": "Astronium_wood Fence Gate",
       "item.magicalium.batonastronium": "Batonastronium",
       "item.magicalium.astronium_armor_boots": "ASTRONIUM Boots",
@@ -1503,6 +1524,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "bloc",
+            "children": []
           }
         ]
       }
