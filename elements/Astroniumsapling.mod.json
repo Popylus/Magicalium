@@ -45,7 +45,7 @@
     "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Astroniumsapplingitem"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -120,6 +120,9 @@
     "fluidRestrictions": [],
     "onRightClicked": {
       "name": "AstroniumsaplingOnBlockRightClicked"
+    },
+    "onNeighbourBlockChanges": {
+      "name": "AstroniumsaplingNeighbourBlockChanges"
     },
     "onTickUpdate": {
       "name": "AstroniumsaplingLorsDeLaMiseAJourDuTick"

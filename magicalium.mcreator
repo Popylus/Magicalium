@@ -444,7 +444,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/magicalium/block/Astronium_woodLeavesBlock.java",
-          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_leaves.json",
           "src/main/resources/assets/magicalium/models/block/astronium_wood_leaves.json",
           "src/main/resources/assets/magicalium/models/item/astronium_wood_leaves.json",
           "src/main/resources/assets/magicalium/blockstates/astronium_wood_leaves.json"
@@ -1662,6 +1661,50 @@
         ]
       },
       "path": "~/astronium/bois"
+    },
+    {
+      "name": "AstroniumsaplingNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumsapling_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/AstroniumsaplingNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/astronium/bois"
+    },
+    {
+      "name": "Astroniumdropleaves",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumdropleaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_leaves.json"
+        ]
+      },
+      "path": "~/astronium/bois"
     }
   ],
   "variable_elements": [],
@@ -1749,13 +1792,13 @@
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "item.magicalium.astroniumsapplingitem": "Astronium sappling",
+      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
+      "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "block.magicalium.magicalglassrafined": "Magicalglassrafined",

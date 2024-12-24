@@ -27,6 +27,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.magicalium.procedures.AstroniumsaplingOnBlockRightClickedProcedure;
+import net.mcreator.magicalium.procedures.AstroniumsaplingNeighbourBlockChangesProcedure;
 import net.mcreator.magicalium.procedures.AstroniumsaplingLorsDeLaMiseAJourDuTickProcedure;
 import net.mcreator.magicalium.block.entity.AstroniumsaplingBlockEntity;
 
@@ -54,6 +55,12 @@ public class AstroniumsaplingBlock extends Block implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		Vec3 offset = state.getOffset(world, pos);
 		return box(2, 0, 2, 14, 14, 14).move(offset.x, offset.y, offset.z);
+	}
+
+	@Override
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		AstroniumsaplingNeighbourBlockChangesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

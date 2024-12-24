@@ -4,6 +4,7 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemp
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
@@ -16,6 +17,7 @@ public class AstroniumarbreprocedureProcedure {
 		double random = 0;
 		random = Mth.nextInt(RandomSource.create(), 1, 2);
 		if (random == 1) {
+			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			if (world instanceof ServerLevel _serverworld) {
 				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("magicalium", "arbre_astronium"));
 				if (template != null) {
@@ -24,6 +26,7 @@ public class AstroniumarbreprocedureProcedure {
 				}
 			}
 		} else if (random == 2) {
+			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			if (world instanceof ServerLevel _serverworld) {
 				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("magicalium", "arbre_astronium2"));
 				if (template != null) {
