@@ -1695,7 +1695,7 @@
     {
       "name": "AstroniumsapplingitemRightclickedOnBlock",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "astroniumsapplingitem_rightclicked_on_block",
       "metadata": {
@@ -1730,7 +1730,7 @@
     {
       "name": "AstroniumsaplingNeighbourBlockChanges",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "astroniumsapling_neighbour_block_changes",
       "metadata": {
@@ -1774,7 +1774,7 @@
     {
       "name": "Astroniumsapplingitem",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "astroniumsapplingitem",
       "metadata": {
@@ -1784,6 +1784,45 @@
         ]
       },
       "path": "~/astronium/bois"
+    },
+    {
+      "name": "Magicalglassrafinedblocrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassrafinedblocrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglassrafinedblocrecipe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft/deoration_block/magicall_glass_rafined_recipe"
+    },
+    {
+      "name": "Magicalglassrafinedslabrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassrafinedslabrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglassrafinedslabrecipe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft/deoration_block/magicall_glass_rafined_recipe"
+    },
+    {
+      "name": "Magicalglassrafinedstairsrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassrafinedstairsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglassrafinedstairsrecipe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft/deoration_block/magicall_glass_rafined_recipe"
     }
   ],
   "variable_elements": [],
@@ -1807,14 +1846,14 @@
       "~CUSTOM:Magicalglassslab",
       "~CUSTOM:Astronium_woodSlab"
     ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Astronium_woodLog"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
-    ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Astronium_woodLog"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
@@ -1875,8 +1914,8 @@
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
+      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "block.magicalium.magicalglassrafined": "Magicalglassrafined",
