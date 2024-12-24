@@ -37,16 +37,16 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_PRESSURE_PLATE.get().asItem());
 			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_BUTTON.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSLAB.get().asItem());
+			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSTONE.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASSRAFINED.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASSRAFINEDSLAB.get().asItem());
-			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSTONE.get().asItem());
-			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSTONESTAIRS.get().asItem());
-			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSTAIRS.get().asItem());
-			tabData.accept(MagicaliumModBlocks.MAGICALGLASSBRICKSSTAIRS.get().asItem());
-			tabData.accept(MagicaliumModBlocks.MAGICALGLASSBRICKSLAB.get().asItem());
-			tabData.accept(MagicaliumModBlocks.MAGICALGLASSRAFINEDSTAIRS.get().asItem());
-			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSLABM.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALLGLASSBRICK.get().asItem());
+			tabData.accept(MagicaliumModBlocks.MAGICALGLASSBRICKSLAB.get().asItem());
+			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSLABM.get().asItem());
+			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSTONESTAIRS.get().asItem());
+			tabData.accept(MagicaliumModBlocks.MAGICALGLASSRAFINEDSTAIRS.get().asItem());
+			tabData.accept(MagicaliumModBlocks.MAGICALGLASSBRICKSSTAIRS.get().asItem());
+			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSTAIRS.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 
