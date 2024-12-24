@@ -68,6 +68,7 @@ public class MagicaliumModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 
 			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_LEAVES.get().asItem());
+			tabData.accept(MagicaliumModBlocks.ASTRONIUMSAPLING.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
