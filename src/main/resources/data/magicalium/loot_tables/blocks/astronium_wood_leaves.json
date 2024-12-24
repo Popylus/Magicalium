@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "magicalium:deleted_mod_element",
+          "name": "magicalium:astroniumsapplingitem",
           "weight": 1,
           "functions": [
             {
