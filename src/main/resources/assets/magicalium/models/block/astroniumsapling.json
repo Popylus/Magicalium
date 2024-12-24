@@ -4,5 +4,5 @@
     "cross": "magicalium:block/astronium_sappling",
     "particle": "magicalium:block/astronium_sappling"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }
