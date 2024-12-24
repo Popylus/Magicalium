@@ -19,8 +19,8 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
-    "connectedSides": false,
-    "transparencyType": "SOLID",
+    "connectedSides": true,
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -42,14 +42,10 @@
     "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [
-      {
-        "value": "DECORATIONS"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Astroniumsapplingitem"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -124,6 +120,12 @@
     "fluidRestrictions": [],
     "onRightClicked": {
       "name": "AstroniumsaplingOnBlockRightClicked"
+    },
+    "onNeighbourBlockChanges": {
+      "name": "AstroniumsaplingNeighbourBlockChanges"
+    },
+    "onTickUpdate": {
+      "name": "AstroniumsaplingLorsDeLaMiseAJourDuTick"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

@@ -1181,7 +1181,7 @@
           "src/main/resources/data/magicalium/recipes/merlinaxerawrecipe.json"
         ]
       },
-      "path": "~/magicalglass/craft/tool"
+      "path": "~/magicalglass/craft"
     },
     {
       "name": "Merlinpickaxerawrecipe",
@@ -1194,7 +1194,7 @@
           "src/main/resources/data/magicalium/recipes/merlinpickaxerawrecipe.json"
         ]
       },
-      "path": "~/magicalglass/craft/tool"
+      "path": "~/magicalglass/craft"
     },
     {
       "name": "Merlinhoerawrecipe",
@@ -1207,7 +1207,7 @@
           "src/main/resources/data/magicalium/recipes/merlinhoerawrecipe.json"
         ]
       },
-      "path": "~/magicalglass/craft/tool"
+      "path": "~/magicalglass/craft"
     },
     {
       "name": "Merlintoolaxe",
@@ -1220,7 +1220,7 @@
           "src/main/resources/data/magicalium/recipes/merlintoolaxe.json"
         ]
       },
-      "path": "~/magicalglass/craft/tool"
+      "path": "~/magicalglass/craft"
     },
     {
       "name": "Merlintoolpickaxe",
@@ -1233,7 +1233,7 @@
           "src/main/resources/data/magicalium/recipes/merlintoolpickaxe.json"
         ]
       },
-      "path": "~/magicalglass/craft/tool"
+      "path": "~/magicalglass/craft"
     },
     {
       "name": "Merlintoolhoe",
@@ -1246,7 +1246,7 @@
           "src/main/resources/data/magicalium/recipes/merlintoolhoe.json"
         ]
       },
-      "path": "~/magicalglass/craft/tool"
+      "path": "~/magicalglass/craft"
     },
     {
       "name": "Merlintoolswordraw",
@@ -1273,7 +1273,7 @@
           "src/main/resources/data/magicalium/recipes/merlintoolswordrawrecipe.json"
         ]
       },
-      "path": "~/magicalglass/craft/tool"
+      "path": "~/magicalglass/craft"
     },
     {
       "name": "Merlintoolswordrecipe",
@@ -1286,7 +1286,7 @@
           "src/main/resources/data/magicalium/recipes/merlintoolswordrecipe.json"
         ]
       },
-      "path": "~/magicalglass/craft/tool"
+      "path": "~/magicalglass/craft"
     },
     {
       "name": "AstroniumsaplingLorsDeLaMiseAJourDuTick",
@@ -1599,7 +1599,7 @@
           "src/main/resources/data/magicalium/recipes/magicalglassstonerecipe.json"
         ]
       },
-      "path": "~/magicalglass/craft/deoration_block/magical_glass_stone_recipe"
+      "path": "~/magicalglass/craft"
     },
     {
       "name": "Magicallglassstoneslabrecipe",
@@ -1612,33 +1612,7 @@
           "src/main/resources/data/magicalium/recipes/magicallglassstoneslabrecipe.json"
         ]
       },
-      "path": "~/magicalglass/craft/deoration_block/magical_glass_stone_recipe"
-    },
-    {
-      "name": "Magicalglassstonerecipestairs",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magicalglassstonerecipestairs",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/magicalium/recipes/magicalglassstonerecipestairs.json"
-        ]
-      },
-      "path": "~/magicalglass/craft/deoration_block/magical_glass_stone_recipe"
-    },
-    {
-      "name": "Magicalglassslabrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magicalglassslabrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/magicalium/recipes/magicalglassslabrecipe.json"
-        ]
-      },
-      "path": "~/magicalglass/craft/deoration_block/magical_glass_bloc_recipes"
+      "path": "~/magicalglass/craft"
     },
     {
       "name": "Magicalglassslabrecipes",
@@ -1649,6 +1623,19 @@
       "metadata": {
         "files": [
           "src/main/resources/data/magicalium/recipes/magicalglassslabrecipes.json"
+        ]
+      },
+      "path": "~/magicalglass/craft/deoration_block/magical_glass_bloc_recipes"
+    },
+    {
+      "name": "Magicalglassslabrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassslabrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglassslabrecipe.json"
         ]
       },
       "path": "~/magicalglass/craft/deoration_block/magical_glass_bloc_recipes"
@@ -1667,6 +1654,32 @@
       "path": "~/magicalglass/craft/deoration_block/magical_glass_bricks_recipes"
     },
     {
+      "name": "Magicalglassbricksstairsrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassbricksstairsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglassbricksstairsrecipe.json"
+        ]
+      },
+      "path": "~/magicalglass/craft/deoration_block/magical_glass_bricks_recipes"
+    },
+    {
+      "name": "Magicalglassstonerecipestairs",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicalglassstonerecipestairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/recipes/magicalglassstonerecipestairs.json"
+        ]
+      },
+      "path": "~/magicalglass/craft/deoration_block/magical_glass_stone_recipe"
+    },
+    {
       "name": "Magicalglassbricksslabrecipe",
       "type": "recipe",
       "compiles": true,
@@ -1680,17 +1693,97 @@
       "path": "~/magicalglass/craft/deoration_block/magical_glass_bricks_recipes"
     },
     {
-      "name": "Magicalglassbricksstairsrecipe",
-      "type": "recipe",
+      "name": "AstroniumsapplingitemRightclickedOnBlock",
+      "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magicalglassbricksstairsrecipe",
+      "registry_name": "astroniumsapplingitem_rightclicked_on_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/magicalium/recipes/magicalglassbricksstairsrecipe.json"
+          "src/main/java/net/mcreator/magicalium/procedures/AstroniumsapplingitemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
-      "path": "~/magicalglass/craft/deoration_block/magical_glass_bricks_recipes"
+      "path": "~/astronium/bois"
+    },
+    {
+      "name": "AstroniumsaplingNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumsapling_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/AstroniumsaplingNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/astronium/bois"
+    },
+    {
+      "name": "Astroniumdropleaves",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumdropleaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_leaves.json"
+        ]
+      },
+      "path": "~/astronium/bois"
+    },
+    {
+      "name": "Astroniumsapplingitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumsapplingitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/item/AstroniumsapplingitemItem.java",
+          "src/main/resources/assets/magicalium/models/item/astroniumsapplingitem.json"
+        ]
+      },
+      "path": "~/astronium/bois"
     }
   ],
   "variable_elements": [],
@@ -1714,14 +1807,14 @@
       "~CUSTOM:Magicalglassslab",
       "~CUSTOM:Astronium_woodSlab"
     ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Astronium_woodLog"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Astronium_woodLog"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
@@ -1782,8 +1875,8 @@
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
+      "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "block.magicalium.magicalglassrafined": "Magicalglassrafined",
