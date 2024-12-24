@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "magicalium:magicalglass_block"
+  },
+  "result": "magicalium:magicalglassbrickslab"
+}
