@@ -1613,6 +1613,55 @@
         ]
       },
       "path": "~/magicalglass/craft"
+    },
+    {
+      "name": "Astroniumsapplingitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumsapplingitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/item/AstroniumsapplingitemItem.java",
+          "src/main/resources/assets/magicalium/models/item/astroniumsapplingitem.json"
+        ]
+      },
+      "path": "~/astronium/bois"
+    },
+    {
+      "name": "AstroniumsapplingitemRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumsapplingitem_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/AstroniumsapplingitemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/astronium/bois"
     }
   ],
   "variable_elements": [],
@@ -1701,11 +1750,12 @@
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
       "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
+      "item.magicalium.astroniumsapplingitem": "Astronium sappling",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
+      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "block.magicalium.magicalglassrafined": "Magicalglassrafined",
