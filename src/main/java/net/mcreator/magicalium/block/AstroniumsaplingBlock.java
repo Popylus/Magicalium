@@ -21,10 +21,13 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.magicalium.procedures.AstroniumsaplingOnBlockRightClickedProcedure;
+import net.mcreator.magicalium.procedures.AstroniumsaplingLorsDeLaMiseAJourDuTickProcedure;
 import net.mcreator.magicalium.block.entity.AstroniumsaplingBlockEntity;
 
 public class AstroniumsaplingBlock extends Block implements EntityBlock {
@@ -51,6 +54,15 @@ public class AstroniumsaplingBlock extends Block implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		Vec3 offset = state.getOffset(world, pos);
 		return box(2, 0, 2, 14, 14, 14).move(offset.x, offset.y, offset.z);
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		AstroniumsaplingLorsDeLaMiseAJourDuTickProcedure.execute(world, x, y, z);
 	}
 
 	@Override

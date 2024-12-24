@@ -125,6 +125,9 @@
     "onRightClicked": {
       "name": "AstroniumsaplingOnBlockRightClicked"
     },
+    "onTickUpdate": {
+      "name": "AstroniumsaplingLorsDeLaMiseAJourDuTick"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
