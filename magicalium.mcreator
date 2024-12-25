@@ -247,7 +247,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/astronium/armor"
+      "path": "~/astronium/armor/recette"
     },
     {
       "name": "ASTRONIUMArmorBootsRecipe",
@@ -260,7 +260,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_armor_boots_recipe.json"
         ]
       },
-      "path": "~/astronium/armor"
+      "path": "~/astronium/armor/recette"
     },
     {
       "name": "ASTRONIUMArmorHelmetRecipe",
@@ -273,7 +273,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/astronium/armor"
+      "path": "~/astronium/armor/recette"
     },
     {
       "name": "ASTRONIUMArmorEvenementDeTickDesJambieres",
@@ -292,7 +292,7 @@
           }
         ]
       },
-      "path": "~/astronium/armor"
+      "path": "~/astronium/armor/procedure"
     },
     {
       "name": "ASTRONIUMArmorEvenementDeTickDuPlastron",
@@ -311,7 +311,7 @@
           }
         ]
       },
-      "path": "~/astronium/armor"
+      "path": "~/astronium/armor/procedure"
     },
     {
       "name": "ASTRONIUMArmorEvenementDeTickDuCasque",
@@ -330,7 +330,7 @@
           }
         ]
       },
-      "path": "~/astronium/armor"
+      "path": "~/astronium/armor/procedure"
     },
     {
       "name": "ASTRONIUMArmor",
@@ -347,7 +347,7 @@
           "src/main/resources/assets/magicalium/models/item/astronium_armor_boots.json"
         ]
       },
-      "path": "~/astronium/armor"
+      "path": "~/astronium/armor/armure"
     },
     {
       "name": "ASTRONIUMArmorChestplateRecipe",
@@ -360,7 +360,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/astronium/armor"
+      "path": "~/astronium/armor/recette"
     },
     {
       "name": "ASTRONIUMArmorEvenementDeTickDesBottes",
@@ -379,7 +379,7 @@
           }
         ]
       },
-      "path": "~/astronium/armor"
+      "path": "~/astronium/armor/recette"
     },
     {
       "name": "Astronium_woodWood",
@@ -399,7 +399,7 @@
           "src/main/resources/data/magicalium/forge/biome_modifier/astronium_wood_wood_biome_modifier.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/arbre/block"
     },
     {
       "name": "Astronium_woodLog",
@@ -416,7 +416,7 @@
           "src/main/resources/assets/magicalium/blockstates/astronium_wood_log.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/arbre/block"
     },
     {
       "name": "Astronium_woodPlanks",
@@ -433,7 +433,7 @@
           "src/main/resources/assets/magicalium/models/block/astronium_wood_planks.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/arbre/block"
     },
     {
       "name": "Astronium_woodLeaves",
@@ -449,7 +449,7 @@
           "src/main/java/net/mcreator/magicalium/block/Astronium_woodLeavesBlock.java"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/arbre/block"
     },
     {
       "name": "Astronium_woodStairs",
@@ -468,7 +468,7 @@
           "src/main/resources/assets/magicalium/models/block/astronium_wood_stairs_inner.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /block"
     },
     {
       "name": "Astronium_woodSlab",
@@ -487,7 +487,7 @@
           "src/main/resources/assets/magicalium/blockstates/astronium_wood_slab.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /block"
     },
     {
       "name": "Astronium_woodFence",
@@ -506,7 +506,7 @@
           "src/main/resources/assets/magicalium/blockstates/astronium_wood_fence.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /block"
     },
     {
       "name": "Astronium_woodFenceGate",
@@ -526,7 +526,7 @@
           "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_gate_open.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /block"
     },
     {
       "name": "Astronium_woodPressurePlate",
@@ -544,7 +544,7 @@
           "src/main/resources/assets/magicalium/models/block/astronium_wood_pressure_plate.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /block"
     },
     {
       "name": "Astronium_woodButton",
@@ -563,7 +563,7 @@
           "src/main/resources/assets/magicalium/models/item/astronium_wood_button.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /block"
     },
     {
       "name": "Astronium_woodWoodRecipe",
@@ -576,7 +576,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_wood_recipe.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /recette"
     },
     {
       "name": "Astronium_woodPlanksLogRecipe",
@@ -589,7 +589,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_planks_log_recipe.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /recette"
     },
     {
       "name": "Astronium_woodPlanksWoodRecipe",
@@ -602,7 +602,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_planks_wood_recipe.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /recette"
     },
     {
       "name": "Astronium_woodStairsRecipe",
@@ -615,7 +615,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_stairs_recipe.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /recette"
     },
     {
       "name": "Astronium_woodSlabRecipe",
@@ -628,7 +628,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_slab_recipe.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /recette"
     },
     {
       "name": "Astronium_woodFenceRecipe",
@@ -641,7 +641,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_fence_recipe.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /recette"
     },
     {
       "name": "Astronium_woodFenceGateRecipe",
@@ -654,7 +654,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_fence_gate_recipe.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /recette"
     },
     {
       "name": "Astronium_woodPressurePlateRecipe",
@@ -667,7 +667,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_pressure_plate_recipe.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /recette"
     },
     {
       "name": "Astronium_woodButtonRecipe",
@@ -680,7 +680,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_button_recipe.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /recette"
     },
     {
       "name": "Astronium_woodStickRecipe",
@@ -693,7 +693,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_wood_stick_recipe.json"
         ]
       },
-      "path": "~/astronium/bois/craft "
+      "path": "~/astronium/bois/craft /recette"
     },
     {
       "name": "MagicalglassarmorArmorEvenementDeTickDuCasque",
@@ -820,7 +820,7 @@
           "src/main/resources/assets/magicalium/models/item/astronium_hoe.json"
         ]
       },
-      "path": "~/astronium/outil"
+      "path": "~/astronium/outil/item"
     },
     {
       "name": "ASTRONIUMSwordRecipe",
@@ -833,7 +833,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_sword_recipe.json"
         ]
       },
-      "path": "~/astronium/outil"
+      "path": "~/astronium/outil/recette"
     },
     {
       "name": "Astroniumcompresse",
@@ -847,7 +847,7 @@
           "src/main/java/net/mcreator/magicalium/item/AstroniumcompresseItem.java"
         ]
       },
-      "path": "~/astronium/bois/compresser"
+      "path": "~/astronium/bois/compresser/item"
     },
     {
       "name": "ASTRONIUMHoeRecipe",
@@ -860,7 +860,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_hoe_recipe.json"
         ]
       },
-      "path": "~/astronium/outil"
+      "path": "~/astronium/outil/recette"
     },
     {
       "name": "Astroniumbaton",
@@ -873,7 +873,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_baton.json"
         ]
       },
-      "path": "~/astronium/bois/compresser"
+      "path": "~/astronium/bois/compresser/recette_four"
     },
     {
       "name": "ASTRONIUMPickaxe",
@@ -887,7 +887,7 @@
           "src/main/java/net/mcreator/magicalium/item/ASTRONIUMPickaxeItem.java"
         ]
       },
-      "path": "~/astronium/outil"
+      "path": "~/astronium/outil/item"
     },
     {
       "name": "Astroniumcompresser",
@@ -900,7 +900,7 @@
           "src/main/resources/data/magicalium/recipes/astroniumcompresser.json"
         ]
       },
-      "path": "~/astronium/bois/compresser"
+      "path": "~/astronium/bois/compresser/recette_four"
     },
     {
       "name": "ASTRONIUMAxe",
@@ -914,7 +914,7 @@
           "src/main/resources/assets/magicalium/models/item/astronium_axe.json"
         ]
       },
-      "path": "~/astronium/outil"
+      "path": "~/astronium/outil/item"
     },
     {
       "name": "ASTRONIUMAxeRecipe",
@@ -927,7 +927,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_axe_recipe.json"
         ]
       },
-      "path": "~/astronium/outil"
+      "path": "~/astronium/outil/recette"
     },
     {
       "name": "Batonastronium",
@@ -941,7 +941,7 @@
           "src/main/java/net/mcreator/magicalium/item/BatonastroniumItem.java"
         ]
       },
-      "path": "~/astronium/bois/compresser"
+      "path": "~/astronium/bois/compresser/item"
     },
     {
       "name": "ASTRONIUMShovelRecipe",
@@ -954,7 +954,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_shovel_recipe.json"
         ]
       },
-      "path": "~/astronium/outil"
+      "path": "~/astronium/outil/recette"
     },
     {
       "name": "ASTRONIUMPickaxeLorsqueLoutilEstDansLaMain",
@@ -973,7 +973,7 @@
           }
         ]
       },
-      "path": "~/astronium/outil"
+      "path": "~/astronium/outil/procedure"
     },
     {
       "name": "ASTRONIUMSword",
@@ -987,7 +987,7 @@
           "src/main/resources/assets/magicalium/models/item/astronium_sword.json"
         ]
       },
-      "path": "~/astronium/outil"
+      "path": "~/astronium/outil/item"
     },
     {
       "name": "ASTRONIUMShovel",
@@ -1001,7 +1001,7 @@
           "src/main/resources/assets/magicalium/models/item/astronium_shovel.json"
         ]
       },
-      "path": "~/astronium/outil"
+      "path": "~/astronium/outil/item"
     },
     {
       "name": "ASTRONIUMPickaxeRecipe",
@@ -1014,7 +1014,7 @@
           "src/main/resources/data/magicalium/recipes/astronium_pickaxe_recipe.json"
         ]
       },
-      "path": "~/astronium/outil"
+      "path": "~/astronium/outil/recette"
     },
     {
       "name": "Glassstick",
@@ -1060,7 +1060,7 @@
           }
         ]
       },
-      "path": "~/astronium/outil"
+      "path": "~/astronium/outil/procedure"
     },
     {
       "name": "ASTRONIUMShovelLorsqueLoutilEstDansLaMain",
@@ -1079,7 +1079,7 @@
           }
         ]
       },
-      "path": "~/astronium/outil"
+      "path": "~/astronium/outil/procedure"
     },
     {
       "name": "Astroniumsapling",
@@ -1089,15 +1089,15 @@
       "registry_name": "astroniumsapling",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/block/astroniumsapling.json",
+          "src/main/java/net/mcreator/magicalium/block/AstroniumsaplingBlock.java",
           "src/main/resources/assets/magicalium/models/item/astroniumsapling.json",
           "src/main/resources/data/magicalium/loot_tables/blocks/astroniumsapling.json",
           "src/main/resources/assets/magicalium/blockstates/astroniumsapling.json",
-          "src/main/java/net/mcreator/magicalium/block/AstroniumsaplingBlock.java",
-          "src/main/java/net/mcreator/magicalium/block/entity/AstroniumsaplingBlockEntity.java"
+          "src/main/java/net/mcreator/magicalium/block/entity/AstroniumsaplingBlockEntity.java",
+          "src/main/resources/assets/magicalium/models/block/astroniumsapling.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/arbre/block"
     },
     {
       "name": "Merlinpickaxeraw",
@@ -1316,7 +1316,7 @@
           }
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/arbre/procedure"
     },
     {
       "name": "Magicalglassslab",
@@ -1366,7 +1366,7 @@
           }
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/arbre/procedure"
     },
     {
       "name": "Magicalglassrafined",
@@ -1585,7 +1585,7 @@
           }
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/arbre/procedure"
     },
     {
       "name": "Magicalglassstonerecipe",
@@ -1724,7 +1724,7 @@
           }
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/arbre/procedure"
     },
     {
       "name": "AstroniumsaplingNeighbourBlockChanges",
@@ -1755,7 +1755,7 @@
           }
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/arbre/procedure"
     },
     {
       "name": "Astroniumdropleaves",
@@ -1768,7 +1768,7 @@
           "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_leaves.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/arbre/custom loot"
     },
     {
       "name": "Astroniumsapplingitem",
@@ -1782,7 +1782,7 @@
           "src/main/resources/assets/magicalium/models/item/astroniumsapplingitem.json"
         ]
       },
-      "path": "~/astronium/bois"
+      "path": "~/astronium/bois/arbre/item"
     },
     {
       "name": "Magicalglassrafinedblocrecipe",
@@ -1827,8 +1827,24 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:minecraft:fences": [
-      "~CUSTOM:Astronium_woodFence"
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:MagicalglassBlock",
+      "~CUSTOM:MagicalglassOre",
+      "~CUSTOM:ASTRONIUMOre",
+      "~CUSTOM:ASTRONIUMBlock"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Merlinpickaxeraw",
+      "~CUSTOM:ASTRONIUMPickaxe",
+      "~CUSTOM:Merlinpickaxe"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Merlinhoe",
+      "~CUSTOM:Merlinhoeraw",
+      "~CUSTOM:ASTRONIUMHoe"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Astronium_woodLog"
     ],
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:Astronium_woodLeaves"
@@ -1840,29 +1856,24 @@
       "~CUSTOM:Magicalglassslab",
       "~CUSTOM:Astronium_woodSlab"
     ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:Merlinpickaxeraw",
-      "~CUSTOM:ASTRONIUMPickaxe",
-      "~CUSTOM:Merlinpickaxe"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
     ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Astronium_woodLog"
-    ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
       "~CUSTOM:Astronium_woodLog",
       "~CUSTOM:Astronium_woodWood"
     ],
-    "ITEMS:minecraft:hoes": [
-      "~CUSTOM:Merlinhoe",
-      "~CUSTOM:Merlinhoeraw",
-      "~CUSTOM:ASTRONIUMHoe"
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:Astronium_woodFence"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Merlinaxeraw",
+      "~CUSTOM:ASTRONIUMAxe",
+      "~CUSTOM:MerlinHaxe"
     ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:Magicalglassrafinedstairs",
@@ -1870,17 +1881,6 @@
       "~CUSTOM:Magicalglassstairs",
       "~CUSTOM:Magicalglassstonestairs",
       "~CUSTOM:Astronium_woodStairs"
-    ],
-    "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CUSTOM:MagicalglassBlock",
-      "~CUSTOM:MagicalglassOre",
-      "~CUSTOM:ASTRONIUMOre",
-      "~CUSTOM:ASTRONIUMBlock"
-    ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:Merlinaxeraw",
-      "~CUSTOM:ASTRONIUMAxe",
-      "~CUSTOM:MerlinHaxe"
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Merlintoolswordraw",
@@ -1961,22 +1961,87 @@
         "children": [
           {
             "name": "outil",
-            "children": []
+            "children": [
+              {
+                "name": "procedure",
+                "children": []
+              },
+              {
+                "name": "recette",
+                "children": []
+              },
+              {
+                "name": "item",
+                "children": []
+              }
+            ]
           },
           {
             "name": "armor",
-            "children": []
+            "children": [
+              {
+                "name": "recette",
+                "children": []
+              },
+              {
+                "name": "procedure",
+                "children": []
+              },
+              {
+                "name": "armure",
+                "children": []
+              }
+            ]
           },
           {
             "name": "bois",
             "children": [
               {
                 "name": "compresser",
-                "children": []
+                "children": [
+                  {
+                    "name": "item",
+                    "children": []
+                  },
+                  {
+                    "name": "recette_four",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "craft ",
-                "children": []
+                "children": [
+                  {
+                    "name": "block",
+                    "children": []
+                  },
+                  {
+                    "name": "recette",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "arbre",
+                "children": [
+                  {
+                    "name": "block",
+                    "children": []
+                  },
+                  {
+                    "name": "item",
+                    "children": []
+                  },
+                  {
+                    "name": "procedure",
+                    "children": []
+                  },
+                  {
+                    "name": "custom loot",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
