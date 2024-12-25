@@ -47,6 +47,7 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASSRAFINEDSTAIRS.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALGLASSSLABM.get().asItem());
 			tabData.accept(MagicaliumModBlocks.MAGICALLGLASSBRICK.get().asItem());
+			tabData.accept(MagicaliumModBlocks.ASTRONIUMHERBE.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 

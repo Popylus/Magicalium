@@ -1822,6 +1822,23 @@
         ]
       },
       "path": "~/magicalglass/craft/deoration_block/magicall_glass_rafined_recipe"
+    },
+    {
+      "name": "Astroniumherbe",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumherbe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/astroniumherbe.json",
+          "src/main/resources/assets/magicalium/blockstates/astroniumherbe.json",
+          "src/main/resources/assets/magicalium/models/block/astroniumherbe.json",
+          "src/main/java/net/mcreator/magicalium/block/AstroniumherbeBlock.java",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astroniumherbe.json"
+        ]
+      },
+      "path": "~/astronium/biome"
     }
   ],
   "variable_elements": [],
@@ -1845,14 +1862,14 @@
       "~CUSTOM:Magicalglassslab",
       "~CUSTOM:Astronium_woodSlab"
     ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Astronium_woodLog"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
-    ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Astronium_woodLog"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
@@ -1870,6 +1887,10 @@
       "~CUSTOM:Magicalglassstairs",
       "~CUSTOM:Magicalglassstonestairs",
       "~CUSTOM:Astronium_woodStairs"
+    ],
+    "BIOMES:minecraft:is_overworld": [],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Astroniumherbe"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:MagicalglassBlock",
@@ -1891,7 +1912,8 @@
       "~CUSTOM:Merlinshovelraw",
       "~CUSTOM:ASTRONIUMShovel",
       "~CUSTOM:Merlinshovel"
-    ]
+    ],
+    "BLOCKS:minecraft:dirt": []
   },
   "tab_element_order": {},
   "language_map": {
@@ -1909,13 +1931,13 @@
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "item.magicalium.astroniumsapplingitem": "Astronium sappling",
+      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
+      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "block.magicalium.magicalglassrafined": "Magicalglassrafined",
@@ -1936,6 +1958,7 @@
       "block.magicalium.magicalglassstairs": "Magicallglassbrick",
       "item.magicalium.merlinpickaxe": "Merlinpickaxe",
       "item.magicalium.merlinhoe": "Merlinhoe",
+      "block.magicalium.astroniumherbe": "Astroniumherbe",
       "item.magicalium.astroniumcompresse": "Astronium compresser",
       "item.magicalium.astronium_axe": "ASTRONIUM Axe",
       "item.magicalium.merlin_haxe": "Merlin Haxe",

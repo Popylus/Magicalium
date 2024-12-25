@@ -94,6 +94,7 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> MAGICALGLASSSLABM = block(MagicaliumModBlocks.MAGICALGLASSSLABM);
 	public static final RegistryObject<Item> MAGICALLGLASSBRICK = block(MagicaliumModBlocks.MAGICALLGLASSBRICK);
 	public static final RegistryObject<Item> ASTRONIUMSAPPLINGITEM = REGISTRY.register("astroniumsapplingitem", () -> new AstroniumsapplingitemItem());
+	public static final RegistryObject<Item> ASTRONIUMHERBE = block(MagicaliumModBlocks.ASTRONIUMHERBE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

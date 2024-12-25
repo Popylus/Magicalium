@@ -24,6 +24,7 @@ import net.mcreator.magicalium.block.MagicalglassbrickslabBlock;
 import net.mcreator.magicalium.block.MagicalglassOreBlock;
 import net.mcreator.magicalium.block.MagicalglassBlockBlock;
 import net.mcreator.magicalium.block.AstroniumsaplingBlock;
+import net.mcreator.magicalium.block.AstroniumherbeBlock;
 import net.mcreator.magicalium.block.Astronium_woodWoodBlock;
 import net.mcreator.magicalium.block.Astronium_woodStairsBlock;
 import net.mcreator.magicalium.block.Astronium_woodSlabBlock;
@@ -66,6 +67,7 @@ public class MagicaliumModBlocks {
 	public static final RegistryObject<Block> MAGICALGLASSRAFINEDSTAIRS = REGISTRY.register("magicalglassrafinedstairs", () -> new MagicalglassrafinedstairsBlock());
 	public static final RegistryObject<Block> MAGICALGLASSSLABM = REGISTRY.register("magicalglassslabm", () -> new MagicalglassslabmBlock());
 	public static final RegistryObject<Block> MAGICALLGLASSBRICK = REGISTRY.register("magicallglassbrick", () -> new MagicallglassbrickBlock());
+	public static final RegistryObject<Block> ASTRONIUMHERBE = REGISTRY.register("astroniumherbe", () -> new AstroniumherbeBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
