@@ -1827,27 +1827,16 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CUSTOM:MagicalglassBlock",
-      "~CUSTOM:MagicalglassOre",
-      "~CUSTOM:ASTRONIUMOre",
-      "~CUSTOM:ASTRONIUMBlock"
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:Astronium_woodFence"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:Astronium_woodLeaves"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:Merlinpickaxeraw",
       "~CUSTOM:ASTRONIUMPickaxe",
       "~CUSTOM:Merlinpickaxe"
-    ],
-    "ITEMS:minecraft:hoes": [
-      "~CUSTOM:Merlinhoe",
-      "~CUSTOM:Merlinhoeraw",
-      "~CUSTOM:ASTRONIUMHoe"
-    ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Astronium_woodLog"
-    ],
-    "BLOCKS:minecraft:leaves": [
-      "~CUSTOM:Astronium_woodLeaves"
     ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:Magicalglassslabm",
@@ -1862,18 +1851,18 @@
       "~CUSTOM:ASTRONIUMOre",
       "~CUSTOM:ASTRONIUMBlock"
     ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Astronium_woodLog"
+    ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Astronium_woodPlanks",
       "~CUSTOM:Astronium_woodLog",
       "~CUSTOM:Astronium_woodWood"
     ],
-    "BLOCKS:minecraft:fences": [
-      "~CUSTOM:Astronium_woodFence"
-    ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:Merlinaxeraw",
-      "~CUSTOM:ASTRONIUMAxe",
-      "~CUSTOM:MerlinHaxe"
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Merlinhoe",
+      "~CUSTOM:Merlinhoeraw",
+      "~CUSTOM:ASTRONIUMHoe"
     ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:Magicalglassrafinedstairs",
@@ -1881,6 +1870,17 @@
       "~CUSTOM:Magicalglassstairs",
       "~CUSTOM:Magicalglassstonestairs",
       "~CUSTOM:Astronium_woodStairs"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:MagicalglassBlock",
+      "~CUSTOM:MagicalglassOre",
+      "~CUSTOM:ASTRONIUMOre",
+      "~CUSTOM:ASTRONIUMBlock"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Merlinaxeraw",
+      "~CUSTOM:ASTRONIUMAxe",
+      "~CUSTOM:MerlinHaxe"
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Merlintoolswordraw",
@@ -2047,6 +2047,10 @@
           },
           {
             "name": "minerai",
+            "children": []
+          },
+          {
+            "name": "biome",
             "children": []
           }
         ]
