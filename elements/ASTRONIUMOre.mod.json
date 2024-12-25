@@ -123,11 +123,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": true,
-    "restrictionBiomes": [
-      {
-        "value": "#is_overworld"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"
@@ -143,6 +139,9 @@
       },
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "CUSTOM:AstoPierre"
       }
     ],
     "generationShape": "UNIFORM",

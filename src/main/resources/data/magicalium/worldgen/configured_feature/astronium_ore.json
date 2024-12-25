@@ -57,6 +57,17 @@
         "state": {
           "Name": "magicalium:astronium_ore"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "magicalium:asto_pierre"
+          }
+        },
+        "state": {
+          "Name": "magicalium:astronium_ore"
+        }
       }
     ]
   }

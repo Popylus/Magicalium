@@ -79,13 +79,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/magicalium/blockstates/astronium_ore.json",
-          "src/main/resources/data/magicalium/worldgen/configured_feature/astronium_ore.json",
-          "src/main/java/net/mcreator/magicalium/block/ASTRONIUMOreBlock.java",
-          "src/main/resources/data/magicalium/forge/biome_modifier/astronium_ore_biome_modifier.json",
+          "src/main/resources/data/magicalium/worldgen/placed_feature/astronium_ore.json",
           "src/main/resources/data/magicalium/loot_tables/blocks/astronium_ore.json",
           "src/main/resources/assets/magicalium/models/item/astronium_ore.json",
-          "src/main/resources/data/magicalium/worldgen/placed_feature/astronium_ore.json",
-          "src/main/resources/assets/magicalium/models/block/astronium_ore.json"
+          "src/main/resources/assets/magicalium/models/block/astronium_ore.json",
+          "src/main/java/net/mcreator/magicalium/block/ASTRONIUMOreBlock.java",
+          "src/main/resources/data/magicalium/forge/biome_modifier/astronium_ore_biome_modifier.json",
+          "src/main/resources/data/magicalium/worldgen/configured_feature/astronium_ore.json"
         ]
       },
       "path": "~/astronium/minerai"
@@ -2030,13 +2030,13 @@
       "block.magicalium.astroniumterre": "terre d\u0027astronium",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "item.magicalium.astroniumsapplingitem": "Astronium sappling",
       "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
+      "item.magicalium.astroniumsapplingitem": "Astronium sappling",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
+      "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "biome.magicalium.astroniumforest": "Astronium_forest",
