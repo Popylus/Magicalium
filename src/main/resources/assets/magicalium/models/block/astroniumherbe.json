@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "magicalium:block/coter_herbe",
+    "down": "magicalium:block/coter-detailler",
     "up": "magicalium:block/herbe_dessus",
     "north": "magicalium:block/coter_herbe",
     "east": "magicalium:block/coter_herbe",
     "south": "magicalium:block/coter_herbe",
     "west": "magicalium:block/coter_herbe",
-    "particle": "magicalium:block/coter_herbe"
+    "particle": "magicalium:block/coter-detailler"
   },
   "render_type": "solid"
 }
