@@ -19,8 +19,8 @@ public class AstroniumsapplingitemRightclickedOnBlockProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (((world.getBlockState(BlockPos.containing(x, y, z))) == Blocks.GRASS_BLOCK.defaultBlockState() || (world.getBlockState(BlockPos.containing(x, y, z))) == Blocks.DIRT.defaultBlockState()
-				|| (world.getBlockState(BlockPos.containing(x, y, z))) == Blocks.DIRT_PATH.defaultBlockState() || (world.getBlockState(BlockPos.containing(x, y, z))) == Blocks.COARSE_DIRT.defaultBlockState())
+		if (((world.getBlockState(BlockPos.containing(x, y, z))) == Blocks.GRASS_BLOCK.defaultBlockState() || (world.getBlockState(BlockPos.containing(x, y, z))) == MagicaliumModBlocks.ASTRONIUMHERBE.get().defaultBlockState()
+				|| (world.getBlockState(BlockPos.containing(x, y, z))) == Blocks.COARSE_DIRT.defaultBlockState() || (world.getBlockState(BlockPos.containing(x, y, z))) == Blocks.DIRT.defaultBlockState())
 				&& ((world.getBlockState(BlockPos.containing(x, y + 1, z))) == Blocks.AIR.defaultBlockState() || (world.getBlockState(BlockPos.containing(x, y + 1, z))) == Blocks.VOID_AIR.defaultBlockState()
 						|| (world.getBlockState(BlockPos.containing(x, y + 1, z))) == Blocks.CAVE_AIR.defaultBlockState())) {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {

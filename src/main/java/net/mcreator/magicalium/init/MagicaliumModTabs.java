@@ -70,6 +70,7 @@ public class MagicaliumModTabs {
 
 			tabData.accept(MagicaliumModBlocks.ASTRONIUM_WOOD_LEAVES.get().asItem());
 			tabData.accept(MagicaliumModItems.ASTRONIUMSAPPLINGITEM.get());
+			tabData.accept(MagicaliumModBlocks.ASTRONIUMTERRE.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
@@ -87,6 +88,7 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModItems.MERLINHOERAW.get());
 			tabData.accept(MagicaliumModItems.MERLINHOE.get());
 			tabData.accept(MagicaliumModItems.MERLINTOOLSWORDRAW.get());
+			tabData.accept(MagicaliumModItems.ASTRO_WORLD.get());
 
 		}
 	}

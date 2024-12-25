@@ -28,6 +28,7 @@ import net.mcreator.magicalium.item.GlassstickItem;
 import net.mcreator.magicalium.item.BatonastroniumItem;
 import net.mcreator.magicalium.item.AstroniumsapplingitemItem;
 import net.mcreator.magicalium.item.AstroniumcompresseItem;
+import net.mcreator.magicalium.item.AstroWorldItem;
 import net.mcreator.magicalium.item.ASTRONIUMSwordItem;
 import net.mcreator.magicalium.item.ASTRONIUMShovelItem;
 import net.mcreator.magicalium.item.ASTRONIUMPickaxeItem;
@@ -95,6 +96,9 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> MAGICALLGLASSBRICK = block(MagicaliumModBlocks.MAGICALLGLASSBRICK);
 	public static final RegistryObject<Item> ASTRONIUMSAPPLINGITEM = REGISTRY.register("astroniumsapplingitem", () -> new AstroniumsapplingitemItem());
 	public static final RegistryObject<Item> ASTRONIUMHERBE = block(MagicaliumModBlocks.ASTRONIUMHERBE);
+	public static final RegistryObject<Item> ASTRONIUMTERRE = block(MagicaliumModBlocks.ASTRONIUMTERRE);
+	public static final RegistryObject<Item> ASTO_PIERRE = block(MagicaliumModBlocks.ASTO_PIERRE);
+	public static final RegistryObject<Item> ASTRO_WORLD = REGISTRY.register("astro_world", () -> new AstroWorldItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

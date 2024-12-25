@@ -1,0 +1,128 @@
+{
+  "_fv": 69,
+  "_type": "biome",
+  "definition": {
+    "name": "Astronium_forest",
+    "groundBlock": {
+      "value": "CUSTOM:Astroniumherbe"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:ASTRONIUMTERRE"
+    },
+    "underwaterBlock": {
+      "value": "CUSTOM:ASTRONIUMTERRE"
+    },
+    "grassColor": {
+      "value": -3368449,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -3368449,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -3355393,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -13057,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "ambient.basalt_deltas.loop"
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": "ambient.basalt_deltas.mood"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "SPELL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 1.4,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 10,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 7,
+    "treeStem": {
+      "value": "CUSTOM:Astronium_woodLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Astronium_woodLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "MonsterRooms"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": true,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "STANDARD",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

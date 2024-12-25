@@ -1838,7 +1838,79 @@
           "src/main/resources/data/magicalium/loot_tables/blocks/astroniumherbe.json"
         ]
       },
-      "path": "~/astronium/biome"
+      "path": "~/astronium/dimension/biome/BLOCK"
+    },
+    {
+      "name": "ASTRONIUMTERRE",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumterre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/item/astroniumterre.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astroniumterre.json",
+          "src/main/resources/assets/magicalium/blockstates/astroniumterre.json",
+          "src/main/resources/assets/magicalium/models/block/astroniumterre.json",
+          "src/main/java/net/mcreator/magicalium/block/ASTRONIUMTERREBlock.java"
+        ]
+      },
+      "path": "~/astronium/dimension/biome/BLOCK"
+    },
+    {
+      "name": "Astroniumforest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astroniumforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicalium/worldgen/configured_feature/astroniumforest_tree.json",
+          "src/main/resources/data/magicalium/worldgen/placed_feature/astroniumforest_tree.json",
+          "src/main/resources/data/magicalium/worldgen/biome/astroniumforest.json"
+        ]
+      },
+      "path": "~/astronium/dimension/biome"
+    },
+    {
+      "name": "AstoPierre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asto_pierre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/blockstates/asto_pierre.json",
+          "src/main/java/net/mcreator/magicalium/block/AstoPierreBlock.java",
+          "src/main/resources/assets/magicalium/models/item/asto_pierre.json",
+          "src/main/resources/assets/magicalium/models/block/asto_pierre.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/asto_pierre.json"
+        ]
+      },
+      "path": "~/astronium/dimension/block"
+    },
+    {
+      "name": "AstroWorld",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astro_world",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/blockstates/astro_world_portal.json",
+          "src/main/resources/assets/magicalium/models/item/astro_world.json",
+          "src/main/resources/data/magicalium/dimension/astro_world.json",
+          "src/main/java/net/mcreator/magicalium/world/dimension/AstroWorldDimension.java",
+          "src/main/java/net/mcreator/magicalium/block/AstroWorldPortalBlock.java",
+          "src/main/java/net/mcreator/magicalium/item/AstroWorldItem.java",
+          "src/main/resources/data/magicalium/dimension_type/astro_world.json",
+          "src/main/java/net/mcreator/magicalium/world/teleporter/AstroWorldTeleporter.java",
+          "src/main/java/net/mcreator/magicalium/world/teleporter/AstroWorldPortalShape.java",
+          "src/main/resources/assets/magicalium/models/block/astro_world_portal_ew.json",
+          "src/main/resources/assets/magicalium/models/block/astro_world_portal_ns.json"
+        ]
+      },
+      "path": "~/astronium/dimension"
     }
   ],
   "variable_elements": [],
@@ -1847,8 +1919,17 @@
     "BLOCKS:minecraft:fences": [
       "~CUSTOM:Astronium_woodFence"
     ],
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:Astroniumforest"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:Astroniumforest"
+    ],
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:Astronium_woodLeaves"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:Astroniumforest"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:Merlinpickaxeraw",
@@ -1866,6 +1947,7 @@
       "CUSTOM:Astronium_woodLog"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:AstoPierre",
       "~CUSTOM:MagicalglassBlock",
       "~CUSTOM:MagicalglassOre",
       "~CUSTOM:ASTRONIUMOre",
@@ -1889,8 +1971,19 @@
       "~CUSTOM:Astronium_woodStairs"
     ],
     "BIOMES:minecraft:is_overworld": [],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:Astroniumforest"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Astroniumherbe",
+      "~CUSTOM:AstoPierre",
+      "~CUSTOM:ASTRONIUMTERRE"
+    ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~CUSTOM:Astroniumherbe"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:Astroniumforest"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:MagicalglassBlock",
@@ -1907,6 +2000,9 @@
       "~CUSTOM:Merlintoolswordraw",
       "~CUSTOM:ASTRONIUMSword",
       "~CUSTOM:MerlinSword"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:Astroniumforest"
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:Merlinshovelraw",
@@ -1931,17 +2027,19 @@
       "block.magicalium.magicalglassstonestairs": "Magicalglassslab",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
+      "block.magicalium.astroniumterre": "terre d\u0027astronium",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "item.magicalium.astroniumsapplingitem": "Astronium sappling",
+      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
+      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
+      "biome.magicalium.astroniumforest": "Astronium_forest",
       "block.magicalium.magicalglassrafined": "Magicalglassrafined",
       "block.magicalium.astronium_wood_leaves": "Astronium_wood Leaves",
       "block.magicalium.astronium_wood_stairs": "Astronium_wood Stairs",
@@ -1953,6 +2051,7 @@
       "block.magicalium.magicalglassrafinedstairs": "Magicalglassrafined",
       "item.magicalium.magical_glass_armor_armor_boots": "Merlin_glass_armor Boots",
       "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
+      "item.magicalium.astro_world": "Astro World Portal Igniter",
       "block.magicalium.magicalglassslabm": "Magicallglassbrick",
       "block.magicalium.astroniumsapling": "Astroniumsapling",
       "item.magicalium.magical_glass_armor_armor_chestplate": "Merlin_glass_armor Chestplate",
@@ -1969,6 +2068,7 @@
       "item.magicalium.merlinaxeraw": "Merlinaxeraw",
       "item.magicalium.magical_glass_armor_armor_leggings": "Merlin_glass_armor Leggings",
       "block.magicalium.astronium_wood_pressure_plate": "Astronium_wood Pressure Plate",
+      "block.magicalium.asto_pierre": "Asto Pierre",
       "item.magicalium.merlin_sword": "Merlin Sword",
       "item.magicalium.glassstick": "Glassstick",
       "item.magicalium.astronium_pickaxe": "ASTRONIUM Pickaxe",
@@ -2075,8 +2175,22 @@
             "children": []
           },
           {
-            "name": "biome",
-            "children": []
+            "name": "dimension",
+            "children": [
+              {
+                "name": "biome",
+                "children": [
+                  {
+                    "name": "BLOCK",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "block",
+                "children": []
+              }
+            ]
           }
         ]
       },

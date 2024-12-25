@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "magicalium:block/coter-detailler",
+    "particle": "magicalium:block/coter-detailler"
+  },
+  "render_type": "solid"
+}
