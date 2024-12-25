@@ -1970,7 +1970,9 @@
       "~CUSTOM:Magicalglassstonestairs",
       "~CUSTOM:Astronium_woodStairs"
     ],
-    "BIOMES:minecraft:is_overworld": [],
+    "BIOMES:minecraft:is_overworld": [
+      "CUSTOM:Astroniumforest"
+    ],
     "BIOMES:minecraft:has_structure/woodland_mansion": [
       "~CUSTOM:Astroniumforest"
     ],
@@ -2030,13 +2032,13 @@
       "block.magicalium.astroniumterre": "terre d\u0027astronium",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "item.magicalium.astroniumsapplingitem": "Astronium sappling",
+      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "ASTRONIUM Ore",
-      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
+      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
       "item.magicalium.astronium_ingot": "ASTRONIUM",
       "biome.magicalium.astroniumforest": "Astronium_forest",
