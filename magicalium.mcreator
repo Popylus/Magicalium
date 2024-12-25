@@ -1970,9 +1970,7 @@
       "~CUSTOM:Magicalglassstonestairs",
       "~CUSTOM:Astronium_woodStairs"
     ],
-    "BIOMES:minecraft:is_overworld": [
-      "CUSTOM:Astroniumforest"
-    ],
+    "BIOMES:minecraft:is_overworld": [],
     "BIOMES:minecraft:has_structure/woodland_mansion": [
       "~CUSTOM:Astroniumforest"
     ],
