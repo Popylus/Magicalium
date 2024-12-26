@@ -186,7 +186,7 @@ public class GravitoEntity extends Monster implements GeoEntity {
 
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
-			return event.setAndContinue(RawAnimation.begin().thenLoop("qqq"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("gravito"));
 		}
 		return PlayState.STOP;
 	}

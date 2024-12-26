@@ -74,7 +74,7 @@ public class GravitoOnEntityTickUpdateProcedure {
 			entity.makeStuckInBlock(Blocks.AIR.defaultBlockState(), new Vec3(0.25, 0.05, 0.25));
 			if (!(entity instanceof LivingEntity _livEnt8 && _livEnt8.hasEffect(MagicaliumModMobEffects.GRAVITO_EFFECT.get()))) {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MagicaliumModMobEffects.GRAVITO_EFFECT.get(), 80, 1, false, false));
+					_entity.addEffect(new MobEffectInstance(MagicaliumModMobEffects.GRAVITO_EFFECT.get(), 5, 1, false, false));
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
 						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.creeper.primed")), SoundSource.HOSTILE, 1, 1);

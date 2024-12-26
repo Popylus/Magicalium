@@ -1,21 +1,20 @@
 package net.mcreator.magicalium.procedures;
 
-import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.effect.MobEffectInstance;
 
 import net.mcreator.magicalium.entity.GravitoEntity;
 
 public class GravitoEffectEffectExpiresProcedure {
-	public static void execute(Entity entity) {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
 		if (entity instanceof GravitoEntity) {
 			if (!entity.level().isClientSide())
 				entity.discard();
-			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 80, 1, false, false));
+			if (world instanceof Level _level && !_level.isClientSide())
+				_level.explode(null, x, y, z, 6, Level.ExplosionInteraction.TNT);
 		}
 	}
 }

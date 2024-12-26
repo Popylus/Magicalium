@@ -10,7 +10,6 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
 import net.mcreator.magicalium.entity.model.GravitoModel;
-import net.mcreator.magicalium.entity.layer.GravitoLayer;
 import net.mcreator.magicalium.entity.GravitoEntity;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -20,7 +19,6 @@ public class GravitoRenderer extends GeoEntityRenderer<GravitoEntity> {
 	public GravitoRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new GravitoModel());
 		this.shadowRadius = 0.5f;
-		this.addRenderLayer(new GravitoLayer(this));
 	}
 
 	@Override

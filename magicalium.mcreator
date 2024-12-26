@@ -1921,7 +1921,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/magicalium/entity/GravitoEntity.java",
-          "src/main/java/net/mcreator/magicalium/entity/layer/GravitoLayer.java",
           "src/main/java/net/mcreator/magicalium/client/renderer/GravitoRenderer.java",
           "src/main/resources/assets/magicalium/models/item/gravito_spawn_egg.json",
           "src/main/resources/data/magicalium/forge/biome_modifier/gravito_biome_modifier.json",
@@ -1992,6 +1991,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -2114,13 +2129,13 @@
       "item.magicalium.astronium_sword": "ASTRONIUM Sword",
       "block.magicalium.magicalglassstonestairs": "Magicalglassslab",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
-      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
+      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astroniumterre": "terre d\u0027astronium",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "item.magicalium.astroniumsapplingitem": "Astronium sappling",
+      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "minerai d\u0027astronium",
