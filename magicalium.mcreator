@@ -1964,6 +1964,38 @@
         ]
       },
       "path": "~/astronium/dimension"
+    },
+    {
+      "name": "GravitoEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravito_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/potion/GravitoEffectMobEffect.java"
+        ]
+      },
+      "path": "~/astronium/dimension"
+    },
+    {
+      "name": "GravitoEffectEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravito_effect_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/GravitoEffectEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/astronium/dimension"
     }
   ],
   "variable_elements": [],
@@ -2072,6 +2104,7 @@
   "language_map": {
     "en_us": {
       "item.magicalium.merlinhoeraw": "Merlinhoeraw",
+      "effect.magicalium.gravito_effect": "Gravito Effect",
       "block.magicalium.astronium_wood_wood": "Astronium_wood Wood",
       "block.magicalium.magicallglassbrick": "Magicallglassbrick",
       "block.magicalium.magicalglassslab": "Magicalglassslab",
@@ -2081,18 +2114,18 @@
       "item.magicalium.astronium_sword": "ASTRONIUM Sword",
       "block.magicalium.magicalglassstonestairs": "Magicalglassslab",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
-      "block.magicalium.astronium_wood_log": "Astronium_wood Log",
       "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
+      "block.magicalium.astronium_wood_log": "Astronium_wood Log",
       "block.magicalium.astroniumterre": "terre d\u0027astronium",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "item.magicalium.astroniumsapplingitem": "Astronium sappling",
       "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
+      "item.magicalium.astroniumsapplingitem": "Astronium sappling",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "minerai d\u0027astronium",
-      "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
+      "block.magicalium.magicalglass_block": "Block of Magicalglass",
       "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
       "item.magicalium.astronium_ingot": "astronium",
       "biome.magicalium.astroniumforest": "Astronium_forest",

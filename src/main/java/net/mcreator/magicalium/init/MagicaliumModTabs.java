@@ -61,6 +61,10 @@ public class MagicaliumModTabs {
 			tabData.accept(MagicaliumModItems.ASTRONIUM_ARMOR_BOOTS.get());
 			tabData.accept(MagicaliumModItems.ASTRONIUM_SWORD.get());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+
+			tabData.accept(MagicaliumModItems.GRAVITO_SPAWN_EGG.get());
+
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
 			tabData.accept(MagicaliumModItems.ASTRONIUM_INGOT.get());
