@@ -1931,16 +1931,37 @@
       "path": "~/astronium/dimension"
     },
     {
-      "name": "GravitoQuandLeJoueurEntreEnCollisionAvecLentite",
+      "name": "GravitoOnEntityTickUpdate",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gravito_quand_le_joueur_entre_en_collision_avec_lentite",
+      "registry_name": "gravito_on_entity_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalium/procedures/GravitoQuandLeJoueurEntreEnCollisionAvecLentiteProcedure.java"
+          "src/main/java/net/mcreator/magicalium/procedures/GravitoOnEntityTickUpdateProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/astronium/dimension"
     }
@@ -2060,18 +2081,18 @@
       "item.magicalium.astronium_sword": "ASTRONIUM Sword",
       "block.magicalium.magicalglassstonestairs": "Magicalglassslab",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
-      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
+      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astroniumterre": "terre d\u0027astronium",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "item.magicalium.astroniumsapplingitem": "Astronium sappling",
+      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "minerai d\u0027astronium",
-      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglass_block": "Block of Magicalglass",
+      "item.magicalium.astronium_armor_leggings": "ASTRONIUM Leggings",
       "block.magicalium.magicalglassrafinedslab": "Magicalglassrafined",
       "item.magicalium.astronium_ingot": "astronium",
       "biome.magicalium.astroniumforest": "Astronium_forest",
