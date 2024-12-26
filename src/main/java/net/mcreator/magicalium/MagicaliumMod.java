@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.magicalium.init.MagicaliumModTabs;
 import net.mcreator.magicalium.init.MagicaliumModItems;
+import net.mcreator.magicalium.init.MagicaliumModEntities;
 import net.mcreator.magicalium.init.MagicaliumModBlocks;
 import net.mcreator.magicalium.init.MagicaliumModBlockEntities;
 
@@ -45,6 +46,7 @@ public class MagicaliumMod {
 		MagicaliumModBlocks.REGISTRY.register(bus);
 		MagicaliumModBlockEntities.REGISTRY.register(bus);
 		MagicaliumModItems.REGISTRY.register(bus);
+		MagicaliumModEntities.REGISTRY.register(bus);
 
 		MagicaliumModTabs.REGISTRY.register(bus);
 
