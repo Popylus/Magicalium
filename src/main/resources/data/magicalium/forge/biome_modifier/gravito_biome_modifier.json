@@ -1,8 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "magicalium:astroniumforest",
   "spawners": {
     "type": "magicalium:gravito",
     "weight": 20,
