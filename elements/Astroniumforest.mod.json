@@ -122,6 +122,15 @@
         "maxGroup": 4,
         "weight": 20,
         "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Gravito"
+        },
+        "minGroup": 5,
+        "maxGroup": 5,
+        "weight": 80,
+        "spawnType": "creature"
       }
     ]
   }
