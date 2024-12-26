@@ -18,7 +18,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 public class GravitoRenderer extends GeoEntityRenderer<GravitoEntity> {
 	public GravitoRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new GravitoModel());
-		this.shadowRadius = 0.5f;
+		this.shadowRadius = 0f;
 	}
 
 	@Override

@@ -116,21 +116,12 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "EntityPig"
-        },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
           "value": "CUSTOM:Gravito"
         },
-        "minGroup": 5,
-        "maxGroup": 5,
-        "weight": 80,
-        "spawnType": "creature"
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
+        "spawnType": "ambient"
       }
     ]
   }

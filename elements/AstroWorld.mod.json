@@ -23,8 +23,8 @@
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
-    "hasSkyLight": true,
-    "imitateOverworldBehaviour": true,
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
     "portalFrame": {
       "value": "CUSTOM:ASTRONIUMBlock"
     },
