@@ -47,7 +47,6 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
-import net.mcreator.magicalium.procedures.GravitoOnEntityTickUpdateProcedure;
 import net.mcreator.magicalium.init.MagicaliumModItems;
 import net.mcreator.magicalium.init.MagicaliumModEntities;
 
@@ -160,7 +159,6 @@ public class GravitoEntity extends Monster implements GeoEntity {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		GravitoOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 		this.refreshDimensions();
 	}
 
@@ -186,7 +184,12 @@ public class GravitoEntity extends Monster implements GeoEntity {
 
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
-			return event.setAndContinue(RawAnimation.begin().thenLoop("gravito"));
+			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
+
+			) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("GRAVITO"));
+			}
+			return event.setAndContinue(RawAnimation.begin().thenLoop("GRAVITO"));
 		}
 		return PlayState.STOP;
 	}
