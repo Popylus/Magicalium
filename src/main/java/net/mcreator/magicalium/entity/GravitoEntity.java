@@ -189,7 +189,7 @@ public class GravitoEntity extends Monster implements GeoEntity {
 			) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop("GRAVITO"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("GRAVITO"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("gravitopassif"));
 		}
 		return PlayState.STOP;
 	}
