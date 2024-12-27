@@ -68,7 +68,7 @@ public class GravitoEntity extends Monster implements GeoEntity {
 		super(type, world);
 		xpReward = 5;
 		setNoAi(false);
-		setMaxUpStep(0f);
+		setMaxUpStep(0.1f);
 	}
 
 	@Override
@@ -188,6 +188,9 @@ public class GravitoEntity extends Monster implements GeoEntity {
 
 			) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop("GRAVITO"));
+			}
+			if (this.isDeadOrDying()) {
+				return event.setAndContinue(RawAnimation.begin().thenPlay("gravitodie"));
 			}
 			return event.setAndContinue(RawAnimation.begin().thenLoop("gravitopassif"));
 		}
