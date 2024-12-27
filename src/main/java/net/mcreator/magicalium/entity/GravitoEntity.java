@@ -219,7 +219,7 @@ public class GravitoEntity extends Monster implements GeoEntity {
 	@Override
 	protected void tickDeath() {
 		++this.deathTime;
-		if (this.deathTime == 20) {
+		if (this.deathTime == 100) {
 			this.remove(GravitoEntity.RemovalReason.KILLED);
 			this.dropExperience();
 		}
