@@ -14,17 +14,13 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.ai.navigation.PathNavigation;
-import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
-import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.Pose;
@@ -36,17 +32,13 @@ import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
-import net.minecraft.network.chat.Component;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.core.BlockPos;
 
 import net.mcreator.magicalium.init.MagicaliumModEntities;
 
@@ -59,7 +51,6 @@ public class MerlinlebossEntity extends Monster implements GeoEntity {
 	private boolean lastloop;
 	private long lastSwing;
 	public String animationprocedure = "empty";
-	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.BLUE, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public MerlinlebossEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(MagicaliumModEntities.MERLINLEBOSS.get(), world);
@@ -70,10 +61,7 @@ public class MerlinlebossEntity extends Monster implements GeoEntity {
 		xpReward = 0;
 		setNoAi(false);
 		setMaxUpStep(0.6f);
-		setCustomName(Component.literal("Merlin"));
-		setCustomNameVisible(true);
 		setPersistenceRequired();
-		this.moveControl = new FlyingMoveControl(this, 10, true);
 	}
 
 	@Override
@@ -98,11 +86,6 @@ public class MerlinlebossEntity extends Monster implements GeoEntity {
 	}
 
 	@Override
-	protected PathNavigation createNavigation(Level world) {
-		return new FlyingPathNavigation(this, world);
-	}
-
-	@Override
 	protected void registerGoals() {
 		super.registerGoals();
 		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false) {
@@ -119,7 +102,7 @@ public class MerlinlebossEntity extends Monster implements GeoEntity {
 
 	@Override
 	public MobType getMobType() {
-		return MobType.UNDEFINED;
+		return MobType.ARTHROPOD;
 	}
 
 	@Override
@@ -135,11 +118,6 @@ public class MerlinlebossEntity extends Monster implements GeoEntity {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
-	}
-
-	@Override
-	public boolean causeFallDamage(float l, float d, DamageSource source) {
-		return false;
 	}
 
 	@Override
@@ -173,43 +151,6 @@ public class MerlinlebossEntity extends Monster implements GeoEntity {
 		return super.getDimensions(p_33597_).scale((float) 1);
 	}
 
-	@Override
-	public boolean canChangeDimensions() {
-		return false;
-	}
-
-	@Override
-	public void startSeenByPlayer(ServerPlayer player) {
-		super.startSeenByPlayer(player);
-		this.bossInfo.addPlayer(player);
-	}
-
-	@Override
-	public void stopSeenByPlayer(ServerPlayer player) {
-		super.stopSeenByPlayer(player);
-		this.bossInfo.removePlayer(player);
-	}
-
-	@Override
-	public void customServerAiStep() {
-		super.customServerAiStep();
-		this.bossInfo.setProgress(this.getHealth() / this.getMaxHealth());
-	}
-
-	@Override
-	protected void checkFallDamage(double y, boolean onGroundIn, BlockState state, BlockPos pos) {
-	}
-
-	@Override
-	public void setNoGravity(boolean ignored) {
-		super.setNoGravity(true);
-	}
-
-	public void aiStep() {
-		super.aiStep();
-		this.setNoGravity(true);
-	}
-
 	public static void init() {
 	}
 
@@ -220,17 +161,11 @@ public class MerlinlebossEntity extends Monster implements GeoEntity {
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
-		builder = builder.add(Attributes.FLYING_SPEED, 0.3);
 		return builder;
 	}
 
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
-			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
-
-			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("walk"));
-			}
 			return event.setAndContinue(RawAnimation.begin().thenLoop("walk"));
 		}
 		return PlayState.STOP;

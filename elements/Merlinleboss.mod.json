@@ -3,7 +3,7 @@
   "_type": "animatedentity",
   "definition": {
     "mobName": "Merlinleboss",
-    "mobLabel": "Merlin",
+    "mobLabel": "",
     "mobModelTexture": "merlin_pr_gecko.png",
     "mobModelGlowTexture": "",
     "visualScale": {
@@ -32,7 +32,7 @@
         "value": "MISC"
       }
     ],
-    "isBoss": true,
+    "isBoss": false,
     "bossBarColor": "BLUE",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
@@ -54,7 +54,7 @@
       "value": ""
     },
     "mobBehaviourType": "Mob",
-    "mobCreatureType": "UNDEFINED",
+    "mobCreatureType": "ARTHROPOD",
     "attackStrength": 3,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
@@ -65,7 +65,7 @@
     "health": 10,
     "xpAmount": 0,
     "waterMob": false,
-    "flyingMob": true,
+    "flyingMob": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -121,7 +121,7 @@
     "animation8": "",
     "animation9": "",
     "animation10": "",
-    "enable2": true,
+    "enable2": false,
     "enable3": false,
     "enable4": false,
     "enable5": false,
