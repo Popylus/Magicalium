@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class EffectastroforestMobEffect extends MobEffect {
 	public EffectastroforestMobEffect() {
-		super(MobEffectCategory.NEUTRAL, -1);
+		super(MobEffectCategory.BENEFICIAL, -3407872);
 	}
 
 	@Override
