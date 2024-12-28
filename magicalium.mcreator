@@ -2266,6 +2266,10 @@
           {
             "name": "bloc",
             "children": []
+          },
+          {
+            "name": "boss",
+            "children": []
           }
         ]
       }
