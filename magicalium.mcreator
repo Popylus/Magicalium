@@ -1932,7 +1932,7 @@
     {
       "name": "Effectastroforest",
       "type": "potioneffect",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "effectastroforest",
       "metadata": {
@@ -1945,7 +1945,7 @@
     {
       "name": "BiomeEffectConditionDeTickActif",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "biome_effect_condition_de_tick_actif",
       "metadata": {
@@ -1980,7 +1980,7 @@
     {
       "name": "AstroWorldLorsqueLeDeclencheurDuPortailEstUtilise",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "astro_world_lorsque_le_declencheur_du_portail_est_utilise",
       "metadata": {
@@ -2015,7 +2015,7 @@
     {
       "name": "Merlin",
       "type": "animatedentity",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "merlin",
       "metadata": {
@@ -2144,13 +2144,13 @@
       "item.magicalium.astronium_sword": "ASTRONIUM Sword",
       "block.magicalium.magicalglassstonestairs": "Magicalglassslab",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
-      "block.magicalium.astronium_wood_log": "Astronium_wood Log",
       "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
+      "block.magicalium.astronium_wood_log": "Astronium_wood Log",
       "block.magicalium.astroniumterre": "terre d\u0027astronium",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "item.magicalium.astroniumsapplingitem": "Astronium sappling",
       "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
+      "item.magicalium.astroniumsapplingitem": "Astronium sappling",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "minerai d\u0027astronium",
