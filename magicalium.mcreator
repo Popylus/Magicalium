@@ -2055,53 +2055,25 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:Astronium_woodFence"
+    ],
     "BIOMES:minecraft:has_structure/stronghold": [
       "~CUSTOM:Astroniumforest"
     ],
     "BIOMES:minecraft:has_structure/pillager_outpost": [
       "~CUSTOM:Astroniumforest"
     ],
-    "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CUSTOM:MagicalglassBlock",
-      "~CUSTOM:MagicalglassOre",
-      "~CUSTOM:ASTRONIUMOre",
-      "~CUSTOM:ASTRONIUMBlock"
-    ],
     "BIOMES:minecraft:has_structure/buried_treasure": [
       "~CUSTOM:Astroniumforest"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:Astronium_woodLeaves"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:Merlinpickaxeraw",
       "~CUSTOM:ASTRONIUMPickaxe",
       "~CUSTOM:Merlinpickaxe"
-    ],
-    "ITEMS:minecraft:hoes": [
-      "~CUSTOM:Merlinhoe",
-      "~CUSTOM:Merlinhoeraw",
-      "~CUSTOM:ASTRONIUMHoe"
-    ],
-    "BIOMES:minecraft:is_overworld": [
-      "CUSTOM:Astroniumforest"
-    ],
-    "BIOMES:minecraft:has_structure/woodland_mansion": [
-      "~CUSTOM:Astroniumforest"
-    ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:Astroniumherbe",
-      "~CUSTOM:AstoPierre",
-      "~CUSTOM:ASTRONIUMTERRE"
-    ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:Astronium_woodLog"
-    ],
-    "BLOCKS:minecraft:leaves": [
-      "~CUSTOM:Astronium_woodLeaves"
-    ],
-    "BIOMES:minecraft:has_structure/shipwreck_beached": [
-      "~CUSTOM:Astroniumforest"
-    ],
-    "BLOCKS:minecraft:dirt": [
-      "CUSTOM:Astroniumherbe"
     ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:Magicalglassslabm",
@@ -2109,6 +2081,9 @@
       "~CUSTOM:Magicalglassrafinedslab",
       "~CUSTOM:Magicalglassslab",
       "~CUSTOM:Astronium_woodSlab"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Astronium_woodLog"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:AstoPierre",
@@ -2122,16 +2097,16 @@
       "~CUSTOM:Astronium_woodLog",
       "~CUSTOM:Astronium_woodWood"
     ],
-    "BLOCKS:minecraft:fences": [
-      "~CUSTOM:Astronium_woodFence"
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Merlinhoe",
+      "~CUSTOM:Merlinhoeraw",
+      "~CUSTOM:ASTRONIUMHoe"
     ],
-    "BLOCKS:minecraft:mineable/shovel": [
-      "~CUSTOM:Astroniumherbe"
+    "BIOMES:minecraft:is_overworld": [
+      "CUSTOM:Astroniumforest"
     ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:Merlinaxeraw",
-      "~CUSTOM:ASTRONIUMAxe",
-      "~CUSTOM:MerlinHaxe"
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:Astroniumforest"
     ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:Magicalglassrafinedstairs",
@@ -2140,6 +2115,28 @@
       "~CUSTOM:Magicalglassstonestairs",
       "~CUSTOM:Astronium_woodStairs"
     ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Astroniumherbe",
+      "~CUSTOM:AstoPierre",
+      "~CUSTOM:ASTRONIUMTERRE"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:Astroniumforest"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Astroniumherbe"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:MagicalglassBlock",
+      "~CUSTOM:MagicalglassOre",
+      "~CUSTOM:ASTRONIUMOre",
+      "~CUSTOM:ASTRONIUMBlock"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Merlinaxeraw",
+      "~CUSTOM:ASTRONIUMAxe",
+      "~CUSTOM:MerlinHaxe"
+    ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Merlintoolswordraw",
       "~CUSTOM:ASTRONIUMSword",
@@ -2147,6 +2144,9 @@
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_standard": [
       "~CUSTOM:Astroniumforest"
+    ],
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:Astroniumherbe"
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:Merlinshovelraw",
@@ -2167,13 +2167,13 @@
       "item.magicalium.astronium_sword": "ASTRONIUM Sword",
       "block.magicalium.magicalglassstonestairs": "Magicalglassslab",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
-      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
+      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astroniumterre": "terre d\u0027astronium",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "item.magicalium.astroniumsapplingitem": "Astronium sappling",
+      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "entity.magicalium.merlin": "Merlin",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",

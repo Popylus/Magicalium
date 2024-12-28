@@ -25,6 +25,9 @@
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "AstroWorldLorsqueLeDeclencheurDuPortailEstUtilise"
+    },
     "portalFrame": {
       "value": "CUSTOM:ASTRONIUMBlock"
     },
@@ -48,9 +51,6 @@
     ],
     "texture": "minecraft:baked_potato",
     "portalTexture": "portail_astronium",
-    "enablePortal": true,
-    "whenPortaTriggerlUsed": {
-      "name": "AstroWorldLorsqueLeDeclencheurDuPortailEstUtilise"
-    }
+    "enablePortal": true
   }
 }
