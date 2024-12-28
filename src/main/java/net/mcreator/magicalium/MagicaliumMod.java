@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.magicalium.init.MagicaliumModTabs;
+import net.mcreator.magicalium.init.MagicaliumModMobEffects;
 import net.mcreator.magicalium.init.MagicaliumModItems;
 import net.mcreator.magicalium.init.MagicaliumModEntities;
 import net.mcreator.magicalium.init.MagicaliumModBlocks;
@@ -49,6 +50,8 @@ public class MagicaliumMod {
 		MagicaliumModEntities.REGISTRY.register(bus);
 
 		MagicaliumModTabs.REGISTRY.register(bus);
+
+		MagicaliumModMobEffects.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -10,6 +10,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.magicalium.procedures.BiomeEffectConditionDeTickActifProcedure;
 import net.mcreator.magicalium.block.AstroWorldPortalBlock;
 
 public class AstroWorldItem extends Item {
@@ -35,7 +36,9 @@ public class AstroWorldItem extends Item {
 				itemstack.hurtAndBreak(1, entity, c -> c.broadcastBreakEvent(context.getHand()));
 				success = true;
 			}
-			return success ? InteractionResult.SUCCESS : InteractionResult.FAIL;
+
+			BiomeEffectConditionDeTickActifProcedure.execute(world, x, y, z, entity);
+			return InteractionResult.SUCCESS;
 		}
 	}
 }
