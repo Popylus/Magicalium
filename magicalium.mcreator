@@ -1928,22 +1928,6 @@
         ]
       },
       "path": "~/astronium/dimension"
-    },
-    {
-      "name": "Merlinleboss",
-      "type": "animatedentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "merlinleboss",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalium/entity/model/MerlinlebossModel.java",
-          "src/main/resources/assets/magicalium/models/item/merlinleboss_spawn_egg.json",
-          "src/main/java/net/mcreator/magicalium/client/renderer/MerlinlebossRenderer.java",
-          "src/main/java/net/mcreator/magicalium/entity/MerlinlebossEntity.java"
-        ]
-      },
-      "path": "~/magicalglass/boss"
     }
   ],
   "variable_elements": [],
@@ -2061,13 +2045,13 @@
       "item.magicalium.astronium_sword": "ASTRONIUM Sword",
       "block.magicalium.magicalglassstonestairs": "Magicalglassslab",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
-      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
+      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astroniumterre": "terre d\u0027astronium",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "item.magicalium.astroniumsapplingitem": "Astronium sappling",
+      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
       "block.magicalium.astronium_ore": "minerai d\u0027astronium",
@@ -2089,7 +2073,6 @@
       "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
       "entity.magicalium.gravito": "Gravito",
       "item.magicalium.astro_world": "Astro World Portal Igniter",
-      "entity.magicalium.merlinleboss": "Merlinleboss",
       "block.magicalium.magicalglassslabm": "Magicallglassbrick",
       "block.magicalium.astroniumsapling": "Astroniumsapling",
       "item.magicalium.magical_glass_armor_armor_chestplate": "Merlin_glass_armor Chestplate",
@@ -2105,7 +2088,6 @@
       "item.magicalium.merlinpickaxeraw": "Merlinpickaxeraw",
       "item.magicalium.merlinaxeraw": "Merlinaxeraw",
       "item.magicalium.magical_glass_armor_armor_leggings": "Merlin_glass_armor Leggings",
-      "item.magicalium.merlinleboss_spawn_egg": "Merlinleboss Spawn Egg",
       "block.magicalium.astronium_wood_pressure_plate": "Astronium_wood Pressure Plate",
       "block.magicalium.asto_pierre": "Asto Pierre",
       "item.magicalium.merlin_sword": "Merlin Sword",
