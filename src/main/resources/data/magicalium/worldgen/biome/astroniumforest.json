@@ -24,16 +24,16 @@
     "water_fog_color": -13057
   },
   "spawners": {
-    "monster": [
+    "monster": [],
+    "creature": [],
+    "ambient": [
       {
-        "type": "pig",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
+        "type": "magicalium:gravito",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
-    "creature": [],
-    "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],

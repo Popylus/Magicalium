@@ -7,6 +7,7 @@ package net.mcreator.magicalium.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -99,6 +100,7 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> ASTRONIUMTERRE = block(MagicaliumModBlocks.ASTRONIUMTERRE);
 	public static final RegistryObject<Item> ASTO_PIERRE = block(MagicaliumModBlocks.ASTO_PIERRE);
 	public static final RegistryObject<Item> ASTRO_WORLD = REGISTRY.register("astro_world", () -> new AstroWorldItem());
+	public static final RegistryObject<Item> GRAVITO_SPAWN_EGG = REGISTRY.register("gravito_spawn_egg", () -> new ForgeSpawnEggItem(MagicaliumModEntities.GRAVITO, -6711040, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
