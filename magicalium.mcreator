@@ -1930,17 +1930,100 @@
       "path": "~/astronium/dimension"
     },
     {
+      "name": "Effectastroforest",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effectastroforest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/potion/EffectastroforestMobEffect.java"
+        ]
+      },
+      "path": "~/astronium/dimension"
+    },
+    {
+      "name": "BiomeEffectConditionDeTickActif",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biome_effect_condition_de_tick_actif",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/BiomeEffectConditionDeTickActifProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/astronium/dimension"
+    },
+    {
+      "name": "AstroWorldLorsqueLeDeclencheurDuPortailEstUtilise",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astro_world_lorsque_le_declencheur_du_portail_est_utilise",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/AstroWorldLorsqueLeDeclencheurDuPortailEstUtiliseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/astronium/dimension"
+    },
+    {
       "name": "Merlin",
       "type": "animatedentity",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "merlin",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/magicalium/entity/model/MerlinModel.java",
-          "src/main/java/net/mcreator/magicalium/entity/MerlinEntity.java",
           "src/main/java/net/mcreator/magicalium/client/renderer/MerlinRenderer.java",
-          "src/main/resources/assets/magicalium/models/item/merlin_spawn_egg.json"
+          "src/main/resources/assets/magicalium/models/item/merlin_spawn_egg.json",
+          "src/main/java/net/mcreator/magicalium/entity/MerlinEntity.java"
         ]
       },
       "path": "~/magicalglass/boss"
@@ -2084,13 +2167,13 @@
       "item.magicalium.astronium_sword": "ASTRONIUM Sword",
       "block.magicalium.magicalglassstonestairs": "Magicalglassslab",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
-      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
+      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astroniumterre": "terre d\u0027astronium",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "item.magicalium.astroniumsapplingitem": "Astronium sappling",
+      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "entity.magicalium.merlin": "Merlin",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
@@ -2110,6 +2193,7 @@
       "block.magicalium.astronium_wood_button": "Astronium_wood Button",
       "block.magicalium.magicalglassrafinedstairs": "Magicalglassrafined",
       "item.magicalium.magical_glass_armor_armor_boots": "Merlin_glass_armor Boots",
+      "effect.magicalium.effectastroforest": "Effectastroforest",
       "item.magicalium.astronium_armor_chestplate": "ASTRONIUM Chestplate",
       "entity.magicalium.gravito": "Gravito",
       "item.magicalium.astro_world": "Astro World Portal Igniter",
