@@ -47,11 +47,11 @@
       "registry_name": "astronium_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_block.json",
           "src/main/java/net/mcreator/magicalium/block/ASTRONIUMBlockBlock.java",
           "src/main/resources/assets/magicalium/models/block/astronium_block.json",
           "src/main/resources/assets/magicalium/blockstates/astronium_block.json",
-          "src/main/resources/assets/magicalium/models/item/astronium_block.json"
+          "src/main/resources/assets/magicalium/models/item/astronium_block.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_block.json"
         ]
       },
       "path": "~/astronium/minerai"
@@ -79,13 +79,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/magicalium/blockstates/astronium_ore.json",
-          "src/main/resources/data/magicalium/worldgen/placed_feature/astronium_ore.json",
-          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_ore.json",
-          "src/main/resources/assets/magicalium/models/item/astronium_ore.json",
-          "src/main/resources/assets/magicalium/models/block/astronium_ore.json",
+          "src/main/resources/data/magicalium/worldgen/configured_feature/astronium_ore.json",
           "src/main/java/net/mcreator/magicalium/block/ASTRONIUMOreBlock.java",
           "src/main/resources/data/magicalium/forge/biome_modifier/astronium_ore_biome_modifier.json",
-          "src/main/resources/data/magicalium/worldgen/configured_feature/astronium_ore.json"
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_ore.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_ore.json",
+          "src/main/resources/data/magicalium/worldgen/placed_feature/astronium_ore.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_ore.json"
         ]
       },
       "path": "~/astronium/minerai"
@@ -124,12 +124,12 @@
       "registry_name": "magicalglass_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/item/magicalglass_ore.json",
-          "src/main/java/net/mcreator/magicalium/block/MagicalglassOreBlock.java",
-          "src/main/resources/assets/magicalium/blockstates/magicalglass_ore.json",
-          "src/main/resources/data/magicalium/worldgen/configured_feature/magicalglass_ore.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglass_ore.json",
           "src/main/resources/data/magicalium/worldgen/placed_feature/magicalglass_ore.json",
+          "src/main/resources/data/magicalium/worldgen/configured_feature/magicalglass_ore.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassOreBlock.java",
+          "src/main/resources/assets/magicalium/models/item/magicalglass_ore.json",
+          "src/main/resources/assets/magicalium/blockstates/magicalglass_ore.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglass_ore.json",
           "src/main/resources/data/magicalium/forge/biome_modifier/magicalglass_ore_biome_modifier.json",
           "src/main/resources/data/magicalium/loot_tables/blocks/magicalglass_ore.json"
         ]
@@ -144,11 +144,11 @@
       "registry_name": "magicalglass_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/item/magicalglass_block.json",
-          "src/main/java/net/mcreator/magicalium/block/MagicalglassBlockBlock.java",
-          "src/main/resources/assets/magicalium/blockstates/magicalglass_block.json",
           "src/main/resources/data/magicalium/loot_tables/blocks/magicalglass_block.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglass_block.json"
+          "src/main/resources/assets/magicalium/models/item/magicalglass_block.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglass_block.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassBlockBlock.java",
+          "src/main/resources/assets/magicalium/blockstates/magicalglass_block.json"
         ]
       },
       "path": "~/magicalglass"
@@ -175,11 +175,11 @@
       "registry_name": "magical_glass_armor_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalium/item/Magical_glass_armorArmorItem.java",
+          "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_chestplate.json",
           "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_leggings.json",
           "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_helmet.json",
-          "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_chestplate.json",
-          "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_boots.json"
+          "src/main/resources/assets/magicalium/models/item/magical_glass_armor_armor_boots.json",
+          "src/main/java/net/mcreator/magicalium/item/Magical_glass_armorArmorItem.java"
         ]
       },
       "path": "~/magicalglass/armor"
@@ -340,11 +340,11 @@
       "registry_name": "astronium_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/item/astronium_armor_leggings.json",
-          "src/main/resources/assets/magicalium/models/item/astronium_armor_boots.json",
           "src/main/resources/assets/magicalium/models/item/astronium_armor_helmet.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_armor_leggings.json",
           "src/main/java/net/mcreator/magicalium/item/ASTRONIUMArmorItem.java",
-          "src/main/resources/assets/magicalium/models/item/astronium_armor_chestplate.json"
+          "src/main/resources/assets/magicalium/models/item/astronium_armor_chestplate.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_armor_boots.json"
         ]
       },
       "path": "~/astronium/armor/armure"
@@ -389,14 +389,14 @@
       "registry_name": "astronium_wood_wood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/blockstates/astronium_wood_wood.json",
-          "src/main/resources/data/magicalium/worldgen/configured_feature/astronium_wood_wood.json",
-          "src/main/resources/data/magicalium/forge/biome_modifier/astronium_wood_wood_biome_modifier.json",
-          "src/main/java/net/mcreator/magicalium/block/Astronium_woodWoodBlock.java",
-          "src/main/resources/assets/magicalium/models/item/astronium_wood_wood.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_wood.json",
           "src/main/resources/data/magicalium/worldgen/placed_feature/astronium_wood_wood.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_wood.json",
+          "src/main/resources/data/magicalium/worldgen/configured_feature/astronium_wood_wood.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodWoodBlock.java",
           "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_wood.json",
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_wood.json"
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_wood.json",
+          "src/main/resources/data/magicalium/forge/biome_modifier/astronium_wood_wood_biome_modifier.json"
         ]
       },
       "path": "~/astronium/bois/arbre/block"
@@ -409,11 +409,11 @@
       "registry_name": "astronium_wood_log",
       "metadata": {
         "files": [
-          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_log.json",
-          "src/main/resources/assets/magicalium/blockstates/astronium_wood_log.json",
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_log.json",
           "src/main/resources/assets/magicalium/models/item/astronium_wood_log.json",
-          "src/main/java/net/mcreator/magicalium/block/Astronium_woodLogBlock.java"
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_log.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodLogBlock.java",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_log.json",
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_log.json"
         ]
       },
       "path": "~/astronium/bois/arbre/block"
@@ -426,11 +426,11 @@
       "registry_name": "astronium_wood_planks",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodPlanksBlock.java",
           "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_planks.json",
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_planks.json",
-          "src/main/resources/assets/magicalium/models/item/astronium_wood_planks.json",
           "src/main/resources/assets/magicalium/blockstates/astronium_wood_planks.json",
-          "src/main/java/net/mcreator/magicalium/block/Astronium_woodPlanksBlock.java"
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_planks.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_planks.json"
         ]
       },
       "path": "~/astronium/bois/arbre/block"
@@ -443,10 +443,10 @@
       "registry_name": "astronium_wood_leaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalium/block/Astronium_woodLeavesBlock.java",
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_leaves.json",
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_leaves.json",
           "src/main/resources/assets/magicalium/models/item/astronium_wood_leaves.json",
-          "src/main/resources/assets/magicalium/blockstates/astronium_wood_leaves.json"
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_leaves.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodLeavesBlock.java"
         ]
       },
       "path": "~/astronium/bois/arbre/block"
@@ -459,13 +459,13 @@
       "registry_name": "astronium_wood_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_stairs_inner.json",
-          "src/main/java/net/mcreator/magicalium/block/Astronium_woodStairsBlock.java",
-          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_stairs.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_stairs_outer.json",
           "src/main/resources/assets/magicalium/blockstates/astronium_wood_stairs.json",
           "src/main/resources/assets/magicalium/models/block/astronium_wood_stairs.json",
           "src/main/resources/assets/magicalium/models/item/astronium_wood_stairs.json",
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_stairs_outer.json"
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodStairsBlock.java",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_stairs.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_stairs_inner.json"
         ]
       },
       "path": "~/astronium/bois/craft /block"
@@ -478,13 +478,13 @@
       "registry_name": "astronium_wood_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/blockstates/astronium_wood_slab.json",
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_slab_full.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_slab.json",
           "src/main/java/net/mcreator/magicalium/block/Astronium_woodSlabBlock.java",
           "src/main/resources/assets/magicalium/models/item/astronium_wood_slab.json",
-          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_slab.json",
           "src/main/resources/assets/magicalium/models/block/astronium_wood_slab_top.json",
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_slab.json"
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_slab.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_slab_full.json",
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_slab.json"
         ]
       },
       "path": "~/astronium/bois/craft /block"
@@ -497,13 +497,13 @@
       "registry_name": "astronium_wood_fence",
       "metadata": {
         "files": [
-          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_fence.json",
-          "src/main/java/net/mcreator/magicalium/block/Astronium_woodFenceBlock.java",
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence.json",
-          "src/main/resources/assets/magicalium/blockstates/astronium_wood_fence.json",
-          "src/main/resources/assets/magicalium/models/item/astronium_wood_fence.json",
           "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_post.json",
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_inventory.json"
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_fence.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_fence.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_inventory.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodFenceBlock.java",
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_fence.json"
         ]
       },
       "path": "~/astronium/bois/craft /block"
@@ -516,14 +516,14 @@
       "registry_name": "astronium_wood_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_gate_open.json",
           "src/main/resources/assets/magicalium/models/item/astronium_wood_fence_gate.json",
           "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_gate_wall.json",
           "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_gate_wall_open.json",
-          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_fence_gate.json",
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_gate.json",
           "src/main/resources/assets/magicalium/blockstates/astronium_wood_fence_gate.json",
-          "src/main/java/net/mcreator/magicalium/block/Astronium_woodFenceGateBlock.java"
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodFenceGateBlock.java",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_gate.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_fence_gate.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_fence_gate_open.json"
         ]
       },
       "path": "~/astronium/bois/craft /block"
@@ -536,11 +536,11 @@
       "registry_name": "astronium_wood_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_pressure_plate_down.json",
-          "src/main/java/net/mcreator/magicalium/block/Astronium_woodPressurePlateBlock.java",
-          "src/main/resources/assets/magicalium/models/item/astronium_wood_pressure_plate.json",
           "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_pressure_plate.json",
           "src/main/resources/assets/magicalium/blockstates/astronium_wood_pressure_plate.json",
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_pressure_plate.json",
+          "src/main/java/net/mcreator/magicalium/block/Astronium_woodPressurePlateBlock.java",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_pressure_plate_down.json",
           "src/main/resources/assets/magicalium/models/block/astronium_wood_pressure_plate.json"
         ]
       },
@@ -554,13 +554,13 @@
       "registry_name": "astronium_wood_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/blockstates/astronium_wood_button.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_button.json",
           "src/main/resources/assets/magicalium/models/block/astronium_wood_button_inventory.json",
-          "src/main/resources/assets/magicalium/models/block/astronium_wood_button.json",
-          "src/main/resources/assets/magicalium/models/item/astronium_wood_button.json",
+          "src/main/resources/assets/magicalium/blockstates/astronium_wood_button.json",
           "src/main/resources/assets/magicalium/models/block/astronium_wood_button_pressed.json",
+          "src/main/resources/assets/magicalium/models/block/astronium_wood_button.json",
           "src/main/java/net/mcreator/magicalium/block/Astronium_woodButtonBlock.java",
-          "src/main/resources/data/magicalium/loot_tables/blocks/astronium_wood_button.json"
+          "src/main/resources/assets/magicalium/models/item/astronium_wood_button.json"
         ]
       },
       "path": "~/astronium/bois/craft /block"
@@ -774,8 +774,8 @@
       "registry_name": "merlin_haxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalium/item/MerlinHaxeItem.java",
-          "src/main/resources/assets/magicalium/models/item/merlin_haxe.json"
+          "src/main/resources/assets/magicalium/models/item/merlin_haxe.json",
+          "src/main/java/net/mcreator/magicalium/item/MerlinHaxeItem.java"
         ]
       },
       "path": "~/magicalglass/tool/normal"
@@ -816,8 +816,8 @@
       "registry_name": "astronium_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/item/astronium_hoe.json",
-          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMHoeItem.java"
+          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMHoeItem.java",
+          "src/main/resources/assets/magicalium/models/item/astronium_hoe.json"
         ]
       },
       "path": "~/astronium/outil/item"
@@ -843,8 +843,8 @@
       "registry_name": "astroniumcompresse",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalium/item/AstroniumcompresseItem.java",
-          "src/main/resources/assets/magicalium/models/item/astroniumcompresse.json"
+          "src/main/resources/assets/magicalium/models/item/astroniumcompresse.json",
+          "src/main/java/net/mcreator/magicalium/item/AstroniumcompresseItem.java"
         ]
       },
       "path": "~/astronium/bois/compresser/item"
@@ -910,8 +910,8 @@
       "registry_name": "astronium_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/item/astronium_axe.json",
-          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMAxeItem.java"
+          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMAxeItem.java",
+          "src/main/resources/assets/magicalium/models/item/astronium_axe.json"
         ]
       },
       "path": "~/astronium/outil/item"
@@ -937,8 +937,8 @@
       "registry_name": "batonastronium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalium/item/BatonastroniumItem.java",
-          "src/main/resources/assets/magicalium/models/item/batonastronium.json"
+          "src/main/resources/assets/magicalium/models/item/batonastronium.json",
+          "src/main/java/net/mcreator/magicalium/item/BatonastroniumItem.java"
         ]
       },
       "path": "~/astronium/bois/compresser/item"
@@ -983,8 +983,8 @@
       "registry_name": "astronium_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/item/astronium_sword.json",
-          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMSwordItem.java"
+          "src/main/java/net/mcreator/magicalium/item/ASTRONIUMSwordItem.java",
+          "src/main/resources/assets/magicalium/models/item/astronium_sword.json"
         ]
       },
       "path": "~/astronium/outil/item"
@@ -1089,12 +1089,12 @@
       "registry_name": "astroniumsapling",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalium/block/AstroniumsaplingBlock.java",
+          "src/main/resources/assets/magicalium/models/block/astroniumsapling.json",
           "src/main/resources/assets/magicalium/models/item/astroniumsapling.json",
           "src/main/resources/data/magicalium/loot_tables/blocks/astroniumsapling.json",
           "src/main/resources/assets/magicalium/blockstates/astroniumsapling.json",
-          "src/main/java/net/mcreator/magicalium/block/entity/AstroniumsaplingBlockEntity.java",
-          "src/main/resources/assets/magicalium/models/block/astroniumsapling.json"
+          "src/main/java/net/mcreator/magicalium/block/AstroniumsaplingBlock.java",
+          "src/main/java/net/mcreator/magicalium/block/entity/AstroniumsaplingBlockEntity.java"
         ]
       },
       "path": "~/astronium/bois/arbre/block"
@@ -1107,8 +1107,8 @@
       "registry_name": "merlinpickaxeraw",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalium/item/MerlinpickaxerawItem.java",
-          "src/main/resources/assets/magicalium/models/item/merlinpickaxeraw.json"
+          "src/main/resources/assets/magicalium/models/item/merlinpickaxeraw.json",
+          "src/main/java/net/mcreator/magicalium/item/MerlinpickaxerawItem.java"
         ]
       },
       "path": "~/magicalglass/tool/raw"
@@ -1163,8 +1163,8 @@
       "registry_name": "merlinhoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalium/item/MerlinhoeItem.java",
-          "src/main/resources/assets/magicalium/models/item/merlinhoe.json"
+          "src/main/resources/assets/magicalium/models/item/merlinhoe.json",
+          "src/main/java/net/mcreator/magicalium/item/MerlinhoeItem.java"
         ]
       },
       "path": "~/magicalglass/tool/normal"
@@ -1326,13 +1326,13 @@
       "registry_name": "magicalglassslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/block/magicalglassslab.json",
-          "src/main/java/net/mcreator/magicalium/block/MagicalglassslabBlock.java",
-          "src/main/resources/assets/magicalium/models/item/magicalglassslab.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglassslab_top.json",
           "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassslab.json",
           "src/main/resources/assets/magicalium/blockstates/magicalglassslab.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglassslab_full.json"
+          "src/main/resources/assets/magicalium/models/block/magicalglassslab_top.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassslabBlock.java",
+          "src/main/resources/assets/magicalium/models/block/magicalglassslab_full.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassslab.json",
+          "src/main/resources/assets/magicalium/models/item/magicalglassslab.json"
         ]
       },
       "path": "~/magicalglass/bloc"
@@ -1376,11 +1376,11 @@
       "registry_name": "magicalglassrafined",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalium/block/MagicalglassrafinedBlock.java",
-          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassrafined.json",
-          "src/main/resources/assets/magicalium/models/item/magicalglassrafined.json",
+          "src/main/resources/assets/magicalium/blockstates/magicalglassrafined.json",
           "src/main/resources/assets/magicalium/models/block/magicalglassrafined.json",
-          "src/main/resources/assets/magicalium/blockstates/magicalglassrafined.json"
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassrafined.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassrafinedBlock.java",
+          "src/main/resources/assets/magicalium/models/item/magicalglassrafined.json"
         ]
       },
       "path": "~/magicalglass/bloc"
@@ -1393,13 +1393,13 @@
       "registry_name": "magicalglassrafinedslab",
       "metadata": {
         "files": [
-          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassrafinedslab.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglassrafinedslab_full.json",
-          "src/main/java/net/mcreator/magicalium/block/MagicalglassrafinedslabBlock.java",
           "src/main/resources/assets/magicalium/models/block/magicalglassrafinedslab_top.json",
           "src/main/resources/assets/magicalium/models/item/magicalglassrafinedslab.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassrafinedslab.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassrafinedslab_full.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassrafinedslab.json",
           "src/main/resources/assets/magicalium/blockstates/magicalglassrafinedslab.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglassrafinedslab.json"
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassrafinedslabBlock.java"
         ]
       },
       "path": "~/magicalglass/bloc"
@@ -1412,11 +1412,11 @@
       "registry_name": "magicalglassstone",
       "metadata": {
         "files": [
+          "src/main/resources/assets/magicalium/models/item/magicalglassstone.json",
+          "src/main/resources/assets/magicalium/blockstates/magicalglassstone.json",
           "src/main/resources/assets/magicalium/models/block/magicalglassstone.json",
           "src/main/java/net/mcreator/magicalium/block/MagicalglassstoneBlock.java",
-          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassstone.json",
-          "src/main/resources/assets/magicalium/models/item/magicalglassstone.json",
-          "src/main/resources/assets/magicalium/blockstates/magicalglassstone.json"
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassstone.json"
         ]
       },
       "path": "~/magicalglass/bloc"
@@ -1429,13 +1429,13 @@
       "registry_name": "magicalglassstonestairs",
       "metadata": {
         "files": [
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassstonestairs.json",
+          "src/main/resources/assets/magicalium/models/item/magicalglassstonestairs.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassstonestairs_inner.json",
           "src/main/resources/assets/magicalium/blockstates/magicalglassstonestairs.json",
           "src/main/java/net/mcreator/magicalium/block/MagicalglassstonestairsBlock.java",
-          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassstonestairs.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglassstonestairs_inner.json",
           "src/main/resources/assets/magicalium/models/block/magicalglassstonestairs.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglassstonestairs_outer.json",
-          "src/main/resources/assets/magicalium/models/item/magicalglassstonestairs.json"
+          "src/main/resources/assets/magicalium/models/block/magicalglassstonestairs_outer.json"
         ]
       },
       "path": "~/magicalglass/bloc"
@@ -1448,12 +1448,12 @@
       "registry_name": "magicalglassstairs",
       "metadata": {
         "files": [
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassstairs.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassstairsBlock.java",
+          "src/main/resources/assets/magicalium/blockstates/magicalglassstairs.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassstairs_inner.json",
           "src/main/resources/assets/magicalium/models/item/magicalglassstairs.json",
           "src/main/resources/assets/magicalium/models/block/magicalglassstairs.json",
-          "src/main/java/net/mcreator/magicalium/block/MagicalglassstairsBlock.java",
-          "src/main/resources/assets/magicalium/models/block/magicalglassstairs_inner.json",
-          "src/main/resources/assets/magicalium/blockstates/magicalglassstairs.json",
-          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassstairs.json",
           "src/main/resources/assets/magicalium/models/block/magicalglassstairs_outer.json"
         ]
       },
@@ -1467,13 +1467,13 @@
       "registry_name": "magicalglassbricksstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/block/magicalglassbricksstairs_outer.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglassbricksstairs_inner.json",
-          "src/main/resources/assets/magicalium/models/item/magicalglassbricksstairs.json",
-          "src/main/resources/assets/magicalium/blockstates/magicalglassbricksstairs.json",
-          "src/main/java/net/mcreator/magicalium/block/MagicalglassbricksstairsBlock.java",
           "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassbricksstairs.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglassbricksstairs.json"
+          "src/main/resources/assets/magicalium/models/block/magicalglassbricksstairs_outer.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassbricksstairsBlock.java",
+          "src/main/resources/assets/magicalium/models/block/magicalglassbricksstairs_inner.json",
+          "src/main/resources/assets/magicalium/blockstates/magicalglassbricksstairs.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassbricksstairs.json",
+          "src/main/resources/assets/magicalium/models/item/magicalglassbricksstairs.json"
         ]
       },
       "path": "~/magicalglass/bloc"
@@ -1486,13 +1486,13 @@
       "registry_name": "magicalglassbrickslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/block/magicalglassbrickslab_full.json",
           "src/main/java/net/mcreator/magicalium/block/MagicalglassbrickslabBlock.java",
-          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassbrickslab.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglassbrickslab.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglassbrickslab_top.json",
+          "src/main/resources/assets/magicalium/models/item/magicalglassbrickslab.json",
           "src/main/resources/assets/magicalium/blockstates/magicalglassbrickslab.json",
-          "src/main/resources/assets/magicalium/models/item/magicalglassbrickslab.json"
+          "src/main/resources/assets/magicalium/models/block/magicalglassbrickslab.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassbrickslab_full.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassbrickslab.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassbrickslab_top.json"
         ]
       },
       "path": "~/magicalglass/bloc"
@@ -1505,13 +1505,13 @@
       "registry_name": "magicalglassrafinedstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/block/magicalglassrafinedstairs_inner.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicalglassrafinedstairsBlock.java",
           "src/main/resources/assets/magicalium/blockstates/magicalglassrafinedstairs.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassrafinedstairs.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassrafinedstairs_inner.json",
           "src/main/resources/assets/magicalium/models/item/magicalglassrafinedstairs.json",
           "src/main/resources/assets/magicalium/models/block/magicalglassrafinedstairs.json",
-          "src/main/java/net/mcreator/magicalium/block/MagicalglassrafinedstairsBlock.java",
-          "src/main/resources/assets/magicalium/models/block/magicalglassrafinedstairs_outer.json",
-          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassrafinedstairs.json"
+          "src/main/resources/assets/magicalium/models/block/magicalglassrafinedstairs_outer.json"
         ]
       },
       "path": "~/magicalglass/bloc"
@@ -1524,13 +1524,13 @@
       "registry_name": "magicalglassslabm",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/block/magicalglassslabm.json",
-          "src/main/resources/assets/magicalium/models/item/magicalglassslabm.json",
-          "src/main/resources/assets/magicalium/blockstates/magicalglassslabm.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassslabm.json",
           "src/main/java/net/mcreator/magicalium/block/MagicalglassslabmBlock.java",
           "src/main/resources/assets/magicalium/models/block/magicalglassslabm_full.json",
-          "src/main/resources/data/magicalium/loot_tables/blocks/magicalglassslabm.json",
-          "src/main/resources/assets/magicalium/models/block/magicalglassslabm_top.json"
+          "src/main/resources/assets/magicalium/blockstates/magicalglassslabm.json",
+          "src/main/resources/assets/magicalium/models/item/magicalglassslabm.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassslabm_top.json",
+          "src/main/resources/assets/magicalium/models/block/magicalglassslabm.json"
         ]
       },
       "path": "~/magicalglass/bloc"
@@ -1543,11 +1543,11 @@
       "registry_name": "magicallglassbrick",
       "metadata": {
         "files": [
-          "src/main/resources/data/magicalium/loot_tables/blocks/magicallglassbrick.json",
-          "src/main/resources/assets/magicalium/models/item/magicallglassbrick.json",
-          "src/main/java/net/mcreator/magicalium/block/MagicallglassbrickBlock.java",
           "src/main/resources/assets/magicalium/blockstates/magicallglassbrick.json",
-          "src/main/resources/assets/magicalium/models/block/magicallglassbrick.json"
+          "src/main/resources/data/magicalium/loot_tables/blocks/magicallglassbrick.json",
+          "src/main/resources/assets/magicalium/models/block/magicallglassbrick.json",
+          "src/main/resources/assets/magicalium/models/item/magicallglassbrick.json",
+          "src/main/java/net/mcreator/magicalium/block/MagicallglassbrickBlock.java"
         ]
       },
       "path": "~/magicalglass/bloc"
@@ -1831,9 +1831,9 @@
       "registry_name": "astroniumherbe",
       "metadata": {
         "files": [
+          "src/main/resources/assets/magicalium/models/block/astroniumherbe.json",
           "src/main/resources/assets/magicalium/models/item/astroniumherbe.json",
           "src/main/resources/assets/magicalium/blockstates/astroniumherbe.json",
-          "src/main/resources/assets/magicalium/models/block/astroniumherbe.json",
           "src/main/java/net/mcreator/magicalium/block/AstroniumherbeBlock.java",
           "src/main/resources/data/magicalium/loot_tables/blocks/astroniumherbe.json"
         ]
@@ -1848,11 +1848,11 @@
       "registry_name": "astroniumterre",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/models/item/astroniumterre.json",
-          "src/main/resources/data/magicalium/loot_tables/blocks/astroniumterre.json",
-          "src/main/resources/assets/magicalium/blockstates/astroniumterre.json",
           "src/main/resources/assets/magicalium/models/block/astroniumterre.json",
-          "src/main/java/net/mcreator/magicalium/block/ASTRONIUMTERREBlock.java"
+          "src/main/java/net/mcreator/magicalium/block/ASTRONIUMTERREBlock.java",
+          "src/main/resources/data/magicalium/loot_tables/blocks/astroniumterre.json",
+          "src/main/resources/assets/magicalium/models/item/astroniumterre.json",
+          "src/main/resources/assets/magicalium/blockstates/astroniumterre.json"
         ]
       },
       "path": "~/astronium/dimension/biome/BLOCK"
@@ -1865,9 +1865,9 @@
       "registry_name": "astroniumforest",
       "metadata": {
         "files": [
-          "src/main/resources/data/magicalium/worldgen/configured_feature/astroniumforest_tree.json",
+          "src/main/resources/data/magicalium/worldgen/biome/astroniumforest.json",
           "src/main/resources/data/magicalium/worldgen/placed_feature/astroniumforest_tree.json",
-          "src/main/resources/data/magicalium/worldgen/biome/astroniumforest.json"
+          "src/main/resources/data/magicalium/worldgen/configured_feature/astroniumforest_tree.json"
         ]
       },
       "path": "~/astronium/dimension/biome"
@@ -1880,11 +1880,11 @@
       "registry_name": "asto_pierre",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/blockstates/asto_pierre.json",
           "src/main/java/net/mcreator/magicalium/block/AstoPierreBlock.java",
-          "src/main/resources/assets/magicalium/models/item/asto_pierre.json",
           "src/main/resources/assets/magicalium/models/block/asto_pierre.json",
-          "src/main/resources/data/magicalium/loot_tables/blocks/asto_pierre.json"
+          "src/main/resources/assets/magicalium/blockstates/asto_pierre.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/asto_pierre.json",
+          "src/main/resources/assets/magicalium/models/item/asto_pierre.json"
         ]
       },
       "path": "~/astronium/dimension/block"
@@ -1897,17 +1897,17 @@
       "registry_name": "astro_world",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magicalium/blockstates/astro_world_portal.json",
           "src/main/resources/assets/magicalium/models/item/astro_world.json",
+          "src/main/resources/assets/magicalium/models/block/astro_world_portal_ns.json",
+          "src/main/java/net/mcreator/magicalium/world/teleporter/AstroWorldTeleporter.java",
+          "src/main/resources/assets/magicalium/models/block/astro_world_portal_ew.json",
+          "src/main/java/net/mcreator/magicalium/world/teleporter/AstroWorldPortalShape.java",
+          "src/main/java/net/mcreator/magicalium/item/AstroWorldItem.java",
           "src/main/resources/data/magicalium/dimension/astro_world.json",
           "src/main/java/net/mcreator/magicalium/world/dimension/AstroWorldDimension.java",
           "src/main/java/net/mcreator/magicalium/block/AstroWorldPortalBlock.java",
-          "src/main/java/net/mcreator/magicalium/item/AstroWorldItem.java",
           "src/main/resources/data/magicalium/dimension_type/astro_world.json",
-          "src/main/java/net/mcreator/magicalium/world/teleporter/AstroWorldTeleporter.java",
-          "src/main/java/net/mcreator/magicalium/world/teleporter/AstroWorldPortalShape.java",
-          "src/main/resources/assets/magicalium/models/block/astro_world_portal_ew.json",
-          "src/main/resources/assets/magicalium/models/block/astro_world_portal_ns.json"
+          "src/main/resources/assets/magicalium/blockstates/astro_world_portal.json"
         ]
       },
       "path": "~/astronium/dimension"
@@ -1921,10 +1921,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/magicalium/entity/GravitoEntity.java",
-          "src/main/java/net/mcreator/magicalium/client/renderer/GravitoRenderer.java",
-          "src/main/resources/assets/magicalium/models/item/gravito_spawn_egg.json",
           "src/main/resources/data/magicalium/forge/biome_modifier/gravito_biome_modifier.json",
-          "src/main/java/net/mcreator/magicalium/entity/model/GravitoModel.java"
+          "src/main/java/net/mcreator/magicalium/client/renderer/GravitoRenderer.java",
+          "src/main/java/net/mcreator/magicalium/entity/model/GravitoModel.java",
+          "src/main/resources/assets/magicalium/models/item/gravito_spawn_egg.json"
         ]
       },
       "path": "~/astronium/dimension"
@@ -1942,16 +1942,11 @@
     "BIOMES:minecraft:has_structure/pillager_outpost": [
       "~CUSTOM:Astroniumforest"
     ],
-    "BIOMES:minecraft:has_structure/buried_treasure": [
-      "~CUSTOM:Astroniumforest"
-    ],
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:Astronium_woodLeaves"
     ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:Merlinpickaxeraw",
-      "~CUSTOM:ASTRONIUMPickaxe",
-      "~CUSTOM:Merlinpickaxe"
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:Astroniumforest"
     ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:Magicalglassslabm",
@@ -1959,6 +1954,11 @@
       "~CUSTOM:Magicalglassrafinedslab",
       "~CUSTOM:Magicalglassslab",
       "~CUSTOM:Astronium_woodSlab"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Merlinpickaxeraw",
+      "~CUSTOM:ASTRONIUMPickaxe",
+      "~CUSTOM:Merlinpickaxe"
     ],
     "BLOCKS:minecraft:logs": [
       "CUSTOM:Astronium_woodLog"
@@ -1983,9 +1983,6 @@
     "BIOMES:minecraft:is_overworld": [
       "CUSTOM:Astroniumforest"
     ],
-    "BIOMES:minecraft:has_structure/woodland_mansion": [
-      "~CUSTOM:Astroniumforest"
-    ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:Magicalglassrafinedstairs",
       "~CUSTOM:Magicalglassbricksstairs",
@@ -1993,16 +1990,19 @@
       "~CUSTOM:Magicalglassstonestairs",
       "~CUSTOM:Astronium_woodStairs"
     ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:Astroniumforest"
+    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~CUSTOM:Astroniumherbe",
       "~CUSTOM:AstoPierre",
       "~CUSTOM:ASTRONIUMTERRE"
     ],
-    "BIOMES:minecraft:has_structure/shipwreck_beached": [
-      "~CUSTOM:Astroniumforest"
-    ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~CUSTOM:Astroniumherbe"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:Astroniumforest"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:MagicalglassBlock",
@@ -2284,6 +2284,10 @@
           },
           {
             "name": "bloc",
+            "children": []
+          },
+          {
+            "name": "boss",
             "children": []
           }
         ]
