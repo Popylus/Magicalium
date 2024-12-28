@@ -64,6 +64,7 @@ public class MagicaliumModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
 			tabData.accept(MagicaliumModItems.GRAVITO_SPAWN_EGG.get());
+			tabData.accept(MagicaliumModItems.MERLINLEBOSS_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
