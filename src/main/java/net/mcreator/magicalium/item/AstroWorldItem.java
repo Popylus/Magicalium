@@ -10,7 +10,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.magicalium.procedures.BiomeEffectConditionDeTickActifProcedure;
+import net.mcreator.magicalium.procedures.AstroWorldLorsqueLeDeclencheurDuPortailEstUtiliseProcedure;
 import net.mcreator.magicalium.block.AstroWorldPortalBlock;
 
 public class AstroWorldItem extends Item {
@@ -37,7 +37,7 @@ public class AstroWorldItem extends Item {
 				success = true;
 			}
 
-			BiomeEffectConditionDeTickActifProcedure.execute(world, x, y, z, entity);
+			AstroWorldLorsqueLeDeclencheurDuPortailEstUtiliseProcedure.execute(world, x, y, z, entity);
 			return InteractionResult.SUCCESS;
 		}
 	}

@@ -50,7 +50,7 @@
     "portalTexture": "portail_astronium",
     "enablePortal": true,
     "whenPortaTriggerlUsed": {
-      "name": "BiomeEffectConditionDeTickActif"
+      "name": "AstroWorldLorsqueLeDeclencheurDuPortailEstUtilise"
     }
   }
 }

@@ -14,7 +14,7 @@ import net.minecraft.core.BlockPos;
 
 public class AstroniumherbeBlock extends Block {
 	public AstroniumherbeBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.GRASS).sound(SoundType.GRAVEL).strength(1f, 10f).jumpFactor(2f));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.GRASS).sound(SoundType.GRAVEL).strength(1f, 10f));
 	}
 
 	@Override
