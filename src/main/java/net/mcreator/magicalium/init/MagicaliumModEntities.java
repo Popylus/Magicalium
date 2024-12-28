@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.magicalium.entity.MerlinEntity;
 import net.mcreator.magicalium.entity.GravitoEntity;
 import net.mcreator.magicalium.MagicaliumMod;
 
@@ -26,6 +27,10 @@ public class MagicaliumModEntities {
 			EntityType.Builder.<GravitoEntity>of(GravitoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GravitoEntity::new)
 
 					.sized(0.6f, 0.3f));
+	public static final RegistryObject<EntityType<MerlinEntity>> MERLIN = register("merlin",
+			EntityType.Builder.<MerlinEntity>of(MerlinEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(75).setUpdateInterval(3).setCustomClientFactory(MerlinEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -35,11 +40,13 @@ public class MagicaliumModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			GravitoEntity.init();
+			MerlinEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(GRAVITO.get(), GravitoEntity.createAttributes().build());
+		event.put(MERLIN.get(), MerlinEntity.createAttributes().build());
 	}
 }
