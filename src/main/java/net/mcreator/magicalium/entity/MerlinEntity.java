@@ -142,7 +142,7 @@ public class MerlinEntity extends Monster implements GeoEntity {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		MerlinprocedureProcedure.execute(this.level(), this);
+		MerlinprocedureProcedure.execute(this.level());
 		this.refreshDimensions();
 	}
 
