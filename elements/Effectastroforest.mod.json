@@ -14,6 +14,9 @@
     "renderStatusInHUD": true,
     "isCuredByMilk": false,
     "isProtectedByTotem": false,
-    "isCuredbyHoney": false
+    "isCuredbyHoney": false,
+    "onStarted": {
+      "name": "EffectastroforestConditionDeTickActif"
+    }
   }
 }
