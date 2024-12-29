@@ -42,7 +42,6 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 import net.minecraft.nbt.CompoundTag;
 
-import net.mcreator.magicalium.procedures.MerlinprocedureProcedure;
 import net.mcreator.magicalium.init.MagicaliumModEntities;
 
 public class MerlinEntity extends Monster implements GeoEntity {
@@ -142,7 +141,6 @@ public class MerlinEntity extends Monster implements GeoEntity {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		MerlinprocedureProcedure.execute(this.level());
 		this.refreshDimensions();
 	}
 

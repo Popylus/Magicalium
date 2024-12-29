@@ -1964,7 +1964,7 @@
     {
       "name": "Merlin",
       "type": "animatedentity",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "merlin",
       "metadata": {
@@ -1973,25 +1973,6 @@
           "src/main/java/net/mcreator/magicalium/entity/MerlinEntity.java",
           "src/main/java/net/mcreator/magicalium/client/renderer/MerlinRenderer.java",
           "src/main/resources/assets/magicalium/models/item/merlin_spawn_egg.json"
-        ]
-      },
-      "path": "~/magicalglass/boss"
-    },
-    {
-      "name": "Merlinprocedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "merlinprocedure",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalium/procedures/MerlinprocedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       },
       "path": "~/magicalglass/boss"
@@ -2147,13 +2128,13 @@
       "item.magicalium.astronium_sword": "ASTRONIUM Sword",
       "block.magicalium.magicalglassstonestairs": "Magicalglassslab",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
-      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
+      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astroniumterre": "terre d\u0027astronium",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "item.magicalium.astroniumsapplingitem": "Astronium sappling",
+      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "entity.magicalium.merlin": "Merlin",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
