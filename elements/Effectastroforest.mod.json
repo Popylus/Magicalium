@@ -5,18 +5,15 @@
     "effectName": "Effectastroforest",
     "icon": "biome_effect",
     "color": {
-      "value": -1,
+      "value": -3407872,
       "falpha": 0.0
     },
     "isInstant": false,
-    "mobEffectCategory": "NEUTRAL",
+    "mobEffectCategory": "BENEFICIAL",
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
     "isCuredByMilk": false,
     "isProtectedByTotem": false,
-    "isCuredbyHoney": false,
-    "onStarted": {
-      "name": "BiomeEffectConditionDeTickActif"
-    }
+    "isCuredbyHoney": false
   }
 }

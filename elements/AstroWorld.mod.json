@@ -48,9 +48,6 @@
     ],
     "texture": "minecraft:baked_potato",
     "portalTexture": "portail_astronium",
-    "enablePortal": true,
-    "whenPortaTriggerlUsed": {
-      "name": "BiomeEffectConditionDeTickActif"
-    }
+    "enablePortal": true
   }
 }
