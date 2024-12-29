@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magicalium:block/magicalglass_ore_block",
+    "up": "magicalium:block/magicalglass_ore_block",
+    "north": "magicalium:block/magicalglass_ore_block",
+    "east": "magicalium:block/magicalglass_ore_block",
+    "south": "magicalium:block/magicalglass_ore_block",
+    "west": "magicalium:block/magicalglass_ore_block",
+    "particle": "magicalium:block/magicalglass_ore_block"
+  },
+  "render_type": "solid"
+}
