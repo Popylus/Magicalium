@@ -1932,7 +1932,7 @@
     {
       "name": "Effectastroforest",
       "type": "potioneffect",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "effectastroforest",
       "metadata": {
