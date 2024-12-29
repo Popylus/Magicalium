@@ -1932,27 +1932,13 @@
     {
       "name": "Effectastroforest",
       "type": "potioneffect",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "effectastroforest",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/magicalium/potion/EffectastroforestMobEffect.java"
         ]
-      },
-      "path": "~/astronium/dimension"
-    },
-    {
-      "name": "BiomeEffectConditionDeTickActif",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "biome_effect_condition_de_tick_actif",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalium/procedures/BiomeEffectConditionDeTickActifProcedure.java"
-        ],
-        "dependencies": []
       },
       "path": "~/astronium/dimension"
     },
@@ -2013,6 +1999,41 @@
         ]
       },
       "path": "~/magicalglass/boss"
+    },
+    {
+      "name": "EffectastroforestConditionDeTickActif",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effectastroforest_condition_de_tick_actif",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/EffectastroforestConditionDeTickActifProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/astronium/dimension"
     }
   ],
   "variable_elements": [],
