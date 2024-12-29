@@ -1964,7 +1964,7 @@
     {
       "name": "Merlin",
       "type": "animatedentity",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "merlin",
       "metadata": {
@@ -1973,29 +1973,6 @@
           "src/main/java/net/mcreator/magicalium/entity/MerlinEntity.java",
           "src/main/java/net/mcreator/magicalium/client/renderer/MerlinRenderer.java",
           "src/main/resources/assets/magicalium/models/item/merlin_spawn_egg.json"
-        ]
-      },
-      "path": "~/magicalglass/boss"
-    },
-    {
-      "name": "Merlinprocedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "merlinprocedure",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalium/procedures/MerlinprocedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       },
       "path": "~/magicalglass/boss"
