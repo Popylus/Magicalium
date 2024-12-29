@@ -11,6 +11,6 @@ public class AstroWorldLorsqueLeDeclencheurDuPortailEstUtiliseProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MagicaliumModMobEffects.EFFECTASTROFOREST.get(), 60, 1, false, false));
+			_entity.addEffect(new MobEffectInstance(MagicaliumModMobEffects.EFFECTASTROFOREST.get(), 60, 1, true, false));
 	}
 }
