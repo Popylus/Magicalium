@@ -1970,9 +1970,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/magicalium/entity/model/MerlinModel.java",
+          "src/main/java/net/mcreator/magicalium/entity/MerlinEntity.java",
           "src/main/java/net/mcreator/magicalium/client/renderer/MerlinRenderer.java",
-          "src/main/resources/assets/magicalium/models/item/merlin_spawn_egg.json",
-          "src/main/java/net/mcreator/magicalium/entity/MerlinEntity.java"
+          "src/main/resources/assets/magicalium/models/item/merlin_spawn_egg.json"
         ]
       },
       "path": "~/magicalglass/boss"
