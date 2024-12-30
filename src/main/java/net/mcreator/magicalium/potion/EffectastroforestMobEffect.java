@@ -2,12 +2,11 @@
 package net.mcreator.magicalium.potion;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.ai.attributes.AttributeMap;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
 
-import net.mcreator.magicalium.procedures.EffectastroforestConditionDeTickActifProcedure;
+import net.mcreator.magicalium.procedures.EffectastroforestTickActifSurEffetProcedure;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -24,8 +23,8 @@ public class EffectastroforestMobEffect extends MobEffect {
 	}
 
 	@Override
-	public void addAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
-		EffectastroforestConditionDeTickActifProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
+	public void applyEffectTick(LivingEntity entity, int amplifier) {
+		EffectastroforestTickActifSurEffetProcedure.execute(entity);
 	}
 
 	@Override

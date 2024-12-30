@@ -102,6 +102,7 @@ public class MagicaliumModItems {
 	public static final RegistryObject<Item> ASTRO_WORLD = REGISTRY.register("astro_world", () -> new AstroWorldItem());
 	public static final RegistryObject<Item> GRAVITO_SPAWN_EGG = REGISTRY.register("gravito_spawn_egg", () -> new ForgeSpawnEggItem(MagicaliumModEntities.GRAVITO, -6711040, -1, new Item.Properties()));
 	public static final RegistryObject<Item> MERLIN_SPAWN_EGG = REGISTRY.register("merlin_spawn_egg", () -> new ForgeSpawnEggItem(MagicaliumModEntities.MERLIN, -16777063, -13312, new Item.Properties()));
+	public static final RegistryObject<Item> DUNGEONFLORRMAGICAL = block(MagicaliumModBlocks.DUNGEONFLORRMAGICAL);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1978,41 +1978,6 @@
       "path": "~/magicalglass/boss"
     },
     {
-      "name": "EffectastroforestConditionDeTickActif",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "effectastroforest_condition_de_tick_actif",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalium/procedures/EffectastroforestConditionDeTickActifProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/astronium/dimension"
-    },
-    {
       "name": "Dungeonflorrmagical",
       "type": "block",
       "compiles": true,
@@ -2028,6 +1993,25 @@
         ]
       },
       "path": "~/magicalglass"
+    },
+    {
+      "name": "EffectastroforestTickActifSurEffet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effectastroforest_tick_actif_sur_effet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/EffectastroforestTickActifSurEffetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/astronium/dimension"
     }
   ],
   "variable_elements": [],
@@ -2145,13 +2129,13 @@
       "item.magicalium.astronium_sword": "ASTRONIUM Sword",
       "block.magicalium.magicalglassstonestairs": "Magicalglassslab",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
-      "block.magicalium.astronium_wood_log": "Astronium_wood Log",
       "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
+      "block.magicalium.astronium_wood_log": "Astronium_wood Log",
       "block.magicalium.astroniumterre": "terre d\u0027astronium",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "item.magicalium.astroniumsapplingitem": "Astronium sappling",
       "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
+      "item.magicalium.astroniumsapplingitem": "Astronium sappling",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "entity.magicalium.merlin": "Merlin",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
