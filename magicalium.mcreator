@@ -2012,6 +2012,41 @@
         ]
       },
       "path": "~/astronium/dimension"
+    },
+    {
+      "name": "MerlinChaqueMiseAJourDeTickDeLentite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merlin_chaque_mise_a_jour_de_tick_de_lentite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/MerlinChaqueMiseAJourDeTickDeLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/magicalglass/boss"
     }
   ],
   "variable_elements": [],
