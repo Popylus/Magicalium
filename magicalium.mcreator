@@ -2011,6 +2011,23 @@
         ]
       },
       "path": "~/astronium/dimension"
+    },
+    {
+      "name": "Dungeonflorrmagical",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dungeonflorrmagical",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicalium/models/block/dungeonflorrmagical.json",
+          "src/main/resources/data/magicalium/loot_tables/blocks/dungeonflorrmagical.json",
+          "src/main/resources/assets/magicalium/models/item/dungeonflorrmagical.json",
+          "src/main/java/net/mcreator/magicalium/block/DungeonflorrmagicalBlock.java",
+          "src/main/resources/assets/magicalium/blockstates/dungeonflorrmagical.json"
+        ]
+      },
+      "path": "~/magicalglass"
     }
   ],
   "variable_elements": [],
@@ -2128,13 +2145,13 @@
       "item.magicalium.astronium_sword": "ASTRONIUM Sword",
       "block.magicalium.magicalglassstonestairs": "Magicalglassslab",
       "block.magicalium.magicalglass_ore": "Magicalglass Ore",
-      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astronium_wood_log": "Astronium_wood Log",
+      "item.magicalium.gravito_spawn_egg": "Gravito Spawn Egg",
       "block.magicalium.astroniumterre": "terre d\u0027astronium",
       "item.magicalium.astronium_armor_helmet": "ASTRONIUM Helmet",
       "block.magicalium.astronium_wood_slab": "Astronium_wood Slab",
-      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "item.magicalium.astroniumsapplingitem": "Astronium sappling",
+      "block.magicalium.magicalglassbricksstairs": "Magicallglassbrick",
       "block.magicalium.magicalglassstone": "Magicalglassstone",
       "entity.magicalium.merlin": "Merlin",
       "block.magicalium.magicalglassbrickslab": "Magicallglassbrick",
@@ -2162,6 +2179,7 @@
       "entity.magicalium.merlinleboss": "Merlinleboss",
       "block.magicalium.magicalglassslabm": "Magicallglassbrick",
       "block.magicalium.astroniumsapling": "Astroniumsapling",
+      "block.magicalium.dungeonflorrmagical": "Dungeonflorrmagical",
       "item.magicalium.magical_glass_armor_armor_chestplate": "Merlin_glass_armor Chestplate",
       "item.magicalium.merlintoolswordraw": "Merlintoolswordraw",
       "block.magicalium.magicalglassstairs": "Magicallglassbrick",
