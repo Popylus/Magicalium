@@ -11,7 +11,7 @@ public class EffectastroforestConditionDeTickActifProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		while ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == MagicaliumModBlocks.ASTRONIUMHERBE.get()) {
+		while ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == MagicaliumModBlocks.ASTRONIUMHERBE.get()) {
 			if (entity instanceof Player) {
 				entity.setMaxUpStep((float) 1.2);
 			}
