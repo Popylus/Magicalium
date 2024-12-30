@@ -1964,7 +1964,7 @@
     {
       "name": "Merlin",
       "type": "animatedentity",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "merlin",
       "metadata": {
