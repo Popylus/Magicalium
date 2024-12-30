@@ -15,8 +15,8 @@
     "isCuredByMilk": false,
     "isProtectedByTotem": false,
     "isCuredbyHoney": false,
-    "onStarted": {
-      "name": "EffectastroforestConditionDeTickActif"
+    "onActiveTick": {
+      "name": "EffectastroforestTickActifSurEffet"
     }
   }
 }

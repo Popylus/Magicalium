@@ -1978,41 +1978,6 @@
       "path": "~/magicalglass/boss"
     },
     {
-      "name": "EffectastroforestConditionDeTickActif",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "effectastroforest_condition_de_tick_actif",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalium/procedures/EffectastroforestConditionDeTickActifProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/astronium/dimension"
-    },
-    {
       "name": "Dungeonflorrmagical",
       "type": "block",
       "compiles": true,
@@ -2027,12 +1992,31 @@
           "src/main/resources/assets/magicalium/blockstates/dungeonflorrmagical.json"
         ]
       },
-      "path": "~/magicalglass/boss"
+      "path": "~/magicalglass"
+    },
+    {
+      "name": "EffectastroforestTickActifSurEffet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effectastroforest_tick_actif_sur_effet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalium/procedures/EffectastroforestTickActifSurEffetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/astronium/dimension"
     },
     {
       "name": "MerlinChaqueMiseAJourDeTickDeLentite",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "merlin_chaque_mise_a_jour_de_tick_de_lentite",
       "metadata": {
